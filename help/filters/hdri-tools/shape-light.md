@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/hdri-tools/shape-light.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/hdri-tools/shape-light.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのシェイプライトツールを使用して、カスタムシェイプの光源をHDRI環境に追加し、クリエイティブな照明を実現します。
 helpx_creative_field: ""

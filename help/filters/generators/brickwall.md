@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/generators/brickwall.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/generators/brickwall.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのレンガ壁ジェネレーターを使用して、マテリアルにリアルなレンガの壁のパターンと石細工のテクスチャを作成します。
 helpx_creative_field: ""

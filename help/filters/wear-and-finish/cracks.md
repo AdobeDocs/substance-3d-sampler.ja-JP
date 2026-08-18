@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/wear-and-finish/cracks.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/wear-and-finish/cracks.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerの亀裂フィルターを使用して、リアルな亀裂パターンと地表損傷効果を素材に加えることができます。
 helpx_creative_field: ""

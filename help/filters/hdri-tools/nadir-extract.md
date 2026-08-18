@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/hdri-tools/nadir-extract.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/hdri-tools/nadir-extract.html"
 breadcrumb-title: ''
 description: Substance 3D SamplerのNadir Extractツールを使用して、HDRI画像から床面積を抽出し、分離します。
 helpx_creative_field: ""

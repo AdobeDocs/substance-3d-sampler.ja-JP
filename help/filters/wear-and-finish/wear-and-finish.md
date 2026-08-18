@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/wear-and-finish.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/wear-and-finish.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerの損耗フィルターと表面仕上げフィルターを使用して、マテリアルの耐候性、老化性、表面仕上げの効果を加える方法を説明します。
 helpx_creative_field: ""

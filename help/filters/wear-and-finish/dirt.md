@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/wear-and-finish/dirt.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/wear-and-finish/dirt.html"
 breadcrumb-title: ''
 description: Substance 3D SamplerのDirtフィルターを使用して、マテリアルとテクスチャにリアルなDirtの重みと汚れの効果を加えます。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/generators/stonewall.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/generators/stonewall.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのストーンウォールジェネレーターを使用して、マテリアルのリアルな石壁のパターンと石造りのテクスチャを作成します。
 helpx_creative_field: ""

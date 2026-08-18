@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/adjustments.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/adjustments.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerの色調補正フィルターを使用して、カラー、明るさ、コントラストなどのマテリアルプロパティを変更する方法を説明します。
 helpx_creative_field: ""

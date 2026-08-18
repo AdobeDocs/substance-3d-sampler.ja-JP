@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/wear-and-finish/erode.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/wear-and-finish/erode.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerの浸食フィルターを使用して、自然なマテリアルの劣化をシミュレートする浸食と耐候性の効果を加えます。
 helpx_creative_field: ""

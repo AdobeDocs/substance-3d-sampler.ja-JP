@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/hdri-tools/hdr-merge.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/hdri-tools/hdr-merge.html"
 breadcrumb-title: ''
 description: Substance 3D SamplerのHDR結合ツールを使用して、複数のハイダイナミックレンジ画像を1つの露光画像に結合します。
 helpx_creative_field: ""

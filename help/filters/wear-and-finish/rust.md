@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/wear-and-finish/rust.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/wear-and-finish/rust.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerの錆フィルターを使用すると、金属の材質や表面にリアルな錆効果や腐食効果を与えることができます。
 helpx_creative_field: ""

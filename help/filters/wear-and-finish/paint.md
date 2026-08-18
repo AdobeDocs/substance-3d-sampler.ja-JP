@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/wear-and-finish/paint.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/wear-and-finish/paint.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのペイントフィルターを使用すると、マテリアルにペイントレイヤー、コーティング、ペイントされたサーフェス効果を追加できます。
 helpx_creative_field: ""

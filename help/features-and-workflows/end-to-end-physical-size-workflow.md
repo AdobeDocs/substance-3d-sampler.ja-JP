@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/features-and-workflows/end-to-end-physical-size-workflow.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/features-and-workflows/end-to-end-physical-size-workflow.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのエンドツーエンドの物理サイズワークフローを使用して、実際の規模に合わせて物理的に正確なマテリアルを作成する方法について説明します。
 helpx_creative_field: ""

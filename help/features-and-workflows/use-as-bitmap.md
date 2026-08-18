@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/features-and-workflows/use-as-bitmap.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/features-and-workflows/use-as-bitmap.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerの「ビットマップとして使用」機能を使用して、レイヤーをビットマップ形式に変換し、マテリアルを効率的に編集する方法を説明します。
 helpx_creative_field: ""

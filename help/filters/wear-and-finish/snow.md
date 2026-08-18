@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/wear-and-finish/snow.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/wear-and-finish/snow.html"
 breadcrumb-title: ''
 description: Substance 3D SamplerのSnowフィルターを使用して、マテリアルにリアルな積雪と冬の気象効果を加えます。
 helpx_creative_field: ""

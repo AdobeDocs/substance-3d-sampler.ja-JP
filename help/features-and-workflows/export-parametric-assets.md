@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/features-and-workflows/export-parametric-assets.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/features-and-workflows/export-parametric-assets.html"
 breadcrumb-title: ''
 description: Samplerからパラメトリックアセットを書き出し、Substance 3D Samplerに戻らずに他のアプリケーションでパラメーターを変更する方法について説明します。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/wear-and-finish/moss.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/wear-and-finish/moss.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのコケフィルターを使用して、リアルなコケの生長と有機的なサーフェス効果をマテリアルに加えます。
 helpx_creative_field: ""

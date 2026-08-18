@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/features-and-workflows/3d-capture.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/features-and-workflows/3d-capture.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerで3D キャプチャを使用し、写真測量の手法を使って実際のオブジェクトからマテリアルを作成する方法について説明します。
 helpx_creative_field: ""
@@ -40,7 +40,7 @@ Windows/Linux
 * 16 GbのRAM 32 Gbおよび64 Gbが理想的です。
 * 10 Gb以上のディスク容量
 
-[Linuxの設定](https://helpx.adobe.com/substance-3d/unlisted/documentation/sadoc/3d-capture-set-up-on-linux-255426606.html)
+[Linuxの設定](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sadoc/3d-capture-set-up-on-linux-255426606.html)
 
 Mac
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/generators/atlas-scatter.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/generators/atlas-scatter.html"
 breadcrumb-title: ''
 description: Substance 3D SamplerのAtlas Scatterジェネレーターを使用して、素材の表面全体のテクスチャアトラスから素材を散乱します。
 helpx_creative_field: ""

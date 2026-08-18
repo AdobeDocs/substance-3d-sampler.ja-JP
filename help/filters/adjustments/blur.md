@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/adjustments/blur.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/adjustments/blur.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのぼかしフィルターを使用して、ぼかし効果を適用し、テクスチャおよびマテリアルレイヤーでの画像のシャープさを軽減します。
 helpx_creative_field: ""

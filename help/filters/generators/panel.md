@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/generators/panel.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/generators/panel.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのパネルジェネレーターを使用して、マテリアルのパネルパターンとセグメント化された表面テクスチャを作成します。
 helpx_creative_field: ""

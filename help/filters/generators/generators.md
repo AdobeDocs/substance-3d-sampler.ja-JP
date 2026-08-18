@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/generators.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/generators.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerでジェネレータフィルターを使用して、手続き型パターンとマテリアルの土台を作成する方法を説明します。
 helpx_creative_field: ""

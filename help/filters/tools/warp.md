@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/tools/warp.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/tools/warp.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのワープツールを使用して、テクスチャとマテリアルレイヤーに方向ワープとゆがみ効果を適用します。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/tools/transform.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/tools/transform.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerの変形ツールを使用して、テクスチャおよびマテリアルレイヤーの拡大・縮小、回転、移動、操作を行います。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/wear-and-finish/dust.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/wear-and-finish/dust.html"
 breadcrumb-title: ''
 description: Substance 3D SamplerのDustフィルターを使用して、マテリアルとテクスチャにリアルなDustのアキュムレーション効果を加えます。
 helpx_creative_field: ""

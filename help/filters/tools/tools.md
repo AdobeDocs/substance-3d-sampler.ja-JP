@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/tools.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/tools.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのツールフィルターを使用して、技術的な問題を解決し、マテリアル作成ワークフローを強化する方法について説明します。
 helpx_creative_field: ""
@@ -51,7 +51,7 @@ Samplerには、次のツールが含まれています。
 * [ハイ / ローメッシュのマッチング](match.md)
 * [マルチアングルからマテリアル](multiangle-to-material.md)
 * [Heightに垂直](normal-to-height.md)
-* [ペイントワープ](https://helpx.adobe.com/substance-3d/unlisted/documentation/sadoc/paint-warp-255426602.html)
+* [ペイントワープ](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sadoc/paint-warp-255426602.html)
 * [PBR 検証](pbr-validate.md)
 * [遠近補正](perspective-correction.md)
 * [タイリング](tiling.md)

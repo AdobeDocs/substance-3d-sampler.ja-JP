@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/tools/upscale.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/tools/upscale.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのアップスケールツールを使用すると、AIを活用したアップスケールテクノロジーにより、テクスチャ解像度を上げることができます。
 helpx_creative_field: ""

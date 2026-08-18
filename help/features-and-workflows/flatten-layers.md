@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/features-and-workflows/flatten-layers.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/features-and-workflows/flatten-layers.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerでレイヤーを統合し、効果を理解しながらパフォーマンスを向上させ、レイヤースタックを簡素化する方法を説明します。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/features-and-workflows/generative-workflows.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/features-and-workflows/generative-workflows.html"
 breadcrumb-title: ''
 description: テキストからテクスチャ、テキストからパターン、および画像からテクスチャなどの機能を使用して、Substance 3D Samplerでジェネレーティブワークフローを使用する方法について説明します。
 helpx_creative_field: ""

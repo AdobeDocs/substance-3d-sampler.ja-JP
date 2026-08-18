@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/adjustments/color-variation.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/adjustments/color-variation.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのカラーバリエーションフィルターを使用して、テクスチャに多様なカラーとバリエーションを加え、より自然なマテリアルを作成します。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/hdri-tools/exposure-preview.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/hdri-tools/exposure-preview.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerの露光量プレビューツールを使用して、変更を適用する前にHDRI画像の露光量調整をプレビューします。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/adjustments/invert.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/adjustments/invert.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerの反転フィルターを使用すると、カラー値を反転して、テクスチャやマテリアルにネガティブイメージ効果を生み出すことができます。
 helpx_creative_field: ""

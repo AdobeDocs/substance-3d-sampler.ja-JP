@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/wear-and-finish/corrode.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/wear-and-finish/corrode.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerの腐食フィルターを使用して、金属素材に腐食および化学劣化の効果を加えます。
 helpx_creative_field: ""

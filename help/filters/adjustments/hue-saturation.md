@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/adjustments/hue-saturation.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/adjustments/hue-saturation.html"
 breadcrumb-title: ''
 description: テクスチャやマテリアルの色相、彩度、明度の値を調整するには、Substance 3D Samplerの色相・彩度フィルターを使用します。
 helpx_creative_field: ""

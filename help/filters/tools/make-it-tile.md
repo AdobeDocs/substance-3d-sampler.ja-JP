@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/tools/make-it-tile.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/tools/make-it-tile.html"
 breadcrumb-title: ''
 description: Substance 3D SamplerのMake it Tileツールを使用すると、非タイリングテクスチャからシームレスなタイリングパターンを自動的に作成できます。
 helpx_creative_field: ""

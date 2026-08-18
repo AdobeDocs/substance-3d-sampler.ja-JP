@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/tools/normal-to-height.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/tools/normal-to-height.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerの法線Heightツールを使用して、法線マップをマテリアル作成ワークフロー用のHeightマップに変換します。
 helpx_creative_field: ""

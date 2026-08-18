@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/features-and-workflows/quick-actions.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/features-and-workflows/quick-actions.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのクイックアクションを使って、ショートカットツールで一般的なマテリアルの編集作業を効率的に行う方法を説明します。
 helpx_creative_field: ""

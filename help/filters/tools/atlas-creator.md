@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/tools/atlas-creator.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/tools/atlas-creator.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのアトラスクリエイターツールを使用して、複数の画像からテクスチャアトラスを作成し、素材を効率的に整理します。
 helpx_creative_field: ""

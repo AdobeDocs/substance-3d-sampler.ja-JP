@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/generators/gravel.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/generators/gravel.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerの砂利ジェネレーターを使用して、マテリアルにリアルな砂利および石の骨材テクスチャを作成します。
 helpx_creative_field: ""

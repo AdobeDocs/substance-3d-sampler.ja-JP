@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/features-and-workflows/texture-generators.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/features-and-workflows/texture-generators.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのテクスチャジェネレーターを使用して、マテリアルを作成するためのプロシージャルテクスチャとパターンを作成する方法について説明します。
 helpx_creative_field: ""

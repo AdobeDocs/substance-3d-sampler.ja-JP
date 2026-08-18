@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/adjustments/vibrance.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/adjustments/vibrance.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerの自然な彩度フィルターを使用すると、肌色を維持しながら、テクスチャの彩度と自然な彩度を強調できます。
 helpx_creative_field: ""

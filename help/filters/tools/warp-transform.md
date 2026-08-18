@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/tools/warp-transform.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/tools/warp-transform.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのワープ変形ツールを使用して、テクスチャとマテリアルに非線形のワープとゆがみ効果を適用します。
 helpx_creative_field: ""

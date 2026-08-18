@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/export/default-presets/arnold-5.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/getting-started/export/default-presets/arnold-5.html"
 breadcrumb-title: ''
 description: Arnold 5プリセットを使用してSubstance 3D Samplerからマテリアルを書き出し、Arnoldレンダリングエンジンとの互換性を確保する方法について説明します。
 helpx_creative_field: ""

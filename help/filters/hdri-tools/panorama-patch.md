@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/hdri-tools/panorama-patch.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/hdri-tools/panorama-patch.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのパノラマパッチツールを使用して、パノラマHDRI画像の領域にパッチを適用して修復します。
 helpx_creative_field: ""

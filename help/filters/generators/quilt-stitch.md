@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/generators/quilt-stitch.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/generators/quilt-stitch.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのキルトステッチジェネレーターを使用して、マテリアルにキルトファブリックパターンとステッチテクスチャを作成します。
 helpx_creative_field: ""

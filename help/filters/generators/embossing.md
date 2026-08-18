@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/generators/embossing.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/generators/embossing.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのエンボスジェネレーターを使用して、マテリアルにエンボスパターンや浮き出た面のリリーフ効果を作成します。
 helpx_creative_field: ""

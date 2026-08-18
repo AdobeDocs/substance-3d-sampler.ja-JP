@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/tools/delight-ai-powered.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/tools/delight-ai-powered.html"
 breadcrumb-title: ''
 description: Substance 3D SamplerでAIを活用した「喜び」フィルターを使うと、画像から不要な照明を取り除き、ニュートラルなベースマテリアルを演出できます。
 helpx_creative_field: ""

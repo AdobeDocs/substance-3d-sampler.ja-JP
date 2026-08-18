@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/tools/tiling.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/tools/tiling.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのタイリングツールを使用して、テクスチャから繰り返し可能なマテリアルサーフェス用のシームレスなタイリングパターンを作成します。
 helpx_creative_field: ""

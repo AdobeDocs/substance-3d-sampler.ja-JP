@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/tools/multiangle-to-material.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/tools/multiangle-to-material.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのマルチアングルからマテリアルツールを使用して、サーフェスの複数のアングル写真からマテリアルを作成します。
 helpx_creative_field: ""

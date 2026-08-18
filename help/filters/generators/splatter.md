@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/generators/splatter.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/generators/splatter.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのスプラッタージェネレーターを使用して、マテリアルテクスチャのペイントスプラッターおよびランダムパターン効果を作成します。
 helpx_creative_field: ""

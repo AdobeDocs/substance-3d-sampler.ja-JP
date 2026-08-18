@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/hdri-tools/plane-light.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/hdri-tools/plane-light.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerの面光源ツールを使用して、面照明効果を得るために面光源をHDRI環境に追加します。
 helpx_creative_field: ""

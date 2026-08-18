@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/wear-and-finish/varnish.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/wear-and-finish/varnish.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのワニスフィルターを使用して、光沢のあるニス効果と保護的なコーティング仕上げを素材に加えます。
 helpx_creative_field: ""

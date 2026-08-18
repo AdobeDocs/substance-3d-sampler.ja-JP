@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/wear-and-finish/discarded-gums.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/wear-and-finish/discarded-gums.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerの「廃棄されたガム」フィルターを使用して、ガムの残留物と粘着性の表面効果を素材に加えます。
 helpx_creative_field: ""

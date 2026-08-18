@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/features-and-workflows/adobe-standard-material.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/features-and-workflows/adobe-standard-material.html"
 breadcrumb-title: ''
 description: Substance 3D SamplerでAdobe Standardマテリアルを使用して、Adobeのマテリアル標準と互換性のあるマテリアルを作成する方法について説明します。
 helpx_creative_field: ""

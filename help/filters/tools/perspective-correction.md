@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/tools/perspective-correction.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/tools/perspective-correction.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerの遠近法の補正ツールを使用して、キャプチャした画像とテクスチャの遠近ゆがみを補正します。
 helpx_creative_field: ""

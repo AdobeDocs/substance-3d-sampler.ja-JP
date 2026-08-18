@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/tools/match.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/tools/match.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのマッチツールを使用して、様々なテクスチャとマテリアルレイヤーの間でカラー、トーン、照明を一致させます。
 helpx_creative_field: ""

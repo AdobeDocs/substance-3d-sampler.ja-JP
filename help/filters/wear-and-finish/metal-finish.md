@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/wear-and-finish/metal-finish.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/wear-and-finish/metal-finish.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerの金属仕上げフィルターを使用して、マテリアルにさまざまな金属の表面仕上げとテクスチャを適用します。
 helpx_creative_field: ""

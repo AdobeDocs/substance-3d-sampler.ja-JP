@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/faq.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/faq.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerに関するよくある質問にアクセスして、機能、インストール、使用方法に関する回答を確認できます。
 helpx_creative_field: ""
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## Adobe、Firefly、ジェネレーティブAI
 
-[Fireflyに関するFAQ一式にアクセス](https://www.adobe.com/products/firefly.html#faqs)
+[Fireflyに関するFAQ一式にアクセス](https://www.adobe.com/jp/products/firefly.html#faqs)
 
 * **Adobeのお客様の場合、Fireflyモデルの一部としてコンテンツのコピーを含めることはできますか？** \
   いいえ。お客様のコンテンツのコピーはFireflyモデルには含まれません。

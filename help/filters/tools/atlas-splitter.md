@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/tools/atlas-splitter.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/tools/atlas-splitter.html"
 breadcrumb-title: ''
 description: Substance 3D SamplerのAtlas Splitterツールを使用して、テクスチャアトラスを個別のテクスチャマップに分割し、マテリアルの編集を行います。
 helpx_creative_field: ""
