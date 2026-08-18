@@ -13,4 +13,4 @@ ht-degree: 0%
 
 ファズチャンネルは、スエードや他の布地などのマテリアルをよりリアルにするのに役立ちます。 Samplerでファズチャンネルを使用する最適な方法については、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3483519)
+>[!VIDEO](https://video.tv.adobe.com/v/3483522?captions=jpn)
