@@ -22,4 +22,4 @@ ht-degree: 6%
 
 | プリセット | 互換性 | パッキング出力の説明 |
 | --- | --- | --- |
-| Redshift | <ul data-preserve-html="true"><li data-preserve-html="true">PBRメタリック/粗さ</li></ul> | **拡散反射光&#x200B;****反射の粗さ****メタル&#x200B;****法線****ディスプレイスメント&#x200B;****放射****不透明度** |
+| Redshift | <ul data-preserve-html="true"><li data-preserve-html="true">PBRメタリック/粗さ</li></ul> | **拡散反射光&#x200B;**&#x200B;**反射の粗さ**&#x200B;**メタル&#x200B;**&#x200B;**法線**&#x200B;**ディスプレイスメント&#x200B;**&#x200B;**放射**&#x200B;**不透明度** |

@@ -22,7 +22,7 @@ ht-degree: 2%
 
 | プリセット | 互換性 | パッキング出力の説明 |
 | --- | --- | --- |
-| コロナレンダラー | <ul data-preserve-html="true"><li data-preserve-html="true">PBRメタリック/粗さ</li><li data-preserve-html="true">PBR Specular/光沢</li></ul> | **拡散反射光****反射光沢度** (\*)**反射色** (\*\*)**フレネルIOR** (\*\*)**標準&#x200B;****ディスプレイスメント****&#x200B;放射光****不透明度** |
+| コロナレンダラー | <ul data-preserve-html="true"><li data-preserve-html="true">PBRメタリック/粗さ</li><li data-preserve-html="true">PBR Specular/光沢</li></ul> | **拡散反射光**&#x200B;**反射光沢度** (\*)**反射色** (\*\*)**フレネルIOR** (\*\*)**標準&#x200B;**&#x200B;**ディスプレイスメント**&#x200B;**&#x200B;放射光**&#x200B;**不透明度** |
 
 >[!NOTE]
 >

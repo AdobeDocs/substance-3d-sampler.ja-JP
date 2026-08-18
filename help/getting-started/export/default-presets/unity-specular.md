@@ -22,4 +22,4 @@ ht-degree: 4%
 
 | プリセット | 互換性 | パッキング出力の説明 |
 | --- | --- | --- |
-| Unity Specular | <ul data-preserve-html="true"><li data-preserve-html="true">PBRメタリック/粗さ</li><li data-preserve-html="true">PBR Specular/光沢</li></ul> | **アルベド:**<ul data-preserve-html="true"><li data-preserve-html="true"><strong>RGB</strong>：基本色</li><li data-preserve-html="true"><strong>A</strong>：不透明度</li></ul>**Specular:**<ul data-preserve-html="true"><li data-preserve-html="true"><strong>RGB</strong>: Specular</li><li data-preserve-html="true"><strong>A</strong>: Smoothness</li></ul>**標準** (OpenGL)**Height ****オクルージョン****放射性物質** |
+| Unity Specular | <ul data-preserve-html="true"><li data-preserve-html="true">PBRメタリック/粗さ</li><li data-preserve-html="true">PBR Specular/光沢</li></ul> | **アルベド:**<ul data-preserve-html="true"><li data-preserve-html="true"><strong>RGB</strong>：基本色</li><li data-preserve-html="true"><strong>A</strong>：不透明度</li></ul>**Specular:**<ul data-preserve-html="true"><li data-preserve-html="true"><strong>RGB</strong>: Specular</li><li data-preserve-html="true"><strong>A</strong>: Smoothness</li></ul>**標準** (OpenGL)**Height &#x200B;**&#x200B;**オクルージョン**&#x200B;**放射性物質** |

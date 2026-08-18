@@ -22,4 +22,4 @@ ht-degree: 3%
 
 | プリセット | 互換性 | パッキング出力の説明 |
 | --- | --- | --- |
-| Unity HRDP Specular | <ul data-preserve-html="true"><li data-preserve-html="true">PBRメタリック/粗さ</li><li data-preserve-html="true">PBR Specular/光沢</li></ul> | **基本色：**<ul data-preserve-html="true"><li data-preserve-html="true"><strong>RGB</strong>：基本色</li><li data-preserve-html="true"><strong>A</strong>：不透明度</li></ul>**マスクマップ：**<ul data-preserve-html="true"><li data-preserve-html="true"><strong>G</strong>：環境オクルージョン</li><li data-preserve-html="true"><strong>A</strong>: Smoothness</li></ul>******標準** (OpenGL)**放射性** |
+| Unity HRDP Specular | <ul data-preserve-html="true"><li data-preserve-html="true">PBRメタリック/粗さ</li><li data-preserve-html="true">PBR Specular/光沢</li></ul> | **基本色：**<ul data-preserve-html="true"><li data-preserve-html="true"><strong>RGB</strong>：基本色</li><li data-preserve-html="true"><strong>A</strong>：不透明度</li></ul>**マスクマップ：**<ul data-preserve-html="true"><li data-preserve-html="true"><strong>G</strong>：環境オクルージョン</li><li data-preserve-html="true"><strong>A</strong>: Smoothness</li></ul>**&#x200B;**&#x200B;**標準** (OpenGL)**放射性** |

@@ -22,4 +22,4 @@ ht-degree: 4%
 
 | プリセット | 互換性 | パッキング出力の説明 |
 | --- | --- | --- |
-| Unreal Engine 4 | <ul data-preserve-html="true"><li data-preserve-html="true">PBRメタリック/粗さ</li></ul> | **BaseColor****OcclusionRoughnessMetallic:**<ul data-preserve-html="true"><li data-preserve-html="true"><strong>R</strong>:アンビエントオクルージョン</li><li data-preserve-html="true"><strong>G</strong>：粗さ</li><li data-preserve-html="true"><strong>B</strong>:メタリック</li></ul>**通常&#x200B;****Height****放射性** |
+| Unreal Engine 4 | <ul data-preserve-html="true"><li data-preserve-html="true">PBRメタリック/粗さ</li></ul> | **BaseColor**&#x200B;**OcclusionRoughnessMetallic:**<ul data-preserve-html="true"><li data-preserve-html="true"><strong>R</strong>:アンビエントオクルージョン</li><li data-preserve-html="true"><strong>G</strong>：粗さ</li><li data-preserve-html="true"><strong>B</strong>:メタリック</li></ul>**通常&#x200B;**&#x200B;**Height**&#x200B;**放射性** |

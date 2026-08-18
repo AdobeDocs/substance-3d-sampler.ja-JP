@@ -22,4 +22,4 @@ ht-degree: 4%
 
 | プリセット | 互換性 | パッキング出力の説明 |
 | --- | --- | --- |
-| 次のV線 | <ul data-preserve-html="true"><li data-preserve-html="true">PBRメタリック/粗さ</li></ul> | **拡散反射光&#x200B;****粗さ****メタル&#x200B;****法線********自己照明** **不透明度** |
+| 次のV線 | <ul data-preserve-html="true"><li data-preserve-html="true">PBRメタリック/粗さ</li></ul> | **拡散反射光&#x200B;**&#x200B;**粗さ**&#x200B;**メタル&#x200B;**&#x200B;**法線**&#x200B;**&#x200B;**&#x200B;**自己照明** **不透明度** |
