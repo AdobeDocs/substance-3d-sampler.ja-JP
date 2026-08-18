@@ -22,4 +22,4 @@ ht-degree: 5%
 
 | プリセット | 互換性 | パッキング出力の説明 |
 | --- | --- | --- |
-| ブレンダーサイクル/イベント | <ul data-preserve-html="true"><li data-preserve-html="true">PBRメタリック/粗さ</li></ul> | **ベースカラー&#x200B;****粗さ****メタリック&#x200B;****標準****ディスプレイスメント&#x200B;****放射性****Alpha** |
+| ブレンダーサイクル/イベント | <ul data-preserve-html="true"><li data-preserve-html="true">PBRメタリック/粗さ</li></ul> | **ベースカラー&#x200B;**&#x200B;**粗さ**&#x200B;**メタリック&#x200B;**&#x200B;**標準**&#x200B;**ディスプレイスメント&#x200B;**&#x200B;**放射性**&#x200B;**Alpha** |

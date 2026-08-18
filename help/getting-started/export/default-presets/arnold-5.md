@@ -22,4 +22,4 @@ ht-degree: 5%
 
 | プリセット | 互換性 | パッキング出力の説明 |
 | --- | --- | --- |
-| アーノルド5 | <ul data-preserve-html="true"><li data-preserve-html="true">PBRメタリック/粗さ</li></ul> | **BaseColor ****粗さ****金属度****標準** (OpenGL)**ディスプレイスメント&#x200B;****放射性****&#x200B;不透明度** |
+| アーノルド5 | <ul data-preserve-html="true"><li data-preserve-html="true">PBRメタリック/粗さ</li></ul> | **BaseColor &#x200B;**&#x200B;**粗さ**&#x200B;**金属度**&#x200B;**標準** (OpenGL)**ディスプレイスメント&#x200B;**&#x200B;**放射性**&#x200B;**&#x200B;不透明度** |
