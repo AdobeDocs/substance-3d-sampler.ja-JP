@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/shortcuts.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/getting-started/shortcuts.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのキーボードショートカットを使用して、ワークフローを高速化し、マテリアルの作成効率を高めることができます。
 helpx_creative_field: ""

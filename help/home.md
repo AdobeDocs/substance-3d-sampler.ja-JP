@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/home.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/home.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerを使って、画像からのマテリアルの作成、環境光の編集、マテリアルライブラリの構築を始めましょう。
 helpx_creative_field: ""

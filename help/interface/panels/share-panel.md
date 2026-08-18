@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/interface/panels/share-panel.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/interface/panels/share-panel.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerの書き出しパネルを使用して、マテリアルをファイルとして書き出すか、他のアプリケーションに直接送る方法について説明します。
 helpx_creative_field: ""

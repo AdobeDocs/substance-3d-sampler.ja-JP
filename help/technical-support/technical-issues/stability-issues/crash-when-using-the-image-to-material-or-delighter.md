@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/technical-support/technical-issues/stability-issues/crash-when-using-the-image-to-material-or-delighter.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/technical-support/technical-issues/stability-issues/crash-when-using-the-image-to-material-or-delighter.html"
 breadcrumb-title: ''
 description: VRAM不足によりSubstance 3D Samplerで画像からマテリアルまたは採光フィルターを使用するとクラッシュする場合の解決方法について説明します。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/interface/panels/project-panel.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/interface/panels/project-panel.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのプロジェクトパネルを使用して、プロジェクトファイルの管理、作業の保存、最近使用したプロジェクトへのアクセスをおこなう方法を説明します。
 helpx_creative_field: ""

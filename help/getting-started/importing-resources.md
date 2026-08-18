@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/importing-resources.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/getting-started/importing-resources.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerに画像やSubstanceファイルなどのリソースを読み込んで、マテリアルの作成ワークフローを強化する方法について説明します。
 helpx_creative_field: ""

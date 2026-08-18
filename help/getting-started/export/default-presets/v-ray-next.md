@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/export/default-presets/v-ray-next.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/getting-started/export/default-presets/v-ray-next.html"
 breadcrumb-title: ''
 description: V-Rayレンダリングとの互換性のために、「V-Ray次」プリセットを使用してSubstance 3D Samplerからマテリアルを書き出す方法について説明します。
 helpx_creative_field: ""

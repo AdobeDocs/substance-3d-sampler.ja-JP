@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/technical-support/technical-issues/performance-issues/color-picker-takes-long-time-to-open-the-first-time.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/technical-support/technical-issues/performance-issues/color-picker-takes-long-time-to-open-the-first-time.html"
 breadcrumb-title: ''
 description: 古いWacomドライバーまたは互換性の問題が原因で、Substance 3D Samplerでカラーピッカーが開かない場合の解決方法について説明します。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/export/default-presets/enscape-revit.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/getting-started/export/default-presets/enscape-revit.html"
 breadcrumb-title: ''
 description: 建築ビジュアライゼーションワークフロー用にEnscape Revitプリセットを使用して、Substance 3D Samplerからマテリアルを書き出す方法を学習します。
 helpx_creative_field: ""

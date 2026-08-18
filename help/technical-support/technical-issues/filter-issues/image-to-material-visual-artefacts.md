@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/technical-support/technical-issues/filter-issues/image-to-material-visual-artefacts.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/technical-support/technical-issues/filter-issues/image-to-material-visual-artefacts.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerで画像の画質をマテリアルに変換して表示される斑点を修正し、カラーと画質の問題を解決する方法について説明します。
 helpx_creative_field: ""

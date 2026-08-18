@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/release-notes/version-4-0.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/release-notes/version-4-0.html"
 breadcrumb-title: ''
 description: 画像からの3Dオブジェクトの作成、自動マスク、UXの機能強化については、Substance 3D Samplerバージョン4.0のリリースノートを参照してください。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/pipeline-and-integrations/substance-connector.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/pipeline-and-integrations/substance-connector.html"
 breadcrumb-title: ''
 description: Substance 3D SamplerでSubstanceのSend-to機能を使用し、コネクター経由で他のアプリケーションに直接アセットを送信する方法について説明します。
 helpx_creative_field: ""
@@ -37,11 +37,11 @@ Send-toを使用するために必要な最小バージョンは次のとおり�
 
 * <b>Mayaプラグインv3.0.0+</b>
   * Maya 2025、2024、2023、2022でサポートされています。
-  * *Maya 2025以降で利用可能ですぐに利用できます。以前のバージョンでは、プラグインを[webサイト](https://www.adobe.com/products/substance3d/plugins/substance-in-maya.html "Maya WebページのSubstance")*&#x200B;からダウンロードする必要があります。
+  * *Maya 2025以降で利用可能ですぐに利用できます。以前のバージョンでは、プラグインを[webサイト](https://www.adobe.com/jp/products/substance3d/plugins/substance-in-maya.html "Maya WebページのSubstance")*&#x200B;からダウンロードする必要があります。
 
 * <b>3ds Maxプラグインv3.0.0+</b>
   * 3ds Max 2025、2024、2023、2022でサポートされています
-  * *3ds Max 2025以降は既定で利用可能。以前のバージョンのプラグインは[webサイト](https://www.adobe.com/products/substance3d/plugins/substance-in-3ds-max.html "3ds Max WebページのSubstance")*&#x200B;からダウンロードする必要があります
+  * *3ds Max 2025以降は既定で利用可能。以前のバージョンのプラグインは[webサイト](https://www.adobe.com/jp/products/substance3d/plugins/substance-in-3ds-max.html "3ds Max WebページのSubstance")*&#x200B;からダウンロードする必要があります
 
 * <b>Unityプラグインv3.11+</b>
   * Unityバージョン2022、2021または2020
@@ -49,4 +49,4 @@ Send-toを使用するために必要な最小バージョンは次のとおり�
 
 * <b>Blenderプラグインv2.1+</b>
   * Blenderバージョン3.0以降
-  * *プラグインは[Webサイト](https://www.adobe.com/products/substance3d/plugins/substance-in-blender.html "Blender WebページのSubstance")*&#x200B;でダウンロードできます
+  * *プラグインは[Webサイト](https://www.adobe.com/jp/products/substance3d/plugins/substance-in-blender.html "Blender WebページのSubstance")*&#x200B;でダウンロードできます

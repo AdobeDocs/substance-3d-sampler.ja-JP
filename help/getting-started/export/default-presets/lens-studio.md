@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/export/default-presets/lens-studio.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/getting-started/export/default-presets/lens-studio.html"
 breadcrumb-title: ''
 description: Snapchat ARレンズ開発ワークフローで、Lens Studioプリセットを使用してSubstance 3D Samplerからマテリアルを書き出す方法を説明します。
 helpx_creative_field: ""

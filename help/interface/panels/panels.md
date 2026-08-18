@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/interface/panels.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/interface/panels.html"
 breadcrumb-title: ''
 description: マテリアル作成ワークフローのツール、設定、機能にアクセスするためのSubstance 3D Samplerインターフェイスのパネルについて説明します。
 helpx_creative_field: ""

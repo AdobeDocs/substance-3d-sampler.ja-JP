@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/export/default-presets/unreal-engine-4.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/getting-started/export/default-presets/unreal-engine-4.html"
 breadcrumb-title: ''
 description: ゲーム開発ワークフロー用のUnreal Engine 4プリセットを使用して、Substance 3D Samplerからマテリアルを書き出す方法について説明します。
 helpx_creative_field: ""

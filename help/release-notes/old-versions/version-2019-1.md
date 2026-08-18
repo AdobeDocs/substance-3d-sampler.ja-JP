@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/release-notes/old-versions/version-2019-1.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/release-notes/old-versions/version-2019-1.html"
 breadcrumb-title: ''
 description: プロジェクト管理、レイヤースタックの改善、および更新の適用について詳しくは、Substance 3D Samplerバージョン2019.1のリリースノートを参照してください。
 helpx_creative_field: ""
@@ -73,7 +73,7 @@ Substance Alchemistにようこそ画面が表示され、最新のプロジェ�
 
 ![](../../assets/sa-notes-viewport.jpg)
 
-ビューポートにいくつかの新機能が追加され、操作性が向上しました。 これらの新しい設定は、[ビューアの設定パネル](https://helpx.adobe.com/substance-3d/unlisted/documentation/sadoc/viewer-settings-188973164.html)でアクセスできます。
+ビューポートにいくつかの新機能が追加され、操作性が向上しました。 これらの新しい設定は、[ビューアの設定パネル](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sadoc/viewer-settings-188973164.html)でアクセスできます。
 
 * **カメラモード**\
   カメラ投影モードでは、パースペクティブモードと直交投影モードを選択できます。

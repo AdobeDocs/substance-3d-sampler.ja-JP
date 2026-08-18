@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-sampler/getting-started/system-requirements.html'
+helpx_url: 'https://helpx.adobe.com/jp/substance-3d-sampler/getting-started/system-requirements.html'
 breadcrumb-title: ''
 description: ご使用のハードウェアとソフトウェアが互換性基準を満たしていることを確認するために、Substance 3D Samplerの必要システム構成を確認してください。
 helpx_creative_field: ''

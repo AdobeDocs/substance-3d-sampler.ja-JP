@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/interface.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/interface.html"
 breadcrumb-title: ''
 description: アプリケーションのナビゲーションと効率的な使用を目的とした、ビューポート、サイドバー、パネルを含むSubstance 3D Samplerのインターフェイスについて説明します。
 helpx_creative_field: ""

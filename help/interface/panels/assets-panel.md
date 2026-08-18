@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/interface/panels/assets-panel.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/interface/panels/assets-panel.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのアセットパネルを使用して、素材アセットやリソースを参照、整理、利用する方法を説明します。
 helpx_creative_field: ""

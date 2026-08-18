@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/technical-support/technical-issues/filter-issues/image-to-material-and-delighter-are-missing.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/technical-support/technical-issues/filter-issues/image-to-material-and-delighter-are-missing.html"
 breadcrumb-title: ''
 description: 必要システム構成を確認し、Substance 3D Samplerで不足している画像をマテリアルに変換および明るくするフィルターを解決する方法について説明します。
 helpx_creative_field: ""

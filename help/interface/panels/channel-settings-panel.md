@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/interface/panels/channel-settings-panel.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/interface/panels/channel-settings-panel.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのチャンネル設定パネルを使用して、マテリアルチャンネルを管理し、チャンネルの表示を制御する方法について説明します。
 helpx_creative_field: ""

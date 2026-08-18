@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/release-notes/version-5-1-substance-3d-sampler.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/release-notes/version-5-1-substance-3d-sampler.html"
 breadcrumb-title: ''
 description: 新機能、改善点、およびワークフローの機能強化について詳しくは、 Substance 3D Samplerバージョン5.1のリリースノートを確認してください。
 helpx_creative_field: ""

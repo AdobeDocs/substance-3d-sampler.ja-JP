@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/export/managing-presets.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/getting-started/export/managing-presets.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerで書き出しプリセットを管理し、様々なアプリケーションやパイプラインのマテリアルを設定する方法について説明します。
 helpx_creative_field: ""

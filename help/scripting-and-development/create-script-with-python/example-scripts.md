@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/scripting-and-development/create-a-script-with-python/example-scripts.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/scripting-and-development/create-a-script-with-python/example-scripts.html"
 breadcrumb-title: ''
 description: Substance 3D SamplerのPythonスクリプト例にアクセスして、APIの使用方法とマテリアル作成ワークフローの自動化方法について学習します。
 helpx_creative_field: ""

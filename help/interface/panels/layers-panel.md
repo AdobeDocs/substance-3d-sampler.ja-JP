@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/interface/panels/layers-panel.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/interface/panels/layers-panel.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのレイヤーパネルを使ってフィルターレイヤーを管理し、複雑なマテリアルスタックを構築する方法を説明します。
 helpx_creative_field: ""

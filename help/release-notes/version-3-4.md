@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/release-notes/version-3-4.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/release-notes/version-3-4.html"
 breadcrumb-title: ''
 description: 3Dワークフローで速度と品質を向上させるために設計された新機能について詳しくは、Substance 3D Samplerバージョン3.4のリリースノートを確認してください。
 helpx_creative_field: ""

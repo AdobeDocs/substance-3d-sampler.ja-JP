@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/release-notes/old-versions/version-3-0.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/release-notes/old-versions/version-3-0.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerバージョン3.0のリリースノートを参照して、UIの再操作、環境光、フィルター、Creative Cloudの統合について確認してください。
 helpx_creative_field: ""
@@ -87,7 +87,7 @@ Samplerは、Substance 3D PainterおよびStagerを使用して、[マテリア�
 ### 新しいリアルタイムレンダリングエンジン
 
 * ASMマテリアルのサポート。より多くのマテリアルチャネルを使用するアプリケーション間で一貫した外観を実現します。
-* 2つの[リアルタイムエンジン](https://helpx.adobe.com/substance-3d/unlisted/documentation/sadoc/viewer-settings-188973164.html)を切り替える
+* 2つの[リアルタイムエンジン](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sadoc/viewer-settings-188973164.html)を切り替える
 * メッシュ上のデフォルトテクスチャを制御する機能
 
 ### 全般的な改善

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/interface/preferences/layer-resolution.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/interface/preferences/layer-resolution.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerでレイヤーの解像度を設定し、マテリアルスタック内の個々のレイヤーの解像度を制御する方法について説明します。
 helpx_creative_field: ""

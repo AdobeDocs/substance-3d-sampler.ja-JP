@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/export.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/getting-started/export.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerから様々な形式およびプリセットでマテリアルを書き出し、他のアプリケーションやエンジンで使用する方法について説明します。
 helpx_creative_field: ""
@@ -45,5 +45,5 @@ Samplerは、アセットの主要なファイル形式をサポートしてい�
 
 * [書き出しウィンドウ](../../getting-started/export/export-window/export-window.md)
 * [デフォルトのプリセット](../../getting-started/export/default-presets/default-presets.md)
-* [カスタムプリセットの管理](https://helpx.adobe.com/substance-3d/unlisted/documentation/sadoc/creating-and-importing-custom-presets-188976295.html)
+* [カスタムプリセットの管理](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sadoc/creating-and-importing-custom-presets-188976295.html)
 * [プリセットの管理](managing-presets.md)

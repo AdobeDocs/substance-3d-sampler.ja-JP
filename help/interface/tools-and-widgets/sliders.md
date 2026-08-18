@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/interface/tools-and-widgets/sliders.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/interface/tools-and-widgets/sliders.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのスライダーを使用して、正確に制御しながらフィルターパラメーターとマテリアルプロパティを調整する方法を説明します。
 helpx_creative_field: ""

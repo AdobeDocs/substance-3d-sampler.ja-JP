@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/technical-support/configuration/retrieving-the-installation-path.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/technical-support/configuration/retrieving-the-installation-path.html"
 breadcrumb-title: ''
 description: スクリプト作成や設定用に、異なるプラットフォーム上のSubstance 3D Samplerのインストールパスを取得する方法について説明します。
 helpx_creative_field: ""

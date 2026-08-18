@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/pipeline-and-integrations/hp-z-captis-support/faq-hp-z-captis-support-in-sampler.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/pipeline-and-integrations/hp-z-captis-support/faq-hp-z-captis-support-in-sampler.html"
 breadcrumb-title: ''
 description: Substance 3D SamplerでのHP Z Captisのサポートに関するよくある質問にアクセスして、ハードウェアの統合と使用方法に関する回答を検索します。
 helpx_creative_field: ""
@@ -53,7 +53,7 @@ Captisデバイスを使用するには、Substance 3Dサブスクリプショ�
 +++AdobeのSubstanceスイートにはどのレベルの統合が存在しますか？
 HP Z Captisは、Adobe Substance 3D Samplerで完全に制御および操作できます。キャプチャをSubstance 3D Samplerでプレビューして起動すると、PBRチャンネルがレイヤーとして自動的に読み込まれ、3Dマテリアルが作成されます。 Samplerで利用できるすべてのツールとフィルターを使用して、マテリアルの処理を続けることができます。
 
-キャプチャしたマテリアルをSubstance 3D Samplerに保存すると、Substance 3Dスイート(Substance 3D Designer、Painter、Stager)の任意のアプリケーションと、Substanceをサポートする任意のサードパーティアプリケーション（3DS Max、Maya、Blender、Unreal Engine、CLO、Browzwear、VRED、Rhino、Cinema4Dなど）に書き出すことができます（完全な一覧はこちらを参照してください： <https://www.adobe.com/products/substance3d/plugins.html>）。
+キャプチャしたマテリアルをSubstance 3D Samplerに保存すると、Substance 3Dスイート(Substance 3D Designer、Painter、Stager)の任意のアプリケーションと、Substanceをサポートする任意のサードパーティアプリケーション（3DS Max、Maya、Blender、Unreal Engine、CLO、Browzwear、VRED、Rhino、Cinema4Dなど）に書き出すことができます（完全な一覧はこちらを参照してください： <https://www.adobe.com/jp/products/substance3d/plugins.html>）。
 
 +++
 
@@ -100,7 +100,7 @@ Samplerのハードウェア仕様は、[こちら](system-requirements-to-use-h
 +++スキャンしたマテリアルはどの形式で書き出せますか？
 HP Z Captisは、Adobe Substance 3D Samplerがネイティブに運用しています。 HP Z Captisは、64枚のRAW画像（ローカルフォルダーから取得可能）とPBRマップ（RAW画像から処理され、Substance 3D Samplerに自動的に読み込まれる）をキャプチャします。 Substance 3D Samplerでは、キャプチャ後にSamplerレイヤースタックに自動的に読み込まれるPBRチャンネルに基づいて3dマテリアルを作成します。
 
-Adobe Substance 3D Samplerから、Substance 3D Samplerで使用可能な任意の書き出し形式(Substanceファイル（.SBSおよび.SBSARファイル）で、または.PNG、.JPG、.TIFFを含むビットマップテクスチャ)でデジタルマテリアルを書き出すことができます（Samplerのドキュメントのwebページ[https://helpx.adobe.com/substance-3d-sampler/getting-started/export.html](../../getting-started/export/export.md)を参照）。
+Adobe Substance 3D Samplerから、Substance 3D Samplerで使用可能な任意の書き出し形式(Substanceファイル（.SBSおよび.SBSARファイル）で、または.PNG、.JPG、.TIFFを含むビットマップテクスチャ)でデジタルマテリアルを書き出すことができます（Samplerのドキュメントのwebページ[https://helpx.adobe.com/jp/substance-3d-sampler/getting-started/export.html](../../getting-started/export/export.md)を参照）。
 
 +++
 
@@ -118,7 +118,7 @@ HP Z Captisは、Adobe Substance 3D Samplerがネイティブに運用してい�
 
 Substance 3Dエコシステムの任意のアプリケーション（様々な書き出し形式をサポートするSubstance 3D DesignerまたはSubstance 3D Painterなど： https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/ecosystem/import-and-export-formats）。
 
-3DS Max、Maya、Blender、C4D、Rhino、Browzwear、CLOなどのSubstanceファイルフォーマットを統合するアプリケーションでは、すべて次のリストを参照してください： <https://www.adobe.com/products/substance3d/plugins.html>。 ここに記載されていないアプリケーションを使用している場合は、いつでもPBRテクスチャ画像を書き出し、そのSubstanceファイルフォーマットをネイティブにサポートしていないアプリケーションで手動でプラグインできます。
+3DS Max、Maya、Blender、C4D、Rhino、Browzwear、CLOなどのSubstanceファイルフォーマットを統合するアプリケーションでは、すべて次のリストを参照してください： <https://www.adobe.com/jp/products/substance3d/plugins.html>。 ここに記載されていないアプリケーションを使用している場合は、いつでもPBRテクスチャ画像を書き出し、そのSubstanceファイルフォーマットをネイティブにサポートしていないアプリケーションで手動でプラグインできます。
 
 +++
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/interface/preferences/normal-format.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/interface/preferences/normal-format.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerで法線マップ形式の環境設定を行い、DirectX形式とOpenGL形式を切り替える方法について説明します。
 helpx_creative_field: ""

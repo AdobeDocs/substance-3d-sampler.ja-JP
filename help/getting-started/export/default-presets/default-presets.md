@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/export/default-presets.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/getting-started/export/default-presets.html"
 breadcrumb-title: ''
 description: 様々なソフトウェアアプリケーションおよびレンダリングエンジン用のSubstance 3D Samplerのデフォルトの書き出しプリセットについて説明します。
 helpx_creative_field: ""
@@ -25,8 +25,8 @@ Samplerには、読み込み先のソフトウェアに基づいてビットマ�
 * [アーノルド5](arnold-5.md)
 * [ブレンダーサイクル/イベント](blender-cycles-eevee.md)
 * [コロナレンダラー](corona-renderer.md)
-* [Enscape - Revit](https://helpx.adobe.com/substance-3d/unlisted/documentation/sadoc/enscape-188976476.html)
-* [Keyshot 9+](https://helpx.adobe.com/substance-3d/unlisted/documentation/sadoc/keyshot-9-188976247.html)
+* [Enscape - Revit](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sadoc/enscape-188976476.html)
+* [Keyshot 9+](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/sadoc/keyshot-9-188976247.html)
 * [Lens Studio](lens-studio.md)
 * [Spark AR Studio](spark-ar-studio.md)
 * [Unity HDRP Standard](unity-hdrp-standard.md)

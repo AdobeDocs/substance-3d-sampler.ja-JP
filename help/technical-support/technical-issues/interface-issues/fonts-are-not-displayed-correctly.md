@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/technical-support/technical-issues/interface-issues/fonts-are-not-displayed-correctly.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/technical-support/technical-issues/interface-issues/fonts-are-not-displayed-correctly.html"
 breadcrumb-title: ''
 description: 信頼できないフォントブロックが有効になっているWindows Enterpriseシステムで、Substance 3D Samplerのフォント表示の問題を修正する方法について説明します。
 helpx_creative_field: ""

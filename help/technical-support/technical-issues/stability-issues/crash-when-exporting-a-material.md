@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/technical-support/technical-issues/stability-issues/crash-when-exporting-a-material.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/technical-support/technical-issues/stability-issues/crash-when-exporting-a-material.html"
 breadcrumb-title: ''
 description: VRAMまたはGPUのメモリ不足の問題により、Substance 3D Samplerでマテリアルを書き出すときにクラッシュする場合の解決方法について説明します。
 helpx_creative_field: ""

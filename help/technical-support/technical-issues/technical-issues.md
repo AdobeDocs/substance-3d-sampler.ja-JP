@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/technical-support/technical-issues.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/technical-support/technical-issues.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerで一般的な技術的問題に関するトラブルシューティングガイドにアクセスし、問題を解決してパフォーマンスを最適化します。
 helpx_creative_field: ""
