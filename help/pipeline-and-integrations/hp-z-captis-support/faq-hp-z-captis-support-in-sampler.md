@@ -116,7 +116,7 @@ LDRを選択すると、Samplerや、sbsarファイルを使用するサード�
 +++特定のファイル形式、規格や仕様、またはサードパーティのアプリケーションを使用している場合、現在の3DパイプラインでCaptisを使用する方法を教えてください。
 HP Z Captisは、Adobe Substance 3D Samplerがネイティブに運用しています。 Substance 3D Samplerで素材サンプルをキャプチャしてデジタル化したら、デジタルマテリアルをシームレスに書き出すことができます。
 
-Substance 3Dエコシステムの任意のアプリケーション（様々な書き出し形式をサポートするSubstance 3D DesignerまたはSubstance 3D Painterなど： https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/ecosystem/import-and-export-formats）。
+Substance 3Dエコシステムの任意のアプリケーション（様々な書き出し形式をサポートするSubstance 3D DesignerまたはSubstance 3D Painterなど： https://experienceleague.adobe.com/ja/docs/substance-3d/general-knowledge/ecosystem/import-and-export-formats）。
 
 3DS Max、Maya、Blender、C4D、Rhino、Browzwear、CLOなどのSubstanceファイルフォーマットを統合するアプリケーションでは、すべて次のリストを参照してください： <https://www.adobe.com/jp/products/substance3d/plugins.html>。 ここに記載されていないアプリケーションを使用している場合は、いつでもPBRテクスチャ画像を書き出し、そのSubstanceファイルフォーマットをネイティブにサポートしていないアプリケーションで手動でプラグインできます。
 

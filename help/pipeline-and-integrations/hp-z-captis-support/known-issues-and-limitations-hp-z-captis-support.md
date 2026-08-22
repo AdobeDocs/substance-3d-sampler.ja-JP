@@ -29,5 +29,5 @@ ht-degree: 0%
 * キャプチャ中にウィンドウを閉じると、入力されたメタデータが失われます。
 * USB経由でCaptisからデータを転送しているときに「コンテンツを参照」または「シャットダウン」ボタンのいずれかをクリックすると、転送が停止します。
 
-* TDRの問題がある場合は、Sustance Painterの[このドキュメントページ](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)を参照してください。このページが問題の修正に役立ちます。
+* TDRの問題がある場合は、Sustance Painterの[このドキュメントページ](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)を参照してください。このページが問題の修正に役立ちます。
 * デバイス内部のライブフィードを見る代わりに「プレビュー」の手順がすべて黒になっている場合は、レンズキャップをデバイスのコーン内部から取り外したことを確認してください。
