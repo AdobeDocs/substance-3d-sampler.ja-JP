@@ -4,10 +4,10 @@ description: 新機能、改善点、およびワークフローの機能強化�
 title: バージョン6.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: fe26cb37891204d5b93265643c23d8e717b3d524
+source-git-commit: 56f4ac8b2b5ec271edb8338d51f8ac51e6746c6c
 workflow-type: tm+mt
-source-wordcount: '1357'
-ht-degree: 2%
+source-wordcount: '1627'
+ht-degree: 1%
 
 ---
 
@@ -60,9 +60,49 @@ Samplerでは、HP Z Captisのキャプチャをワンクリックで起動で�
 
 ## V6.0リリースノート
 
+### **6.0.3**
+
+*（リリース：2026年8月24日）*
+
+**修正済み：**
+
+[レンダリング]障害のあるNVIDIAドライバーの一時的な回避策を元に戻します
+
+### **6.0.2**
+
+*（リリース：2026年6月25日）*
+
+**追加：**
+
+* &amp;lbrack;Assets&amp;rbrack; sbsarバージョンを確認し、エンジンが古すぎるため読み取れないことをユーザーに警告(&amp;R)
+* &amp;lbrack;Captis&amp;rbrack；環境設定でCaptisフォトメトリックを保存するための戻るオプションを追加
+
+**修正済み：**
+
+* &amp;lbrack;2D View&amp;rbrack;物理サイズが無効な場合、「物理比で表示」しません。
+* &amp;lbrack;Analytics&amp;rbrack；見つからない分析イベント
+* &amp;lbrack;Analytics&amp;rbrack; vkデバイスのostでクラッシュを報告するクラッシュパッドを防ぐ
+* &amp;lbrack;Application&amp;rbrack; nvidiaドライバーのクラッシュを回避するため、終了時にvkdeviceを破棄しない
+* &amp;lbrack;Application&amp;rbrack;リンクされたコレクションウォッチャー終了を修正+チャネルマネージャ
+* &amp;lbrack;Application&amp;rbrack；終了時のクラッシュを防ぐ
+* &amp;lbrack;Content&amp;rbrack; 「メタル仕上げ」フィルターはメタルに影響しません
+* &amp;lbrack;Content&amp;rbrack;物理サイズが見つからない場合にダイナミックフィルターに追加
+* &amp;lbrack；フィルター&amp;rbrack；非表示のアセットリストからコンテンツに応じた塗りつぶしを削除
+* &amp;lbrack；レイヤー&amp;rbrack; 「すべての設定をリセット」をクリックしても、「適用先」ドロップダウンがリセットされない
+* &amp;lbrack；レイヤー&amp;rbrack；位置ウィジェットの最小および最大ツイークを修正
+* &amp;lbrack；画層&amp;rbrack;フィルタを正しく更新
+* &amp;lbrack;物理サイズ&amp;rbrack；あらゆる場所で物理スケールが機能することを確認し、ダイナミックフィルターを使用して物理サイズをokにする
+* &amp;lbrack；プロジェクト&amp;rbrack；新しいアセットを作成する際に、アセットの解像度がデフォルト(2k x 2k)であることを確認する
+* &amp;lbrack；プロジェクト&amp;rbrack；現在のプロジェクトを再度開く（以前のバージョンを開くのに使用）
+* &amp;lbrack;Project&amp;rbrack; Samplerは、破損したプロジェクトのバックアップを復元することはできません。
+* &amp;lbrack；レンダリング&amp;rbrack;マテリアルサムネイルを最大2K解像度でレンダリング
+* &amp;lbrack;UI&amp;rbrack;ユーザがUIより高速な場合のクラッシュを回避するための防御コード
+
+### **6.0.1**
+
 *（リリース：2026年4月16日）*
 
-## 追加：
+**追加：**
 
 * [3Dビュー] USD形式のデフォルトメッシュを提供
 * [アプリケーション]現在のマテリアルモデルでは利用できないマテリアルの使用状況を検出します
@@ -110,7 +150,7 @@ Samplerでは、HP Z Captisのキャプチャをワンクリックで起動で�
 * [UI]チャネルリストエディションの検索実装
 * [UI]スナップショットをファイルに保存するときに通知を表示する
 
-## 修正：
+**修正済み：**
 
 * [2Dビュー]仕様の結果の使用法インデックスに従って2Dビューを並べ替えます
 * [アプリケーション]起動時のクラッシュを修正
@@ -194,7 +234,7 @@ Samplerでは、HP Z Captisのキャプチャをワンクリックで起動で�
 * [UI]画像の使用を微調整するときにチャネル設定を更新する
 * [UI] マテリアルモデル変換ポップアップの文言を更新する
 
-## 削除：
+## 削除済み
 
 * [UI] [3D キャプチャの削除]メニュー項目
 * [UI] AI生成パネルを削除
