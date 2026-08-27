@@ -6,9 +6,9 @@ helpx_description: Sampler > Release Notes > All Changes
 title: すべての変更
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: dc832dc546735437051226f4e1e731b55147b3ea
+source-git-commit: 0484ed7ae81bd16687abe23ac0ce8f5ad84d1888
 workflow-type: tm+mt
-source-wordcount: '24926'
+source-wordcount: '24940'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,14 @@ ht-degree: 0%
 新機能からバグ修正まで、Substance 3D Samplerに加えられたすべての変更を再編成します。
 
 ## バージョン6
+
+### **6.0.3**
+
+*（リリース：2026年8月24日）*
+
+**修正済み：**
+
+[レンダリング]障害のあるNVIDIAドライバーの一時的な回避策を元に戻します
 
 ### **6.0.2**
 
