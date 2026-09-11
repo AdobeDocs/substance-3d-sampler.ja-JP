@@ -13,4 +13,4 @@ ht-degree: 0%
 
 Fuzzチャンネルは、スエードや他のファブリックなどのマテリアルをよりリアルにするのに役立ちます。 Samplerでファズチャンネルを使用する最適な方法については、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3483519)
+>[!VIDEO](https://video.tv.adobe.com/v/3483522?captions=jpn)
