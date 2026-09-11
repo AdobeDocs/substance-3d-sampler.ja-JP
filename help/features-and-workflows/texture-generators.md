@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/features-and-workflows/texture-generators.html"
 breadcrumb-title: ''
-description: Substance 3D Samplerのテクスチャジェネレーターを使用して、マテリアルを作成するためのプロシージャルテクスチャとパターンを作成する方法について説明します。
+description: Substance 3D Samplerでテクスチャジェネレーターを使用して、マテリアルを作成するためのプロシージャルのテクスチャとパターンを作成する方法について説明します。
 helpx_creative_field: ""
 helpx_description: Substance 3D Sampler
 helpx_experience_level: ""
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ![](../assets/sa_whats-new-screen_v4-3-0_generators.png)
 
-テクスチャジェネレーターでは、<b>パラメトリックノイズ、</b>パターン、<b>グランジ</b>オプションを使用して、マテリアルの作成をより詳細に制御できます。 生成された画像は、マスクまたはチャンネルマップで使用できます。
+テクスチャジェネレータでは、<b>パラメトリックノイズ、パターン</b>および<b>のグランジ</b>のオプションを使用して、マテリアルの作成をより詳細に制御できます。 生成された画像は、マスクまたはチャンネルマップで使用できます。
 
 <table>
 <tr style="border: 0;">
@@ -33,25 +33,25 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-テクスチャジェネレーターは、Substance 3D Samplerのアセットの一種です。 テクスチャジェネレーターアイコンを使用して、アセットパネルでフィルターできます。
+テクスチャジェネレーターはSubstance 3D Samplerのアセットの一種です。 アセットパネルでは、 テクスチャジェネレーターのアイコンを使用してフィルターできます。
 
 </td>
 </tr>
 </table>
 
-## テクスチャジェネレーターの使用方法
+## テクスチャジェネレータの使用方法
 
 ### チャンネルマップ
 
-3Dビュー、2Dビューまたはレイヤースタックにテクスチャジェネレーターをドラッグ&amp;ドロップし、使用するチャンネルを選択します。
+3Dビュー、2D ビュー、またはレイヤースタックにテクスチャジェネレータをドラッグアンドドロップし、使用するチャンネルを選択します。
 
 ![](../assets/DndTexgen.gif)
 
-塗りつぶしフィルターは、右側の入力にテクスチャジェネレーターを使用してスタックに作成されます。 プロパティパネルでテクスチャジェネレーターのプロパティにアクセスできます。
+テクスチャジェネレーターが正しい入力のスタックで塗りつぶしフィルターが作成されます。 プロパティパネルでテクスチャジェネレーターのプロパティにアクセスできます。
 
 #### フィルター
 
-<b>寄木</b>などの一部のフィルターでは、パターンマスクに既定のテクスチャジェネレーターが使用されます。また、<b>パターン</b>フィルターのように、画像やテクスチャ生成ツールを使用して作業するものもあります。\
+<b>寄木</b>などの一部のフィルターでは、パターンマスクに既定のテクスチャジェネレーターが使用されます。その他のフィルターは、<b>パターン</b>フィルターのように、画像やテクスチャジェネレーターで使用できます。\
 フィルターでは、任意の画像プロパティ（例： <b>カスタムマスク</b>）でテクスチャジェネレーターを使用できます。
 
 フィルターを使用すると、操作するジェネレーターを提案できます。画像プロパティをクリックすると、新しいアセットピッカーに表示されます。
@@ -62,15 +62,15 @@ ht-degree: 1%
 
 Substance 3D Samplerのすべてのチュートリアルは、[ラーニングページ](https://creativecloud.adobe.com/cc/learn/app/substance-3d-sampler)にあります。
 
-[Samplerのテクスチャジェネレーターを使用したテキスタイルデザイン](https://creativecloud.adobe.com/cc/learn/substance-3d-sampler/web/fabric-texture-generator?locale=en)
+[Samplerのテクスチャ発生装置を使用したテキスタイルデザイン](https://creativecloud.adobe.com/cc/learn/substance-3d-sampler/web/fabric-texture-generator?locale=en)
 
 [Substance 3D Samplerを使用すれば数分で素材の炭素繊維を作成](https://creativecloud.adobe.com/cc/learn/substance-3d-sampler/web/create-carbon-fiber-material?locale=en)
 
 [Substance 3D Samplerを使用して格子縞の生地を数分で作成](https://creativecloud.adobe.com/cc/learn/substance-3d-sampler/web/create-plaid-fabric-material?locale=en)
 
-## カスタムテクスチャジェネレーターを作成する方法
+## カスタムテクスチャジェネレータを作成する方法
 
-Adobe Substance 3D Designerで作成したテクスチャジェネレーターは、レイヤースタックアクションの「*読み込み*」ボタンを使用して読み込むことができます。 Samplerに読み込まれた状態で正しく動作するには、Designerに特別な方法で構築する必要があります。
+Adobe Substance 3D Designerで作成したテクスチャジェネレーターは、レイヤースタック操作の「*読み込み*」ボタンから読み込むことができます。 Samplerに読み込まれた状態で正しく動作するには、Designerに特別な方法で構築する必要があります。
 
 ### タイプ
 
@@ -99,12 +99,12 @@ Adobe Substance 3D Designerで作成したテクスチャジェネレーター�
 </tr>
 </table>
 
-* テクスチャジェネレーターの<b>セカンダリ出力</b>には<b>使用方法</b>が必要です。\
-  グループ名は、メイン出力<b>Identifier</b>になります。
+* テクスチャジェネレータの<b>セカンダリ出力</b>を使用するには、<b>使用方法</b>が必要です。\
+  グループ名は、メイン出力<b>識別子</b>になります。
 
 >[!NOTE]
 >
-> 独自のフィルターとテクスチャジェネレーターを構築して連携を機能させる場合、<b>出力識別子</b>に従って<b>カスタム使用</b>することをお勧めします。
+> 独自のフィルターとテクスチャジェネレーターを組み合わせて使用する場合は、<b>出力識別子</b>に従って<b>カスタム使用</b>することをお勧めします。
 
 <table>
 <tr style="border: 0;">
@@ -137,4 +137,4 @@ Adobe Substance 3D Designerで作成したテクスチャジェネレーター�
 
 >[!NOTE]
 >
-> Samplerでは、フィルターパラメーターを公開して、フィルターを直接制御できます。 [こちら](https://experienceleague.adobe.com/ja/docs/substance-3d-designer/using/substance-graphs/manage-parameters/exposing-a-parameter)を参照してください
+> Samplerでは、フィルターパラメーターを表示して、フィルターを直接制御できます。 [こちら](https://experienceleague.adobe.com/ja/docs/substance-3d-designer/using/substance-graphs/manage-parameters/exposing-a-parameter)を参照してください

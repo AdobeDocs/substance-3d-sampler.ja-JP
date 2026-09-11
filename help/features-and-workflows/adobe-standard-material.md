@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/features-and-workflows/adobe-standard-material.html"
 breadcrumb-title: ''
-description: Substance 3D SamplerでAdobe Standardマテリアルを使用して、Adobeのマテリアル標準と互換性のあるマテリアルを作成する方法について説明します。
+description: Substance 3D SamplerでAdobe Standard Materialを使用して、Adobeのマテリアル規格と互換性のあるマテリアルを作成する方法について説明します。
 helpx_creative_field: ""
 helpx_description: Sampler > Features and workflows > Adobe Standard Material
 helpx_experience_level: ""
@@ -25,7 +25,7 @@ ht-degree: 1%
 > Substance 3D Samplerは、Adobe Standardマテリアルではなく、デフォルトで[OpenPBR](openpbr.md)マテリアルモデルになりました。
 
 
-## 標準マテリアルプロパティ
+## 標準マテリアルのプロパティ
 
 ## 基準サーフェスプロパティ
 
@@ -41,7 +41,7 @@ ht-degree: 1%
 
 **メタリック**
 
-表面の金属光沢の度合い。
+サーフェスのメタリック光沢の度合い。
 
 ![](../assets/surface-metallic.jpg)
 
@@ -57,13 +57,13 @@ ht-degree: 1%
 
 **Specular level**
 
-サーフェス上の光の反射の強度。
+サーフェス上の光の反射の強さ。
 
 ![](../assets/surface-specularlevel.jpg)
 
 **Specular edge color**
 
-光の反射の色。 メタリックマテリアルの傾斜角度に影響します。
+光の反射の色。 メタリックのマテリアルの傾斜角度に影響します。
 
 ![](../assets/surface-specularedgecolor.jpg)
 
@@ -73,11 +73,11 @@ ht-degree: 1%
 
 **標準スケール**
 
-通常の効果の強さ。
+通常の効果の強さです。
 
 **標準とHeightを組み合わせる**
 
-Heightテクスチャの上に法線テクスチャを適用します。
+テクスチャの上に標準テクスチャを適用します。
 
 **Height**
 
@@ -85,19 +85,19 @@ Heightテクスチャの上に法線テクスチャを適用します。
 
 **Heightスケール**
 
-Heightのスケールをシーン単位で指定します。 バンプとディスプレイスメントの両方に適用されます。
+Heightのスケール（シーン単位）。 バンプとディスプレイスメントの両方に適用されます。
 
 **Heightレベル**
 
-ディスプレイスメントゼロを表すHeightテクスチャの値。
+ゼロディスプレイスメントを表すHeightテクスチャの値。
 
-**異方性レベル**
+**Anisotropy level**
 
-サーフェスに沿って1方向に伸びる反射の量。
+サーフェスに沿って1方向に反射が伸縮する量。
 
 ![](../assets/surface-anisotropy.jpg)
 
-**異方性角度**
+**Anisotropy angle**
 
 異方性効果の反時計回りの回転。
 
@@ -121,19 +121,19 @@ Heightのスケールをシーン単位で指定します。 バンプとディ�
 
 **光沢カラー**
 
-光沢エフェクトのカラー。
+光沢効果の色。
 
 ![](../assets/surface-sheencolor.jpg)
 
-**光沢の粗さ**
+**ラフネス**
 
-光沢エフェクトの柔らかさ。
+光沢効果の柔らかさ。
 
 ![](../assets/surface-sheenroughness.jpg)
 
 ## 内部プロパティ
 
-**半透明度**
+**Translucency**
 
 サーフェスを透過できるライトの量。
 
@@ -145,7 +145,7 @@ Heightのスケールをシーン単位で指定します。 バンプとディ�
 
 **吸収の距離**
 
-吸収カラーに達する前に光が通過するおおよその距離をシーン単位で表したもの。 0に設定した場合、Thicknessは吸収カラーに影響しません。
+光が吸収カラーに到達する前に通過するシーン単位の近似距離です。 0に設定した場合、Thicknessは吸収カラーに影響しません。
 
 ![](../assets/interior-absorptiondistance.jpg)
 
@@ -159,11 +159,11 @@ Heightのスケールをシーン単位で指定します。 バンプとディ�
 
 屈折したときにカラースペクトルが広がる量。
 
-**サブサーフェスのスキャタリング**
+**表面化散乱**
 
 散乱はサーフェスの下にライトを通過しますが、まっすぐに通過しません。
 
-**散布カラー**
+**拡散カラー**
 
 散乱光がサーフェスの下のカラーになります。
 
@@ -203,9 +203,9 @@ Heightのスケールをシーン単位で指定します。 バンプとディ�
 
 ## コートのプロパティ
 
-**コートの不透明度**
+**Coat opacity**
 
-マテリアルの上にレイヤーをシミュレートします。 クリアコート、ラッカー、ワニスの作成に使用します。
+マテリアルの上のレイヤーをシミュレートします。 クリアコート、ラッカー、ワニスの作成に使用します。
 
 ![](../assets/coat-coatopacity.jpg)
 
@@ -215,7 +215,7 @@ Heightのスケールをシーン単位で指定します。 バンプとディ�
 
 ![](../assets/coat-coatcolor.jpg)
 
-**コートの粗さ**
+**Coat roughness**
 
 毛の表面がどれほど滑らかで艶消しされているのか。
 
@@ -227,13 +227,13 @@ Heightのスケールをシーン単位で指定します。 バンプとディ�
 
 ![](../assets/cooat-coatior.jpg)
 
-**コートSpecular level**
+**Coat specular level**
 
-斜めから見たときにコートに映る光の強さ。
+光の反射の強さは、斜めにコートを照らします。
 
 ![](../assets/coat-coatspecular.jpg)
 
-**標準のコート**
+**Coat normal**
 
 毛の表面にバンプや亀裂などのサーフェスのディテールをシミュレートします。
 
@@ -241,4 +241,4 @@ Heightのスケールをシーン単位で指定します。 バンプとディ�
 
 **コート標準スケール**
 
-コートの強さ通常の効果。
+coat normal効果の強さ。

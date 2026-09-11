@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/wear-and-finish/snow.html"
 breadcrumb-title: ''
-description: Substance 3D SamplerのSnowフィルターを使用して、マテリアルにリアルな積雪と冬の気象効果を加えます。
+description: Substance 3D SamplerのSnowフィルターを使用して、マテリアルにリアルな積雪や冬の気象効果を加えます。
 helpx_creative_field: ""
 helpx_description: Sampler > Filters > Wear and Finish > Snow
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## 説明
 
-**Snowフィルター**&#x200B;を使用すると、粉塵から数フィートの雪まであらゆるものを素材に加えることができます。
+**Snowフィルター**&#x200B;を使用すると、ほこりや数フィートの雪をマテリアルに加えることができます。
 
 ![](../../assets/snow-compare.png)
 

@@ -7,7 +7,7 @@ helpx_description: Sampler > Technical Support > Technical Issues > Performance 
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: レイヤースタックまたはその他の要素と相互作用すると、インターフェイスの反応が遅くなる
+title: レイヤースタックまたはその他の要素と対話する際にインターフェイスの遅延が発生する
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 55277f7a92e97bf530dd2a2edf4e16c88bb57793
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# レイヤースタックまたはその他の要素と相互作用すると、インターフェイスの反応が遅くなる
+# レイヤースタックまたはその他の要素と対話する際にインターフェイスの遅延が発生する
 
 古いWacomドライバーがインストールされている場合の問題を特定しました。
 

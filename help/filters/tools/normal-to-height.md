@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/tools/normal-to-height.html"
 breadcrumb-title: ''
-description: Substance 3D Samplerの法線Heightツールを使用して、法線マップをマテリアル作成ワークフロー用のHeightマップに変換します。
+description: Substance 3D Samplerの通常からHeightツールを使用して、マテリアル作成ワークフロー用に法線マップを高さマップに変換します。
 helpx_creative_field: ""
 helpx_description: Sampler > Filters > Tools > Normal to Height
 helpx_experience_level: ""
@@ -35,7 +35,7 @@ ht-degree: 2%
 
 通常のチャンネルに基づいてHeight情報を生成します。
 
-下の画像は、**Heightに垂直フィルター**&#x200B;の動作を示しています。 最初の画像では、HeightマップにHeight情報がありません。 2番目の画像では、**Heightに垂直** **フィルター**&#x200B;を適用した後、リアルなHeightマップが生成されます。
+下の画像は、**Heightに垂直フィルター**&#x200B;の動作を示しています。 最初の画像では、高さマップにはHeight情報がありません。 2番目の画像では、**Heightに垂直** **フィルター**&#x200B;を適用した後、リアルな高さマップが生成されます。
 
 ![](../../assets/3d-2d-filters-cropped-0009-normal-to-height-in.jpg)![](../../assets/filters-cropped-0008-normal-height-out.jpg)
 
@@ -45,4 +45,4 @@ ht-degree: 2%
 
 ## パラメーター
 
-このフィルターにはパラメーターがありません。 レイヤースタックの一番上に追加するだけで使用できます。
+このフィルターにはパラメーターがありません。 レイヤースタックの上部に追加するだけで使用できます。

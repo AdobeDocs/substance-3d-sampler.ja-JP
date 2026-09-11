@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/interface/panels/assets-panel.html"
 breadcrumb-title: ''
-description: Substance 3D Samplerのアセットパネルを使用して、素材アセットやリソースを参照、整理、利用する方法を説明します。
+description: Substance 3D Samplerのアセットパネルを使用して、マテリアルのアセットやリソースを参照、整理、利用する方法を説明します。
 helpx_creative_field: ""
 helpx_description: Sampler > Interface > Panels > Assets panel
 helpx_experience_level: ""
@@ -37,9 +37,9 @@ ht-degree: 1%
 
 ## 追加のチャンネルを有効にする
 
-アセットパネルからレイヤースタックにマテリアルをドラッグ&amp;ドロップすると、余分なチャンネルをアクティブにするよう求められることがあります。 この機能は、アセットで現在アクティブ化されていないチャンネルがマテリアルから出力された場合に提供されます。 異方性効果やコーティングなど、複雑な素材を利用する場合は、この機能を有効にします。
+アセットパネルからレイヤースタックにマテリアルをドラッグ&amp;ドロップすると、余分なチャンネルを有効にするよう求められることがあります。 これは、アセットで現在アクティベートされていないチャンネルをマテリアルが出力した場合に提供されます。 異方性エフェクトやコーティングなど、複雑なマテリアルを利用する場合は、この機能を有効にします。
 
-![レイヤースタックにマテリアルが追加されると、チャネルのアクティブ化がポップアップします](../../../help/assets/sampler_assets-panel_additional-channels-activation.png)
+![マテリアルがレイヤースタックに追加されると、チャンネルのアクティブ化ポップアップが表示されます](../../../help/assets/sampler_assets-panel_additional-channels-activation.png)
 
 >[!NOTE]
 >

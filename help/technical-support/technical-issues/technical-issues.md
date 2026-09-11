@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## フィルターの問題
 
-* [画像のマテリアルへの変換とDelighterがありません](filter-issues/image-to-material-and-delighter-are-missing.md)
+* [「画像からマテリアル」と「採光」が表示されない](filter-issues/image-to-material-and-delighter-are-missing.md)
 
 ## インターフェイスの問題
 
@@ -38,11 +38,11 @@ ht-degree: 0%
 ## パフォーマンスの問題
 
 * [カラーピッカーを最初に開くのに時間がかかる](performance-issues/color-picker-takes-long-time-to-open-the-first-time.md)
-* [レイヤースタックまたはその他の要素と相互作用すると、インターフェイスの反応が遅くなる](performance-issues/interface-lags-when-interacting-with-the-layer-stack-or-other-elements.md)
+* [レイヤースタックまたはその他の要素と対話する際にインターフェイスの遅延が発生する](performance-issues/interface-lags-when-interacting-with-the-layer-stack-or-other-elements.md)
 
 ## 安定性の問題
 
-* [マテリアルを書き出すとクラッシュする](stability-issues/crash-when-exporting-a-material.md)
+* [マテリアルの書き出し時のクラッシュ](stability-issues/crash-when-exporting-a-material.md)
 * [画像をマテリアルまたは採光に使用するとクラッシュする](stability-issues/crash-when-using-the-image-to-material-or-delighter.md)
 
 ## スタートアップの問題

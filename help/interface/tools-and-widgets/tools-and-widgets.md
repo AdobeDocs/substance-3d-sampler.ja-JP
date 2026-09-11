@@ -20,9 +20,9 @@ ht-degree: 2%
 左側のサイドバーに表示されるツールは、よく使用するフィルターにすばやくアクセスするためのショートカットです。 フィルターについて詳しくは、**[フィルター](../../filters/filters.md)/[ツール](../../filters/tools/tools.md)**&#x200B;を参照するか、サイドバーの各ツールについて以下のリンクを参照してください。
 
 * [切り抜き](../../filters/tools/crop-tool.md)
-* [遠近グリッド上で変形](../../filters/tools/perspective-correction.md)
+* [変形](../../filters/tools/perspective-correction.md)
 * [変形](../../filters/tools/transform.md)
-* [コピースタンプ](../../filters/tools/clone-stamp.md)
+* [クローンスタンプ](../../filters/tools/clone-stamp.md)
 
 フィルター以外のツールと機能の概要は、次の記事で説明しています。
 

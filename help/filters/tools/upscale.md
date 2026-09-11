@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/tools/upscale.html"
 breadcrumb-title: ''
-description: Substance 3D Samplerのアップスケールツールを使用すると、AIを活用したアップスケールテクノロジーにより、テクスチャ解像度を上げることができます。
+description: Substance 3D Samplerのアップスケールツールを使用し、AIを活用したアップスケールテクノロジーにより、テクスチャの解像度を上げることができます。
 helpx_creative_field: ""
 helpx_description: Substance 3D Sampler
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## 説明
 
-<b>アップスケール</b>フィルターは、AIを使用して、PBRチャンネル（ベースカラー、粗さ、標準、メタリック、Height）をその下のレイヤーからアップサンプリングします。
+<b>アップスケール</b>フィルターは、AIを使用して、PBRチャンネル（ベースカラー、ラフネス、通常、メタリック、Height）をその下のレイヤーからアップサンプリングします。
 
 <table>
 <tr style="border: 0;">
@@ -79,8 +79,8 @@ ht-degree: 2%
 
 ![](../../assets/SAPR_Upscale_screen_001.png)
 
-上の画像では、低解像度の画像が[Image to Material (AI Powered)](image-to-material.md)によって処理されます。
+上の画像では、低解像度の画像が[画像からマテリアル（AI搭載）](image-to-material.md)によって処理されます。
 
 ![](../../assets/SAPR_Upscale_Screen_003.png)
 
-<b>アップスケール</b>フィルターが追加され、結果のサンプルがアップされます。 素材の品質を保ったまま、より高い解像度に到達するためにディテールをハリキュートします。 プロパティでを選択して、2または4でアップサンプルできます。
+<b>アップスケール</b>フィルターが追加され、結果のサンプルがアップされます。 マテリアルの質を保ったまま、より高い解像度に到達するためにディテールを半透明にします。 プロパティでを選択して、2または4でアップサンプルできます。

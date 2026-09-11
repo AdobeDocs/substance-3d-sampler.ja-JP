@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/features-and-workflows/texture-import.html"
 breadcrumb-title: ''
-description: Substance 3D Samplerにテクスチャを読み込んで、マテリアルの作成ワークフローで既存の画像ファイルを使用する方法について説明します。
+description: マテリアルをSubstance 3D Samplerに読み込んで、テクスチャ作成ワークフローで既存の画像ファイルを使用する方法について説明します。
 helpx_creative_field: ""
 helpx_description: Sampler > Features and workflows > Texture Import
 helpx_experience_level: ""
@@ -24,26 +24,26 @@ ht-degree: 8%
 
 **テクスチャの読み込み**&#x200B;テンプレートは、複数の画像を読み込み、ファイル名に基づいて適切な出力チャンネルに自動的に接続します。
 
-チャンネルマッチングは、以下に詳述する特定の命名規則に基づいています。 重複または一致しないテクスチャの場合、インターフェイスで画像がそのようにマークされます。
+チャンネルマッチングは、以下に詳述する特定の命名規則に基づいています。 重複するテクスチャや一致しない重複の場合、インターフェイスでそのようにマークされます。
 
 ## OpenPBR
 
-Samplerは、次のOpenPBR IDを持つファイルをマテリアル内の対応するチャンネルと一致させます。
+Samplerでは、次のOpenPBR識別子を持つファイルが、マテリアル内の対応するチャンネルと一致します。
 
 >[!NOTE]
 >
-> Height・チャネルIDは、ASMで使用されるIDと同じです。
+> Height・チャネル・識別子は、ASMで使用するものと同じです。
 
 
-| OPENPBR ID | SBSARの使用状況 |
+| 識別子 | SBSARの使用状況 |
 | --- | --- |
 | base_weight | baseWeight |
 | base_color | baseColor |
-| base_metalness | 金属度/メタリック |
-| base_diffuse_roughness | baseDiffuseRoughness |
+| base_metalness | メタル/メタリック |
+| base_diffuse_ラフネス | baseDiffuseRoughness |
 | Specularの太さ | specularWeight |
 | Specularカラー | specularColor |
-| Specular_ラフネス | 鏡面反射光の粗さ/粗さ |
+| Specular_ラフネス | 鏡面反射光の粗さ/ラフネス |
 | Specular_ラフネス_異方性 | specularRoughnessAnisotropy/anisotropyLevel |
 | Specular_ior | specularIOR/IOR |
 | transmission_weight | transmissionWeight |
@@ -51,24 +51,24 @@ Samplerは、次のOpenPBR IDを持つファイルをマテリアル内の対応
 | transmission_深度 | transmissionDepth/absorptionDistance |
 | transmission_散乱 | transmissionScatter |
 | transmission_散乱_異方性 | transmissionScatterAnisotropy |
-| transmission_dispersion_scale | transmissionDispersionScale |
-| transmission_dispersion_abbe_number | transmissionDispersionAbbeNumber |
-| subsurface_weight | subsurfaceWeight/半透明度 |
+| transmission_分散_scale | transmissionDispersionScale |
+| transmission_分散_abbe_number | transmissionDispersionAbbeNumber |
+| subsurface_weight | subsurfaceWeight/translucency |
 | subsurface_color | subsurfaceColor/scatteringColor |
 | subsurface_radius | subsurfaceRadius/scatteringDistance |
 | subsurface_radius_scale | subsurfaceRadiusScale/scatteringDistanceScale |
 | subsurface_散乱_異方性 | subsurfaceScatterAnisotropy |
 | coat_weight | coatWeight/coatOpacity |
 | coat_color | coatColor |
-| coat_roughness | coatRoughness |
-| coat_roughness_異方性 | coatRoughnessAnisotropy |
+| コートラフネス | coatRoughness |
+| coat_ラフネス_異方性 | coatRoughnessAnisotropy |
 | coat_ior | coatIOR |
 | coat_darking | coatDarking |
 | fuzz_weight | fuzzWeight/sheenOpacity |
 | fuzz_color | fuzzColor/sheenColor |
-| fuzz_roughness | fuzzRoughness/sheenRoughness |
+| fuzz_ラフネス | fuzzRoughness/sheenRoughness |
 | emission_weight | emissionWeight |
-| emission_luminance | emissionLuminance |
+| 発光輝度 | emissionLuminance |
 | emission_color | emisiveColor/emisive |
 | thin_film_weight | thinFilmWeight |
 | 薄膜Thickness | thinFilmThickness |

@@ -22,4 +22,4 @@ ht-degree: 5%
 
 | プリセット | 互換性 | パッキング出力の説明 |
 | --- | --- | --- |
-| Keyshot9+ | <ul data-preserve-html="true"> <li data-preserve-html="true">PBRメタリック/粗さ</li> </ul> | <b>base\_color</b> <b>通常</b> <b>粗さ</b> <b>メタリック</b> <b>ディスプレイスメント</b> <b>放射能</b> <b>不透明度</b> <b>Specular</b> |
+| Keyshot9+ | <ul data-preserve-html="true"> <li data-preserve-html="true">PBRメタリック/ラフネス</li> </ul> | <b>base\_color</b> <b>通常</b> <b>ラフネス</b> <b>メタリック</b> <b>ディスプレイスメント</b> <b>emissive</b> <b>不透明度</b> <b>Specular</b> |

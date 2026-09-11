@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/pipeline-and-integrations/substance-connector.html"
 breadcrumb-title: ''
-description: Substance 3D SamplerでSubstanceのSend-to機能を使用し、コネクター経由で他のアプリケーションに直接アセットを送信する方法について説明します。
+description: Substance 3D SamplerでSubstanceのSend-to機能を使用し、コネクター経由で他のアプリケーションにアセットを直接送信する方法を説明します。
 helpx_creative_field: ""
 helpx_description: Substance 3D Sampler
 helpx_experience_level: ""
@@ -20,10 +20,10 @@ ht-degree: 0%
 
 # 任意のアプリに送信
 
-4.5 Samplerリリースから、コネクタが実装されている任意のアプリにSamplerからアセットを直接送信できるようになりました。\
+4.5 Samplerリリースから、コネクターが実装されている任意のアプリにSamplerからアセットを直接送信できるようになりました。\
 これにより、Samplerからサードパーティ製品にアセットをワンクリックで送ることができるため、手動で書き出しや読み込みを行う必要がなくなり、時間を節約できます。
 
-現在、Send-toはBlender、Unreal Engine、Unity、3ds Max、MayaでSubstanceプラグインを通じて使用できます。
+現在、Send-toはBlender、Unreal エンジン、Unity、3ds Max、MayaでSubstanceプラグインを通じて使用できます。
 
 ## サポート対象アプリのバージョン
 

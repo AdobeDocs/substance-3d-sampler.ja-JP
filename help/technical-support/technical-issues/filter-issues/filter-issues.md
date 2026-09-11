@@ -20,5 +20,5 @@ ht-degree: 0%
 
 # フィルターの問題
 
-* [画像のマテリアルへの変換とDelighterがありません](image-to-material-and-delighter-are-missing.md)
-* [画像からマテリアルのパープルの結果](image-to-material-visual-artefacts.md)
+* [「画像からマテリアル」と「採光」が表示されない](image-to-material-and-delighter-are-missing.md)
+* [画像からマテリアルにパープルを合成した結果](image-to-material-visual-artefacts.md)

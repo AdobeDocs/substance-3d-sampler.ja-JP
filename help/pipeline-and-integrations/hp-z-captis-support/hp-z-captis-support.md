@@ -28,4 +28,4 @@ HP Z CaptisのサポートがSamplerのメインビルドに統合され、Enter
 
 Adobe Substance 3D SamplerとHP Z Captisデバイスは別売りです。 詳細については、[HP Z Captisの公式ページ](https://www.hp.com/us-en/workstations/z-captis.html)を参照してください。
 
-詳細情報： HPとAdobeのマテリアルキャプチャの共同作業は、Siggraph 2024で発表されました： <https://www.hp.com/us-en/newsroom/blogs/2024/hp-z-captis.html>。 Oh HP Z Captis with Samplerのワークフローの目的は、あらゆる場所で素材を取り込み、実際の素材をデジタル化して3D制作を持続的に拡大し、スキャンデータをサプライチェーンに送り、素材の無駄を減らすことです。
+詳細： HPとAdobeのマテリアルキャプチャの共同作業は、Siggraph 2024で発表されました： <https://www.hp.com/us-en/newsroom/blogs/2024/hp-z-captis.html>。 Oh HP Z Captis with Samplerのワークフローの目的は、あらゆる場所で素材を取り込み、実際の素材をデジタル化して3D制作を持続的に拡大し、スキャンデータをサプライチェーンに送り、素材の無駄を減らすことです。

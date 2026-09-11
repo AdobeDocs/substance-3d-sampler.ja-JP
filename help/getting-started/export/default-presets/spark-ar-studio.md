@@ -24,4 +24,4 @@ ht-degree: 3%
 
 | プリセット | 互換性 | パッキング出力の説明 |
 | --- | --- | --- |
-| Spark AR Studio | <ul data-preserve-html="true"><li data-preserve-html="true">PBRメタリック/粗さ</li></ul> | **色**:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>RGB</strong>：基本色</li><li data-preserve-html="true"><strong>A</strong>：不透明度</li></ul>**ORM**:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>R</strong>:アンビエントオクルージョン</li><li data-preserve-html="true"><strong>G</strong>：粗さ</li><li data-preserve-html="true"><strong>B</strong>:メタリック</li></ul>**標準** (OpenGL)**放射性** |
+| Spark AR Studio | <ul data-preserve-html="true"><li data-preserve-html="true">PBRメタリック/ラフネス</li></ul> | **色**:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>RGB</strong>: Base color</li><li data-preserve-html="true"><strong>A</strong>：不透明度</li></ul>**ORM**:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>R</strong>: Ambient occlusion</li><li data-preserve-html="true"><strong>G</strong>: ラフネス</li><li data-preserve-html="true"><strong>B</strong>:メタリック</li></ul>**標準** (OpenGL)**Emissive** |

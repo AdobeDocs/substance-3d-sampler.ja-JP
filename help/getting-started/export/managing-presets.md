@@ -33,7 +33,7 @@ ht-degree: 1%
    1. <b>ファイル/書き出し形式…</b>を使用
    1. ショートカット<b>Ctrl + E.</b>を使用
 1. <b>書き出し</b>ウィンドウの左側で、<b>マテリアル設定</b>を選択します。
-1. 画像形式(EXR、JPEG、PNG、TARGA、TIFF)を選択します
+1. 画像形式を選択(EXR、JPEG、PNG、TARGA、TIFF)
 1. プリセットリストが表示されます。
 
 ![](../../assets/Managing-presets-Dropdown.png.img.png){width="400px"}
