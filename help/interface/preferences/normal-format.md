@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/interface/preferences/normal-format.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/interface/preferences/normal-format.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerで法線マップ形式の環境設定を行い、DirectX形式とOpenGL形式を切り替える方法について説明します。
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 5%
 
 # 法線の形式
 
-通常のマップは、<b>DirectX</b>形式を使用して処理されます。通常の形式の設定を変更して、OpenGL形式をインポートおよびエクスポートするには、<b> OpenGL</b>ワークフローを維持してください。
+法線マップは<b>DirectX</b>形式を使用して処理されます。通常の形式の設定を変更して、OpenGL形式のインポートおよびエクスポートを行うには、<b> OpenGL</b>ワークフローを維持してください。
 
 *既定： DirectX*
 
@@ -31,13 +31,13 @@ ht-degree: 5%
 
 ## 画像の読み込みレイヤー
 
-法線テクスチャを読み込むと、法線フォーマットは環境設定で選択したフォーマットに設定されます。
+標準テクスチャを読み込むと、標準フォーマットは環境設定で選択したフォーマットに設定されます。
 
 ### 書き出し
 
 #### SBSARおよびSBS
 
-normal形式は公開パラメータです。 このパラメータは、必要な形式で法線を生成するように、ホストアプリケーションによって微調整できます。
+通常の書式は表示されるパラメーターです。 このパラメータは、必要な形式で法線を生成するように、ホストアプリケーションによって微調整できます。
 
 #### 画像形式
 

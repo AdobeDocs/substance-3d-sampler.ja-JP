@@ -47,7 +47,7 @@ ht-degree: 16%
 + インターフェイス{#interface}
   + [インターフェイスの概要](/help/interface/interface.md)
   + [ホーム画面](/help/interface/the-home-screen.md)
-  + [2Dおよび3Dビューポート](/help/interface/2d-and-3d-viewport.md)
+  + [2Dおよび3D ビューポート](/help/interface/2d-and-3d-viewport.md)
   + [サイドバー](/help/interface/sidebars.md)
   + パネル{#panels}
     + [パネル概要](/help/interface/panels/panels.md)
@@ -82,7 +82,7 @@ ht-degree: 16%
     + [デカール](/help/filters/generators/decal.md)
     + [エンボス](/help/filters/generators/embossing.md)
     + [刺繍](/help/filters/generators/embroidery.md)
-    + [床タイル](/help/filters/generators/floor-tiles.md)
+    + [下限タイル](/help/filters/generators/floor-tiles.md)
     + [砂利](/help/filters/generators/gravel.md)
     + [パネル](/help/filters/generators/panel.md)
     + [寄木](/help/filters/generators/parquet.md)
@@ -115,12 +115,12 @@ ht-degree: 16%
     + [自動タイリング](/help/filters/tools/auto-tiling.md)
     + [チャネルの生成](/help/filters/tools/channels-generation.md)
     + [チャンネル切り替え](/help/filters/tools/channel-switch.md)
-    + [コピースタンプ](/help/filters/tools/clone-stamp.md)
+    + [クローンスタンプ](/help/filters/tools/clone-stamp.md)
     + [切り抜きツール](/help/filters/tools/crop-tool.md)
     + [Delight - AI搭載](/help/filters/tools/delight-ai-powered.md)
     + [AOのHeight](/help/filters/tools/height-to-ao.md)
     + [Heightを標準に](/help/filters/tools/height-to-normal.md)
-    + [画像からマテリアル](/help/filters/tools/image-to-material.md)
+    + [画像をマテリアルに](/help/filters/tools/image-to-material.md)
     + [並べて表示](/help/filters/tools/make-it-tile.md)
     + [ハイ / ローメッシュのマッチング](/help/filters/tools/match.md)
     + [マルチアングルからマテリアル](/help/filters/tools/multiangle-to-material.md)
@@ -130,7 +130,7 @@ ht-degree: 16%
     + [タイリング](/help/filters/tools/tiling.md)
     + [変形](/help/filters/tools/transform.md)
     + [縦糸](/help/filters/tools/warp.md)
-    + [ワープの変形](/help/filters/tools/warp-transform.md)
+    + [ワープ変形](/help/filters/tools/warp-transform.md)
     + [アップスケール](/help/filters/tools/upscale.md)
   + HDRI ツール{#hdri-tools}
     + [HDRI ツールの概要](/help/filters/hdri-tools/hdri-tools.md)
@@ -176,8 +176,8 @@ ht-degree: 16%
   + [ビットマップとして使用](/help/features-and-workflows/use-as-bitmap.md)
   + [Adobe Standard Material](/help/features-and-workflows/adobe-standard-material.md)
   + [OpenPBR](/help/features-and-workflows/openpbr.md)
-  + 高度なマテリアル{#advanced-materials}
-    + [高度なマテリアルを作成](../features-and-workflows/create-advanced-materials/advanced-materials.md)
+  + 詳細マテリアル{#advanced-materials}
+    + [詳細マテリアルを作成](../features-and-workflows/create-advanced-materials/advanced-materials.md)
     + [毛羽立ち](../features-and-workflows/create-advanced-materials/fuzz.md)
     + [コート](../features-and-workflows/create-advanced-materials/coating.md)
     + [サブサーフェス](../features-and-workflows/create-advanced-materials/subsurface.md)
@@ -192,7 +192,7 @@ ht-degree: 16%
     + [HP Z Captisデバイスの必要システム構成](/help/pipeline-and-integrations/hp-z-captis-support/system-requirements-to-use-hp-z-captis.md)
     + [SamplerでのHP Zサポートに関するFAQ](/help/pipeline-and-integrations/hp-z-captis-support/faq-hp-z-captis-support-in-sampler.md)
     + [既知の問題と制限事項](/help/pipeline-and-integrations/hp-z-captis-support/known-issues-and-limitations-hp-z-captis-support.md)
-  + [田島輸出業者プラグイン](/help/pipeline-and-integrations/tajima-exporter-plugin.md)
+  + [田島エクスポータープラグイン](/help/pipeline-and-integrations/tajima-exporter-plugin.md)
 + テクニカルサポート{#technical-support}
   + [テクニカルサポートの概要](/help/technical-support/technical-support.md)
   + [ログファイルをエクスポートしています](/help/technical-support/exporting-the-log-file.md)
@@ -209,7 +209,7 @@ ht-degree: 16%
     + [Substance 3D SamplerでのSubstance Alchemistプロジェクトの読み込み](/help/technical-support/technical-issues/data-or-project-issues/import-substance-alchemist-projects-in-substance-3d-sampler.md)
   + フィルターの問題{#filter-issues}
     + [フィルターの問題の概要](/help/technical-support/technical-issues/filter-issues/filter-issues.md)
-    + [画像のマテリアルへの変換とDelighterがありません](/help/technical-support/technical-issues/filter-issues/image-to-material-and-delighter-are-missing.md)
+    + [「画像からマテリアル」と「採光」が表示されない](/help/technical-support/technical-issues/filter-issues/image-to-material-and-delighter-are-missing.md)
     + [画像からマテリアルへのビジュアルアーティファクト](/help/technical-support/technical-issues/filter-issues/image-to-material-visual-artefacts.md)
   + インターフェイスの問題{#interface-issues}
     + [インターフェイスの問題の概要](/help/technical-support/technical-issues/interface-issues/interface-issues.md)
@@ -218,11 +218,11 @@ ht-degree: 16%
   + パフォーマンスの問題{#performance-issues}
     + [パフォーマンスの問題の概要](/help/technical-support/technical-issues/performance-issues/performance-issues.md)
     + [カラーピッカーを最初に開くのに時間がかかる](/help/technical-support/technical-issues/performance-issues/color-picker-takes-long-time-to-open-the-first-time.md)
-    + [レイヤースタックまたはその他の要素と相互作用すると、インターフェイスの反応が遅くなる](/help/technical-support/technical-issues/performance-issues/interface-lags-when-interacting-with-the-layer-stack-or-other-elements.md)
+    + [レイヤースタックまたはその他の要素と対話する際にインターフェイスの遅延が発生する](/help/technical-support/technical-issues/performance-issues/interface-lags-when-interacting-with-the-layer-stack-or-other-elements.md)
   + 安定性の問題{#stability-issues}
     + [安定性の問題の概要](/help/technical-support/technical-issues/stability-issues/stability-issues.md)
-    + [マテリアルを書き出すとクラッシュする](/help/technical-support/technical-issues/stability-issues/crash-when-exporting-a-material.md)
-    + [画像をマテリアルまたは採光に使用するとクラッシュする](/help/technical-support/technical-issues/stability-issues/crash-when-using-the-image-to-material-or-delighter.md)
+    + [マテリアルの書き出し時のクラッシュ](/help/technical-support/technical-issues/stability-issues/crash-when-exporting-a-material.md)
+    + [画像をマテリアルまたはハイライトに使用するとクラッシュが発生する](/help/technical-support/technical-issues/stability-issues/crash-when-using-the-image-to-material-or-delighter.md)
   + スタートアップの問題{#startup-issues}
     + [スタートアップの問題の概要](/help/technical-support/technical-issues/startup-issues/startup-issues.md)
     + [アプリケーションがLinuxで起動しない](/help/technical-support/technical-issues/startup-issues/application-doesn-t-start-on-linux.md)

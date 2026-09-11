@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/release-notes/old-versions/version-0-8-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/release-notes/old-versions/version-0-8-1.html"
 breadcrumb-title: ''
 description: アップデート、機能向上およびバグ修正について詳しくは、 Substance 3D Samplerバージョン0.8.1のリリースノートを確認してください。
 helpx_creative_field: ""
@@ -27,14 +27,14 @@ ht-degree: 0%
 **固定**:
 
 * [作成]クイックアクセサーには一部のフィルターが表示されましたが、フィルターパネルには表示されませんでした
-* [MacOS]終了時のクラッシュを修正しました
+* [MacOS]終了時にいくつかのクラッシュを修正しました
 
 **既知の問題：**
 
-* 1つのマテリアルに複数の区切り文字を使用することはお勧めしません
-* 古いNVIDIAドライバー（400.x未満）でDelighterがクラッシュする
+* 1つのマテリアルに複数の区切り記号を使用することはお勧めしません
+* 古いNVIDIAドライバー（400.x未満）のクラッシュを喜ばせる
 * Delighterステージをすばやく表示トグルすることはお勧めしません
 * 画像読み込みレイヤーのプロパティパネルにTIF画像が表示されない
 * スライダーに特定の値を入力するときは、昏睡やポイントを無視することができます
-* 「通常からHeight」フィルターは、MacOSでクラッシュする可能性があります
-* macOSで終了時にランダムにクラッシュすることがある
+* macOSで「Heightに垂直」フィルターがクラッシュすることがある
+* macOSで終了時に引き続きランダムにクラッシュする可能性がある

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/technical-support/configuration/retrieving-the-installation-path.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/technical-support/configuration/retrieving-the-installation-path.html"
 breadcrumb-title: ''
 description: スクリプト作成や設定用に、異なるプラットフォーム上のSubstance 3D Samplerのインストールパスを取得する方法について説明します。
 helpx_creative_field: ""
@@ -27,14 +27,14 @@ ht-degree: 6%
 ### Creative Cloud デスクトップ
 
 1. Windowsレジストリエディター(**regedit**)を開きます。
-1. レジストリキーに移動します： **&#x200B; HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\**
+1. レジストリキーに移動します： ** HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\**
 1. **Adobe Substance 3D Sampler.exe**&#x200B;というサブキーを開きます
 1. キーの値には、インストールされているアプリケーションの実行可能ファイルへのパスが含まれています
 
 >[!NOTE]
 >
 > このレジストリキーは、バージョン3以降でのみ使用できます。\
-> 古いバージョンの場合、インストールパスは&#x200B;**HKEY\_CURRENT\_USER\Software\Microsoft\Windows\CurrentVersion\ Explorer\FileExts**&#x200B;のファイル関連付けから取得できます。
+> 以前のバージョンの場合、インストールパスは、**HKEY\_CURRENT\_USER\Software\Microsoft\Windows\CurrentVersion\ エクスプローラー\FileExts**&#x200B;のファイル関連付けから取得できます。
 
 ### Substance 3D Standalone
 

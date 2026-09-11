@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/home.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/home.html"
 breadcrumb-title: ''
-description: Substance 3D Samplerを使って、画像からのマテリアルの作成、環境光の編集、マテリアルライブラリの構築を始めましょう。
+description: Substance 3D Samplerを使い、画像からマテリアルを作成、環境光を編集、マテリアルライブラリを構築しましょう。
 helpx_creative_field: ""
 helpx_description: Sampler
 helpx_experience_level: ""
@@ -26,7 +26,7 @@ ht-degree: 12%
 
 <b>Substance 3D Sampler </b>を使用すると、物理的な素材のデジタルツインを作成できます。
 
-<b>オールインワンのデジタル化ソフトウェア</b>で、パワフルなツールを使って素材、モデル、照明をキャプチャ、処理、補強できます。
+<b>オールインワンのデジタル化ソフトウェア</b>を利用して、マテリアル、モデル、照明を強力なツールでキャプチャ、処理、強化できます。
 
 様々な手法と制作手法を組み合わせて正確なデジタルマテリアルを作成し、書き出して他のSubstanceやサードパーティの3Dアプリで使用できます。
 

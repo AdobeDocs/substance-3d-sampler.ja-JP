@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/jp/substance-3d-sampler/filters/custom-filters.html'
+helpx_url: 'https://helpx.adobe.com/substance-3d-sampler/filters/custom-filters.html'
 breadcrumb-title: ''
 description: Substance 3D Samplerでカスタムフィルターを使用して、Substance Designerフィルターとカスタムエフェクトの機能を拡張する方法を説明します。
 helpx_creative_field: ''
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ## Substanceカスタムフィルター
 
-Adobe Substance 3D Designerで作成したフィルターは、レイヤースタックアクションの「*読み込み*」ボタンを使用して読み込むことができます。
+Adobe Substance 3D Designerで作成したフィルターは、レイヤースタック操作の「*読み込み*」ボタンを使用して読み込むことができます。
 
 ### Substanceフィルターの作成
 
@@ -40,7 +40,7 @@ Samplerに読み込まれたフィルターが正しく動作するには、Desi
 
 >[!NOTE]
 >
-> Samplerでは、フィルターパラメーターを公開して、フィルターを直接制御できます。 [こちら](https://experienceleague.adobe.com/ja/docs/substance-3d-designer/using/substance-graphs/manage-parameters/exposing-a-parameter)を参照してください
+> Samplerでは、フィルターパラメーターを表示して、フィルターを直接制御できます。 [こちら](https://experienceleague.adobe.com/en/docs/substance-3d-designer/using/substance-graphs/manage-parameters/exposing-a-parameter)を参照してください
 
 #### 画像を変更するフィルターの作成
 
@@ -63,7 +63,7 @@ Samplerに読み込まれたフィルターが正しく動作するには、Desi
 | *Specular* | **Specular** |
 | *Specular level* | **specularlevel** |
 | *メタリック* | **メタリック** |
-| *粗さ* | **粗さ** |
+| *粗さ* | **ラフネス** |
 | *光沢* | **光沢** |
 | *標準* | **通常** |
 | *Height* | **Height** |
@@ -78,15 +78,15 @@ Samplerに読み込まれたフィルターが正しく動作するには、Desi
 
 >[!IMPORTANT]
 >
-> パッケージ内に、画像を処理する1つのグラフ（scan1からscanX）と、マテリアルを処理する1つのグラフ（PBRチャンネル）がある場合、Samplerは、レイヤースタック内でのフィルターの挿入場所に応じて適切なグラフを選択できます。
+> パッケージ内に、画像を処理するグラフ（scan1からscanX）とマテリアルを処理するグラフ（PBRチャンネル）が1つある場合、Samplerは、レイヤースタックのどこにフィルターが挿入されるかに応じて適切なグラフを選択できます。
 >
 > 「画像」グラフで、次のユーザーデータを追加します。
 >
 > * alchemist::type=filter;alchemist::variation::type=multi
 >
-> 「マテリアル」グラフで、次のユーザーデータを追加します。
+> 「マテリアル」グラフで、以下のuserdataを追加します。
 >
-> * alchemist::type=filter;alchemist::variation::type=material
+> * alchemist::type=filter;alchemist::variation::type=マテリアル
 
 ### 特定のパラメーター
 
@@ -96,37 +96,37 @@ Samplerに読み込まれたフィルターが正しく動作するには、Desi
 
 アプリケーションの通常の形式を制御します。 SamplerでDirectXに設定
 
-**パラメーターID**: normalformat、normal_format、$normalformat、$normal_format
+**パラメーターの識別子**: normalformat、normal_format、$normalformat、$normal_format
 
 #### 入力カウント
 
-画像（scan1からscanX）を変更する場合は、**Image Count**&#x200B;パラメーターを使用して、レイヤースタック内の画像の数を使用できます。
+イメージ（scan1からscanX）を変更する場合は、**Image Count**&#x200B;パラメーターを使用して、レイヤースタック内のイメージの数を使用できます。
 
 * **パラメーターID**: input_count
-* **パラメーターの型**: integer1
+* **パラメーターの型**: 整数1
 
 #### マテリアルの入力
 
-Atlas Scatterやスプラッタのように、レイヤスタックにマテリアルスロットを表示する場合は、次の手順を実行します。
+Atlas Scatterやスプラッタなどのマテリアルスロットをレイヤースタックに表示する場合は、次の手順を実行します。
 
 * 新しい入力ノードのセットを追加します(ベースカラー(Base Color)、法線(Normal)、...)
-* 背景（レイヤースタックの一番下のマテリアル）のすべての入力ノードは、グループ&#x200B;**マテリアル1**&#x200B;に含まれている必要があります
-* 複数のマテリアルスロットが必要な場合は、最初に追加するマテリアルのすべての入力ノードをグループ&#x200B;**Material2**&#x200B;に含める必要があります。
-* マテリアル入力パラメータを追加します。
+* 背景のすべての入力ノード（レイヤースタックの下部のマテリアル）は、グループ&#x200B;**マテリアル1**&#x200B;に含まれている必要があります
+* 複数のマテリアルスロットを使用する場合は、最初に追加するマテリアルのすべての入力ノードをグループ&#x200B;**マテリアル2**&#x200B;に含める必要があります。
+* 入力パラメーターを追加します。
   * **パラメーター識別子**: material_input
-  * **パラメーターの型**: integer1
+  * **パラメーターの型**: 整数1
 
 #### ワークフロータイプ
 
 プロジェクトのワークフロー（PBRメタル/粗さまたはPBR Specular/光沢）に基づいて一部のパラメータの表示/非表示を切り替える場合は、[ワークフローの種類]パラメータを使用できます
 
-**パラメーター識別子**: workflow_type
+**パラメーターの識別子**: workflow_type
 
-**パラメーターの種類**: integer1、ドロップダウンリスト
+**パラメーターの種類**: 整数1、ドロップダウンリスト
 
 オプション：
 
-* 0: PBRメタリック/粗さ
+* 0: PBRメタリック/ラフネス
 * 1: PBR Specular/光沢
 
 ![](../assets/workflow-type.jpg){width="300px"}

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/adjustments/fold-remover.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/adjustments/fold-remover.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerの折り目の除去フィルターを使用すると、布地のテクスチャから折り目や折り目を除去して、すっきりとした質感を作成できます。
 helpx_creative_field: ""
@@ -44,7 +44,7 @@ ht-degree: 1%
 <b>基本パラメーター</b>
 
 * <b>タイルされた入力</b>：切り替え\
-  この設定を有効にすると、このフィルターによってタイリングマテリアルが壊れることはありません。
+  この設定を有効にすると、このフィルターによってマテリアルが解除されなくなります。
 * <b>半径</b>: 0 ～ 50\
   半径を調整して、フィルターが最小化しようとする折り目のサイズを制御します。 半径を小さくすると、細かいディテールが滑らかになります。
 * <b>ローカルの詳細</b>: 0-1\

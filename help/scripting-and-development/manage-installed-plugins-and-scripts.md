@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/scripting-and-development/manage-installed-plugins-and-scripts.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/scripting-and-development/manage-installed-plugins-and-scripts.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerでインストール済みのプラグインとスクリプトを管理し、カスタム拡張機能をインストール、変更、削除する方法について説明します。
 helpx_creative_field: ""
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 ## プラグインを管理
 
-デフォルトで使用可能なオプションは「プラグインを追加」のみです。 これにより、ファイルエクスプローラが開き、ロードするPYファイルを選択できます。
+デフォルトで使用可能なオプションは「プラグインを追加」のみです。 ファイルエクスプローラーが開き、ロードするPYファイルを選択できます。
 
 ![](../assets/manageplugins.png)
 

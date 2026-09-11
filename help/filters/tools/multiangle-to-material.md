@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/tools/multiangle-to-material.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/tools/multiangle-to-material.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのマルチアングルからマテリアルツールを使用して、サーフェスの複数のアングル写真からマテリアルを作成します。
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![](../../assets/sat-multi-angle.png)
 
-**マルチアングルからマテリアル**&#x200B;テンプレートは、特定の光条件で撮影された2 ～ 8枚の入力画像から素材を作成します。 このような光条件は、マテリアルスキャナーで実現できます。
+**マルチアングルからマテリアル**&#x200B;テンプレートは、特定の明るい条件下で撮影された2 ～ 8個の入力画像からマテリアルを作成します。 このような光条件は、マテリアルスキャナーで実現できます。
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ ht-degree: 0%
 次に、8つの入力画像から作成したマテリアルの例を示します。
 
 * 最初の8枚は8光度以下で撮影したスキャン画像です。
-* 下部の画像は、テンプレートの出力（ベースカラー、法線、Height、メタリック、ラフネス）です。
+* 下部の画像は、テンプレートの出力（base color、通常、Height、メタリック、ラフネス）です。
 
 ![](../../assets/scan-801x697.jpg){width="400px"}
 

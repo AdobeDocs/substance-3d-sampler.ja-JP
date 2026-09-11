@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/interface/tools-and-widgets/color-picker.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/interface/tools-and-widgets/color-picker.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのカラーピッカーを使用して、マテリアル、フィルター、テクスチャ編集用のカラーを選択する方法を説明します。
 helpx_creative_field: ""
@@ -54,7 +54,7 @@ RGB（レッド、グリーン、ブルー）とHSV（色相、彩度、明度�
 
 ![](../../assets/float-value.jpg){width="200px"}
 
-スライダーに浮動小数点または整数値を使用するかどうかを切り替えます。 浮動小数点値は0 ～ 1で、整数値は0 ～ 255です。
+スライダーに浮動小数点値を使用するか、整数値を使用するかを切り替えます。 浮動小数点値は0 ～ 1で、整数値は0 ～ 255です。
 
 **動的スライダー**
 

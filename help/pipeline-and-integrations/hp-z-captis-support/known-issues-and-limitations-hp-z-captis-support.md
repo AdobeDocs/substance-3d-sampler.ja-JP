@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/pipeline-and-integrations/hp-z-captis-support/known-issues-and-limitations-hp-z-captis-support.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/pipeline-and-integrations/hp-z-captis-support/known-issues-and-limitations-hp-z-captis-support.html"
 breadcrumb-title: ''
 description: Substance 3D SamplerでHP Z Captisを使用する際の既知の問題と制限事項を確認して、現在の制限事項と回避策を理解します。
 helpx_creative_field: ""
@@ -25,9 +25,9 @@ ht-degree: 0%
 * HP Z Captisワークフローを使用したSamplerは、現時点ではWindowsでのみ使用できます。
 
 * スキャンの実行中にデバイスを物理的に取り外しても、キャプチャは停止しません。 キャプチャ中にデバイスの接続が切断された場合は、30秒待ってから再接続して、進行中のキャプチャセッションに再接続できるようにします。
-* 現在書き出されている5つのマップは、[ベースカラー]、[粗さ]、[法線]、[Height]、[不透明度]です。
+* 現在書き出されている5つのマップは、Base color、ラフネス、法線、Height、不透明度です。
 * キャプチャ中にウィンドウを閉じると、入力されたメタデータが失われます。
 * USB経由でCaptisからデータを転送しているときに「コンテンツを参照」または「シャットダウン」ボタンのいずれかをクリックすると、転送が停止します。
 
-* TDRの問題がある場合は、Sustance Painterの[このドキュメントページ](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)を参照してください。このページが問題の修正に役立ちます。
+* TDRの問題がある場合は、Sustance Painterの[このドキュメントページ](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)を参照してください。このページが問題の修正に役立ちます。
 * デバイス内部のライブフィードを見る代わりに「プレビュー」の手順がすべて黒になっている場合は、レンズキャップをデバイスのコーン内部から取り外したことを確認してください。

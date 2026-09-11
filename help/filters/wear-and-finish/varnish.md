@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/wear-and-finish/varnish.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/wear-and-finish/varnish.html"
 breadcrumb-title: ''
-description: Substance 3D Samplerのワニスフィルターを使用して、光沢のあるニス効果と保護的なコーティング仕上げを素材に加えます。
+description: Substance 3D Samplerのワニスフィルターを使用して、マテリアルに光沢のあるニス効果と保護的なコーティング仕上げを加えます。
 helpx_creative_field: ""
 helpx_description: Sampler > Filters > Wear and Finish > Varnish
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## 説明
 
-マテリアルの上にニスのレイヤーを追加します。 このフィルターは主に、粗さを調整して、マテリアルが滑らかで洗練されたように見せます。
+マテリアルの上にニスのレイヤーを追加します。 このフィルターは主にラフネスを調整して、マテリアルを滑らかで洗練された印象にします。
 
 </td>
 </tr>
@@ -46,9 +46,9 @@ ht-degree: 1%
 * **ランダムシード**:\
   ランダムシードは、このフィルターのランダム度を使用する他のパラメーターのランダム値を決定します。
 * **コートの厚み**: 0 ～ 1\
-  ニスのThicknessを調整します。 この値を大きくすると、基本形状から法線とHeightの詳細の量が減少します。
-* **粗さ** : 0 ～ 1\
-  ニスの粗さを調整して、異なる仕上がりにします。
+  ニスのThicknessを調整します。 この値を大きくすると、基礎となるマテリアルから法線とHeightのディテールの量が減少します。
+* **ラフネス**: 0 ～ 1\
+  ニスのラフネスを調整して、異なる仕上がりにします。
 * **カスタムマスクを使用**：切り替え\
   カスタムマスクの使用を有効または無効にします。 有効にすると、次のパラメーターが表示されます。
   * **マスク**：画像/ブラシ\

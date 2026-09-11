@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/tools/channel-switch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/tools/channel-switch.html"
 breadcrumb-title: ''
-description: Substance 3D Samplerのチャンネル切り替えツールを使用して、マテリアルの作成時にテクスチャマップのカラーチャンネルを並べ替えたり、入れ替えたりすることができます。
+description: Substance 3D Samplerのチャンネル切り替えツールを使用して、マテリアルを作成するためにテクスチャマップのカラーチャンネルを再配置して入れ替えます。
 helpx_creative_field: ""
 helpx_description: Sampler > Filters > Tools > Channel Switch
 helpx_experience_level: ""
@@ -46,11 +46,11 @@ ht-degree: 1%
 * **出力チャンネル：**&#x200B;入力チャンネルの宛先チャンネルを選択します。
 * **不透明度：** 0-1\
   既存のチャンネル情報に対する相対的なチャンネル情報の不透明度を調整します。 つまり、新しいチャンネルの塗りつぶしを適用するために使用されるマスクの不透明度を制御します。
-* **描画モード**&#x200B;**:**&#x200B;ベースカラーチャンネルの描画モードを選択します。 描画モードを変更すると、チャンネルの外観が大きく変わる場合があります。
+* **描画モード****:**ベースカラーチャンネルの描画モードを選択します。 描画モードを変更すると、チャンネルの外観が大きく変わる場合があります。
 
 **詳細**
 
-* **マテリアルの入力：**&#x200B;入力として使用するマテリアルを選択します。
+* **マテリアル入力：**&#x200B;入力として使用するマテリアルを選択してください。
 
 **マスク**
 

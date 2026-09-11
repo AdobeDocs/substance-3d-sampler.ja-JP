@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/technical-support/technical-issues/stability-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/technical-support/technical-issues/stability-issues.html"
 breadcrumb-title: ''
-description: Substance 3D Samplerの安定性に関する問題のトラブルシューティングガイドにアクセスして、クラッシュやアプリケーションエラーを解決します。
+description: Substance 3D Samplerの安定性に関する問題のトラブルシューティングガイドにアクセスして、クラッシュとアプリケーションエラーを解決します。
 helpx_creative_field: ""
 helpx_description: Sampler > Technical Support > Technical Issues > Stability issues
 helpx_experience_level: ""
@@ -20,5 +20,5 @@ ht-degree: 0%
 
 # 安定性の問題
 
-* [マテリアルを書き出すとクラッシュする](crash-when-exporting-a-material.md)
-* [画像をマテリアルまたは採光に使用するとクラッシュする](crash-when-using-the-image-to-material-or-delighter.md)
+* [マテリアルの書き出し時のクラッシュ](crash-when-exporting-a-material.md)
+* [画像をマテリアルまたはハイライトに使用するとクラッシュが発生する](crash-when-using-the-image-to-material-or-delighter.md)

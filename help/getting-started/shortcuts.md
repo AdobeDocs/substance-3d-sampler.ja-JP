@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/getting-started/shortcuts.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/shortcuts.html"
 breadcrumb-title: ''
-description: Substance 3D Samplerのキーボードショートカットを使用して、ワークフローを高速化し、マテリアルの作成効率を高めることができます。
+description: Substance 3D Samplerのキーボードショートカットにアクセスして、ワークフローを高速化し、マテリアル作成の効率を高めることができます。
 helpx_creative_field: ""
 helpx_description: Sampler > Getting Started > Shortcuts
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 16%
 
 # ショートカット
 
-このページには、使用可能なすべてのキーボードショートカットとそのアクションが一覧表示されます。
+このページには、使用可能なすべてのキーボードショートカットとその操作が一覧表示されます。
 
 ## グローバルショートカット
 
@@ -31,10 +31,10 @@ ht-degree: 16%
 | 保存 | Ctrl + S | ⌘ + S |
 | 別名で保存 | Ctrl + Shift + S | ⌘ + Shift + S |
 | 書き出し | Ctrl + E | ⌘ + E |
-| 3Dビューのみ | 3 | 3 |
-| 2Dビューのみ | 2 | 2 |
+| 3D ビューのみ | 3 | 3 |
+| 2D ビューのみ | 2 | 2 |
 
-## 3Dビューのショートカット
+## 3D ビューショートカット
 
 | *アクション* | *ウィンドウ* | *MacOS* |
 | --- | --- | --- |
@@ -130,7 +130,7 @@ ht-degree: 16%
 </tr><tr><td>中央に配置した変形+比率を保持</td>
 <td>Shift+CTRL+マウスを左に押す</td>
 <td>Shift + <span class="NormalTextRun SCXW1728708 BCX0">⌘</span> +左向きマウス</td>
-</tr><tr><td colspan="3" data-highlight-colour="grey" title="背景色：グレー"><b>コピースタンプ</b></td>
+</tr><tr><td colspan="3" data-highlight-colour="grey" title="背景色：グレー"><b>クローンスタンプ</b></td>
 </tr><tr><td>新しいソース</td>
 <td>CTRL +マウスを左に押す</td>
 <td><span class="NormalTextRun SCXW1728708 BCX0">⌘</span> +マウスの左</td>

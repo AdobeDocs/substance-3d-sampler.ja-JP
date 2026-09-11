@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/wear-and-finish/dirt.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/wear-and-finish/dirt.html"
 breadcrumb-title: ''
-description: Substance 3D SamplerのDirtフィルターを使用して、マテリアルとテクスチャにリアルなDirtの重みと汚れの効果を加えます。
+description: Substance 3D SamplerのDirtフィルターを使用して、マテリアルやテクスチャにリアルなDirtの重ね合わせや汚れ効果を加えることができます。
 helpx_creative_field: ""
 helpx_description: Sampler > Filters > Wear and Finish > Dirt
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## 説明
 
-**Dirtフィルター**&#x200B;を使用して、素材の上にDirtを加えます。 **Dirtフィルター**&#x200B;は、素材が古く、手入れがされていない印象を与えるのに最適です。
+**Dirtフィルター**&#x200B;を使用して、マテリアルの上にDirtを追加します。 **Dirtフィルター**&#x200B;は、マテリアルを古く見せ、手入れが行き届いていないように見せるのに最適です。
 
 ![](../../assets/dirt-filter-ceramic-mozaic-tiles-before-tra.png)
 
@@ -56,31 +56,31 @@ ht-degree: 1%
   Dirtによってカバーされるサーフェス領域の範囲をコントロールします
 
 * <b>上のDirtスプレッド</b>: 0 ～ 1\
-  マテリアルの折り目に焦点を当てずに、Dirtで覆われる上面サーフェスをコントロールします
+  マテリアルの折り目に焦点を当てずに、Dirtで覆われる上面サーフェスを制御します
 
 * <b>Dirtのコントラスト</b>: 0 ～ 1 \
-  異なるDirtの領域の間のコントラストのレベルを調整して、Dirtと下になっているマテリアルのブレンド方法をコントロールします。
+  異なるマテリアルの斑点の間のコントラストのレベルを調整して、Dirtが下になっているDirtとどのようにブレンドするかをコントロールします。
 
 * <b>Dirtの不透明度</b>: 0 ～ 1 \
-  ベースカラーチャンネルのDirtの透明度を制御します。 1は完全に不透明です。
+  base colorチャンネルのDirtの透明度を制御します。 1は完全に不透明です。
 
 * <b>Dirtの色</b>: 0 ～ 1 \
   Dirtのカラーを選択します。
 
-* <b>Dirtの粗さ</b> : 0 ～ 1 \
-  マテリアルのサーフェス全体の光の散乱を調整する
+* <b>ラフネス</b>: 0 ～ 1 \
+  マテリアルの表面の光の散乱を調整する
 
-* <b>Dirtメタリック</b>: 0-1 \
+* <b>Dirt</b>: 0 ～ 1 \
   Dirtの表面の反射度を定義する
 
 * <b>Height</b>: 0 ～ 1 \
-  HeightマップへのDirtの影響を制御します
+  Dirtが高さマップに与える影響を制御します
 
 * <b>Dirtの標準強度</b>: 0 ～ 1 \
-  Dirtレベルが法線マップに与える影響を制御します
+  Dirtレベルが法線マップに与える影響を制御
 
 * <b>表面の不完全性を使用</b>：切り替え \
   サーフェスの不完全性の使用を有効または無効にします。 有効にすると、追加のコントロールが表示されます。
 
   <b>表面の欠陥</b>：画像 \
-  画像を読み込んで、表面の凹凸として使用するか、Samplerアセットライブラリのデフォルトで使用可能な「ステイン」や「Bnwスポット」などのテクスチャジェネレーターを使用します
+  画像を読み込んで、表面の凹凸として使用するか、Samplerアセットライブラリでデフォルトで使用可能な「ステイン」や「Bnwスポット」などのテクスチャジェネレーターを使用します

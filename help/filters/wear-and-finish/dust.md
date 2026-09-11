@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/wear-and-finish/dust.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/wear-and-finish/dust.html"
 breadcrumb-title: ''
-description: Substance 3D SamplerのDustフィルターを使用して、マテリアルとテクスチャにリアルなDustのアキュムレーション効果を加えます。
+description: Substance 3D SamplerのDustフィルターを使用して、マテリアルやテクスチャにリアルなDustのアキュムレーション効果を加えます。
 helpx_creative_field: ""
 helpx_description: Sampler > Filters > Wear and Finish > Dust
 helpx_experience_level: ""
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ## 表示
 
-Dustスプラッタレイヤは、マテリアルにDustを加え、Dustがどのように広がるかを定義するために使用します。
+Dustスプラッターレイヤーは、DustにDustを加え、マテリアルの広がりを定義するために使用されます。
 
 ![](../../assets/before-after-1.png)
 

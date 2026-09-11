@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/technical-support/technical-issues/filter-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/technical-support/technical-issues/filter-issues.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのフィルターに関する問題のトラブルシューティングガイドにアクセスして、フィルターが見つからない場合およびフィルター関連の問題を解決します。
 helpx_creative_field: ""
@@ -20,5 +20,5 @@ ht-degree: 0%
 
 # フィルターの問題
 
-* [画像のマテリアルへの変換とDelighterがありません](image-to-material-and-delighter-are-missing.md)
-* [画像からマテリアルのパープルの結果](image-to-material-visual-artefacts.md)
+* [「画像からマテリアル」と「採光」が表示されない](image-to-material-and-delighter-are-missing.md)
+* [画像からマテリアルにパープルを合成した結果](image-to-material-visual-artefacts.md)

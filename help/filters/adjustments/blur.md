@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/adjustments/blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/adjustments/blur.html"
 breadcrumb-title: ''
-description: Substance 3D Samplerのぼかしフィルターを使用して、ぼかし効果を適用し、テクスチャおよびマテリアルレイヤーでの画像のシャープさを軽減します。
+description: Substance 3D Samplerのぼかしフィルターを使用して、ブラーエフェクトを適用し、テクスチャレイヤーとマテリアルレイヤーの画像のシャープを軽減します。
 helpx_creative_field: ""
 helpx_description: Sampler > Filters > Adjustments > Blur
 helpx_experience_level: ""
@@ -33,9 +33,9 @@ ht-degree: 2%
 
 ## 説明
 
-マテリアル全体をぼかすか、特定のチャンネルを選択してぼかします。
+マテリアル全体をぼかすか、ぼかしたいチャンネルを選択します。
 
-**ぼかしフィルター**&#x200B;の下の画像は、基本カラーチャンネルに適用されています。
+**ぼかしフィルター**&#x200B;の下の画像がbase colorチャンネルに適用されました。
 
 <table>
 <tr style="border: 0;">
@@ -69,7 +69,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
-> チャンネル固有のぼかしは、マテリアル全体の&#x200B;**基本パラメーター> Intensity**&#x200B;ぼかしを上書きします。 したがって、マテリアルのぼかし強度を1に設定し、チャンネルを有効にしてぼかし強度を0に設定した場合、チャンネルはまったくブラーされませんが、他のすべてのチャンネルはぼかされます。
+> チャンネル固有のぼかしは、マテリアル全体の&#x200B;**基本パラメーター> Intensity**&#x200B;ぼかしを上書きします。 そのため、マテリアルぼかしの強さを1に設定し、チャンネルを有効にしてぼかしの強さを0に設定すると、チャンネルはまったくブラーされず、他のすべてのチャンネルがブラーされます。
 
 * ***チャンネル*** **– カスタムぼかしの強さ**：切り替え\
   チャンネル固有のぼかし値を有効にします。

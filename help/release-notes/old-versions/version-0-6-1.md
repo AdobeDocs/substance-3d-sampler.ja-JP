@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/release-notes/old-versions/version-0-6-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/release-notes/old-versions/version-0-6-1.html"
 breadcrumb-title: ''
 description: アップデート、機能向上およびバグ修正について詳しくは、 Substance 3D Samplerバージョン0.6.1のリリースノートを確認してください。
 helpx_creative_field: ""
@@ -24,9 +24,9 @@ ht-degree: 0%
 
 追加：
 
-* [Engine]最新のSubstance Designerバージョンと互換性を持たせるSubstance engineアップデート
+* [エンジン]最新のSubstance DesignerSubstance engineに対応するためのバージョン更新
 * [ライセンス]初回インストール時にライセンスフォルダを更新する
-* [レイヤー]レイヤースタックはいつでも再読み込みして、カスタムフィルターを更新できます
+* [レイヤー]カスタムフィルターを更新するために、いつでもレイヤースタックを再読み込みできます
 
 修正：
 

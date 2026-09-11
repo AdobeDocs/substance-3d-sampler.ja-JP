@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/scripting-and-development/create-a-script-with-python.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/scripting-and-development/create-a-script-with-python.html"
 breadcrumb-title: ''
 description: Substance 3D Sampler用のPythonスクリプトを作成してワークフローを自動化し、アプリケーション機能を拡張する方法について説明します。
 helpx_creative_field: ""
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## スクリプト例
 
-以下のスクリプトでは、マテリアルの各レイヤーに新しいランダムシードを選択して、マテリアルのバリエーションを自動的に作成します。 これは、特定のランダムシードに依存するのではなく、マテリアルを一般的なケースで使用できるようにするのに便利です。
+以下のスクリプトでは、マテリアルの各レイヤーに新しいランダムシードを選択し、マテリアルのバリエーションを自動作成します。 これは、特定のランダムシードに依存するのではなく、一般的な場合にマテリアルを使用できるようにするのに便利です。
 
 ### random\_seed\_variations.py
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/hdri-tools/shape-light.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/hdri-tools/shape-light.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのシェイプライトツールを使用して、カスタムシェイプの光源をHDRI環境に追加し、クリエイティブな照明を実現します。
 helpx_creative_field: ""
@@ -64,13 +64,13 @@ ht-degree: 0%
 * **ホットスポットの位置**: 0 ～ 1\
   ホットスポットの位置のオフセット
 * **マトリックスのオフセット**: -2 ～ 2\
-  シェイプのライトの位置を変更します。 **2Dビュー**&#x200B;でライトをドラッグして位置を変更することもできます。
+  シェイプのライトの位置を変更します。 **2D ビュー**&#x200B;のライトをドラッグして位置を変更することもできます。
 
 **図形**
 
 * **図形の露出(EV)**: 0 ～ 10\
   光の露光量の調整
-* **図形の硬さ**: 0 ～ 1\
+* **図形の硬さ**: 0-1\
   光のエッジをソフトにする
 * **ホットスポットのサイズ**: 0 ～ 1
 * **ホットスポットフォールオフ**: 0 ～ 1\

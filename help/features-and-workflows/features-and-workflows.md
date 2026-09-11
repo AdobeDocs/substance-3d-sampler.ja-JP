@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/features-and-workflows.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/features-and-workflows.html"
 breadcrumb-title: ''
-description: Substance 3D Samplerの機能やワークフローを紹介し、既存のアセットから詳細なマテリアルを作成したり、環境光を編集したりします。
+description: Substance 3D Samplerの機能やワークフローを紹介し、既存の環境光から詳細なマテリアルを作成したり、アセットを編集したりします。
 helpx_creative_field: ""
 helpx_description: Sampler > Features and workflows
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 6%
 
 # 機能とワークフロー
 
-Samplerは、既存のアセットから詳細なマテリアルをすばやく作成するのに最適なツールです。ただし、画像からマテリアルへの変換などのワークフローにより、Samplerは独自のツールになります。
+Samplerは、既存のアセットから詳細なマテリアルをすばやく作成するのに最適なツールですが、画像やマテリアルなどのワークフローにより、Samplerは独自のツールになります。
 
 このセクションでは、次のツールおよびワークフローの使用方法について説明します。
 

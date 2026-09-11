@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/adjustments/sharpen.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/adjustments/sharpen.html"
 breadcrumb-title: ''
-description: Substance 3D Samplerのシャープフィルターを使用して、テクスチャおよびマテリアルレイヤーの画像のシャープさとディテールを強調します。
+description: Substance 3D Samplerのシャープフィルターを使用して、テクスチャおよびマテリアルレイヤーの画像のシャープとディテールを強調します。
 helpx_creative_field: ""
 helpx_description: Sampler > Filters > Adjustments > Sharpen
 helpx_experience_level: ""
@@ -59,7 +59,7 @@ ht-degree: 2%
 * **カスタムマスクを使用**：切り替え\
   カスタムマスクの使用を有効または無効にします。 有効にすると、次のパラメーターが表示されます。
   * **マスク**：画像/ブラシ\
-    マスクとして使用する画像を選択するか、ブラシを使用して2Dビューでカスタムマスクを直接ペイント
+    マスクとして使用する画像を選択するか、ブラシを使用して2D ビュー内で直接カスタムマスクをペイントします
   * **カスタムマスク – ぼかし**: 0-1\
     マスクをぼかす
   * **カスタムマスク – 反転**：切り替え\

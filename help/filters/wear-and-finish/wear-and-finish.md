@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/wear-and-finish.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/wear-and-finish.html"
 breadcrumb-title: ''
-description: Substance 3D Samplerの損耗フィルターと表面仕上げフィルターを使用して、マテリアルの耐候性、老化性、表面仕上げの効果を加える方法を説明します。
+description: Substance 3D Samplerの損耗フィルターと仕上げフィルターを使用して、風化、経年変化、表面仕上げの効果をマテリアルに加える方法を説明します。
 helpx_creative_field: ""
 helpx_description: Sampler > Filters > Wear and Finish
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 5%
 
 # 磨耗と仕上げ
 
-Samplerの摩耗および仕上げフィルターを使用すると、素材の外観をすばやく変えることができます。 **錆**&#x200B;や&#x200B;**Dirt**&#x200B;などのフィルターを使用して、磨き上げた金属の表面を古びて捨てられたように見せるか、**水**&#x200B;や&#x200B;**Snow**&#x200B;を使用して、素材をさまざまな季節で確認します。 摩耗および仕上げフィルターは多様で、その多くは高度にカスタマイズ可能です。
+Samplerの摩耗および仕上げフィルターを使用すると、マテリアルの外観をすばやく変えることができます。 **錆**&#x200B;や&#x200B;**Dirt**&#x200B;などのフィルターを使用して、磨き上げた金属の表面を古びて捨てられたように見せるか、**水**&#x200B;や&#x200B;**Snow**&#x200B;を使用して、様々な季節のマテリアルを見ることができます。 摩耗および仕上げフィルターは多様で、その多くは高度にカスタマイズ可能です。
 
 次のフィルタは、[損耗と仕上げ]カテゴリにあります。
 

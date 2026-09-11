@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/hdri-tools/hdr-merge.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/hdri-tools/hdr-merge.html"
 breadcrumb-title: ''
-description: Substance 3D SamplerのHDR結合ツールを使用して、複数のハイダイナミックレンジ画像を1つの露光画像に結合します。
+description: Substance 3D SamplerのHDR結合ツールを使用すると、複数のハイダイナミックレンジ画像を1つの露光画像に結合できます。
 helpx_creative_field: ""
 helpx_description: Sampler > Filters > HDRI Tools > HDR Merge
 helpx_experience_level: ""
@@ -33,17 +33,17 @@ ht-degree: 2%
 
 ## 説明
 
-**HDRマージ** **フィルター**&#x200B;を使用すると、SDR （標準ダイナミックレンジ）画像のコレクションをマージしてHDR画像を作成できます。
+**HDR結合** **フィルター**&#x200B;を使用すると、SDR （標準ダイナミックレンジ）画像のコレクションを結合してHDR画像を作成できます。
 
-次の画像は、**HDRマージ**&#x200B;の結果を示しています。
+**HDR結合**&#x200B;の結果を次の図に示します。
 
 ![](../../assets/3d-2d-filters-cropped-0027-hdr-merge-in.jpg)
 
-**HDR結合**&#x200B;を実行する前に、**3Dビュー**&#x200B;の球体はデフォルトの環境光を反映しています。 **2Dビュー**&#x200B;には、最初のスキャンイメージのインポートされたイメージデータが既定で表示されます。この場合、最も露出の低いイメージです。
+**HDR結合**&#x200B;を実行する前は、**3Dビュー**&#x200B;の球体がデフォルトの環境光を反映しています。 **2D ビュー**&#x200B;は、最初のスキャンイメージのインポートされたイメージデータを既定で表示します。この場合、イメージは最も表示度の低いイメージです。
 
 ![](../../assets/3d-2d-filters-cropped-0026-hdr-merge-out.jpg)
 
-**HDRマージ** **フィルター**&#x200B;を追加すると、球体に新しい環境光（入力画像から生成されたHDR画像）が反射されます。
+**HDR結合** **フィルター**&#x200B;を追加すると、球体に新しい入力画像（環境光から生成されたHDR画像）が反映されます。
 
 </td>
 </tr>
@@ -62,9 +62,9 @@ ht-degree: 2%
 
 ## 使用方法ガイド
 
-**HDR結合フィルター**&#x200B;と、SDR画像をHDR環境光に変換するのに役立つ他のフィルターの使用方法については、こちらを参照してください。
+このページでは、**HDR結合フィルター**&#x200B;の使用方法と、SDR画像をHDR 環境光に変換するのに役立つ他のフィルターについて説明します。
 
-**HDRマージ** **フィルター**&#x200B;を使用するための基本的な手順は次のとおりです：
+**HDRマージ** **フィルター**&#x200B;を使用するための基本的な手順は次のとおりです。
 
 1. レイヤースタックに結合する画像のセットを読み込みます。
 1. **HDR結合フィルター**&#x200B;をレイヤースタックに追加します。

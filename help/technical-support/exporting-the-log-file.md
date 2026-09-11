@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/technical-support/exporting-the-log-file.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/technical-support/exporting-the-log-file.html"
 breadcrumb-title: ''
 description: トラブルシューティングやテクニカルサポートの目的で、Substance 3D Samplerからログファイルを書き出す方法について説明します。
 helpx_creative_field: ""
@@ -34,12 +34,12 @@ Substance 3D Samplerを起動できない場合は、次のフォルダーに移
 
 Adobeのバージョン：
 
-* **Windows**: C:\Users\**&#x200B; username**\AppData\Local\Adobe\Adobe Substance 3D Sampler\log.txt
+* **Windows**: C:\Users\** username**\AppData\Local\Adobe\Adobe Substance 3D Sampler\log.txt
 * **Mac OS**: Macintosh > Users > **username** > Library > Application Support > Adobe> Adobe Substance 3D Sampler > log.txt
 
 Substance 3Dバージョン：
 
-* **Windows**: C:\Users\**&#x200B; username**\AppData\Local\Allegorithmic\Adobe Substance 3D Sampler\log.txt
+* **Windows**: C:\Users\** username**\AppData\Local\Allegorithmic\Adobe Substance 3D Sampler\log.txt
 * **Mac OS**: Macintosh > Users > **username** > Library > Application Support > Allegorithmic > Adobe Substance 3D Sampler > log.txt
 * **Linux**: /home/**username**/.local/share/Allegorithmic/Adobe Substance 3D Sampler/log.txt
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/interface/panels/metadata-panel.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/interface/panels/metadata-panel.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerでメタデータパネルを使用して、マテリアルのメタデータ情報を追加および管理する方法について説明します。
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 <b>名前</b>:アセットの名前です。
 
-<b>説明</b>: Substanceの内容に埋め込まれたアセットまたは説明の説明
+<b>説明</b>: Substanceの説明またはアセットマテリアルに埋め込まれた説明
 
 <b>カテゴリ</b>:アセットのカテゴリ、またはSubstanceのマテリアルに埋め込まれたカテゴリ
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ## カスタムメタデータ
 
-すべてのカスタムメタデータは、アプリケーション間でデジタルマテリアルを共有するためのより効率的なワークフローを保証するために、マテリアルファイル(SBSAR)に含まれます。
+アプリケーション間でデジタルマテリアルを共有するためのより効率的なワークフローを保証するために、すべてのカスタムメタデータがマテリアルファイル(SBSAR)に含められます。
 
 ![](../../assets/Metadata-panel-Custom.png){width="350px"}
 

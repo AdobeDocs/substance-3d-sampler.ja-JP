@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/getting-started/project-management.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/project-management.html"
 breadcrumb-title: ''
-description: Substance 3D Samplerでコレクションを使用してプロジェクトを管理し、アセットやマテリアルを整理して効率的なワークフローを実現する方法について説明します。
+description: Substance 3D Samplerでコレクションを使用してプロジェクトを管理し、アセットやマテリアルを整理してワークフローを効率化する方法について説明します。
 helpx_creative_field: ""
 helpx_description: Sampler > Getting Started > Manage your project
 helpx_experience_level: ""
@@ -38,7 +38,7 @@ Substance 3D Samplerでは、コレクションを使用して、すべてのア
 
 プロジェクトを保存するには、<b>ファイル/</b>として保存または<b>別名で保存</b>メニューアクションを使用します。 ダイアログが開き、使用する名前とプロジェクトファイルの保存場所を選択できます。
 
-または、ショートカット<b>Ctrl + S</b>を使用して<b>保存</b>するか、<b>Ctrl + Shift + S</b>を使用して<b>別名で保存</b>することもできます。
+または、<b>Ctrl + S</b>を使用して<b>保存</b>するか、<b>Ctrl + Shift + S</b>を使用して<b>別名で保存</b>することもできます。
 
 保存したプロジェクトは、<b>YourProject.ssa</b>という名前のファイルとして表示されます。 SSAはsamplersファイル形式で、プロジェクトとその依存関係に関する情報を保存します。
 

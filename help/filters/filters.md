@@ -1,7 +1,7 @@
 ---
-helpx_url: 'https://helpx.adobe.com/jp/substance-3d-sampler/filters.html'
+helpx_url: 'https://helpx.adobe.com/substance-3d-sampler/filters.html'
 breadcrumb-title: ''
-description: Substance 3D Samplerのフィルターを使用して、プロシージャルな効果や画像ベースの効果を持つマテリアルを編集、強化、作成する方法を説明します。
+description: Substance 3D Samplerでフィルターを使用して、プロシージャル効果や画像ベースの効果により、マテリアルを編集、調整、作成する方法を説明します。
 helpx_creative_field: ''
 helpx_description: Sampler > Filters
 helpx_experience_level: ''
@@ -22,14 +22,14 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
-> 環境光とメッシュのサポートは、Sampler V5.2のリリースで削除される予定です。 環境光の除去には、HDRI ツールとフィルターの除去も含まれます。
+> 環境光とメッシュのサポートは、Sampler V5.2のリリースで削除される予定です。 環境光の削除には、HDRI ツールとフィルターの削除も含まれます。
 
 Adobe Substance 3D Samplerでは、主にフィルターを使用して、アセットを編集および調整します。 Samplerには、次の種類のフィルターがあります。
 
-* [ジェネレーター](../filters/generators/generators.md) – 素材に新しい要素を追加します。
-* [調整](../filters/adjustments/adjustments.md) – マテリアルのチャンネルの値を調整します。
+* [ジェネレータ](../filters/generators/generators.md) – 新しい要素をマテリアルに追加します。
+* [調整](../filters/adjustments/adjustments.md) - マテリアルのチャンネルの値を調整します。
 * [ツール](../filters/tools/tools.md) – 技術的な問題を見つけて修正します。
-* [HDRI ツール](../filters/hdri-tools/hdri-tools.md) – 環境光に固有のフィルター。
+* [HDRI ツール](../filters/hdri-tools/hdri-tools.md) - 環境光に固有のフィルター。
 * [摩耗と仕上げ](../filters/wear-and-finish/wear-and-finish.md) – 素材の外観を変更します。
 
 Adobe Substance 3D Designerを使用して独自のフィルターを作成することができます。[方法については、こちらをご覧ください](custom-filters.md)。

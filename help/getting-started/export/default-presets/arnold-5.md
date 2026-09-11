@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/getting-started/export/default-presets/arnold-5.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/export/default-presets/arnold-5.html"
 breadcrumb-title: ''
-description: Arnold 5プリセットを使用してSubstance 3D Samplerからマテリアルを書き出し、Arnoldレンダリングエンジンとの互換性を確保する方法について説明します。
+description: Arnold 5プリセットを使用してSubstance 3D Samplerからマテリアルを書き出し、Arnold レンダリングエンジンと互換性を持たせる方法について説明します。
 helpx_creative_field: ""
 helpx_description: Sampler > Getting Started > Export > Default Presets > Arnold 5
 helpx_experience_level: ""
@@ -22,4 +22,4 @@ ht-degree: 5%
 
 | プリセット | 互換性 | パッキング出力の説明 |
 | --- | --- | --- |
-| アーノルド5 | <ul data-preserve-html="true"><li data-preserve-html="true">PBRメタリック/粗さ</li></ul> | **BaseColor &#x200B;**&#x200B;**粗さ**&#x200B;**金属度**&#x200B;**標準** (OpenGL)**ディスプレイスメント&#x200B;**&#x200B;**放射性**&#x200B;**&#x200B;不透明度** |
+| アーノルド5 | <ul data-preserve-html="true"><li data-preserve-html="true">PBRメタリック/ラフネス</li></ul> | **ベースカラー&#x200B;****ラフネス****メタネス****標準** (OpenGL)**ディスプレイスメント&#x200B;****Emissive****&#x200B;不透明度** |

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/getting-started/export/default-presets/lens-studio.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/export/default-presets/lens-studio.html"
 breadcrumb-title: ''
-description: Snapchat ARレンズ開発ワークフローで、Lens Studioプリセットを使用してSubstance 3D Samplerからマテリアルを書き出す方法を説明します。
+description: Snapchat ARマテリアル作成ワークフローで、Lens Studioプリセットを使用してSubstance 3D Samplerからレンズを書き出す方法を説明します。
 helpx_creative_field: ""
 helpx_description: Sampler > Getting Started > Export > Default Presets > Lens Studio
 helpx_experience_level: ""
@@ -22,4 +22,4 @@ ht-degree: 4%
 
 | プリセット | 互換性 | パッキング出力の説明 |
 | --- | --- | --- |
-| Lens Studio | <ul data-preserve-html="true"><li data-preserve-html="true">PBRメタリック/粗さ</li></ul> | **ベース**:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>RGB</strong>：基本色</li><li data-preserve-html="true"><strong>A</strong>：不透明度</li></ul>**materialParams**:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>R</strong>:メタリック</li><li data-preserve-html="true"><strong>G</strong>：粗さ</li><li data-preserve-html="true"><strong>B</strong>：環境オクルージョン</li></ul>**標準** (OpenGL) |
+| Lens Studio | <ul data-preserve-html="true"><li data-preserve-html="true">PBRメタリック/ラフネス</li></ul> | **ベース**:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>RGB</strong>: Base color</li><li data-preserve-html="true"><strong>A</strong>：不透明度</li></ul>**materialParams**:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>R</strong>:メタリック</li><li data-preserve-html="true"><strong>G</strong>: ラフネス</li><li data-preserve-html="true"><strong>B</strong>: Ambient occlusion</li></ul>**標準** (OpenGL) |

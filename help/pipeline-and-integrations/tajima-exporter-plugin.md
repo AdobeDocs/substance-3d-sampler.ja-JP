@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/pipeline-and-integrations/tajima-exporter-plugin.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/pipeline-and-integrations/tajima-exporter-plugin.html"
 breadcrumb-title: ''
 description: Substance 3D SamplerのTajima Exporterプラグインを使用して、刺繍デザインを田島DG17ソフトウェアに書き出す方法について説明します。
 helpx_creative_field: ""
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# 刺繍ファイルの田島輸出者プラグイン
+# 刺繍ファイルの田島エクスポータープラグイン
 
 この最初のPROOF OF CONCEPTにより、デジタル刺繍を施したデザインをAdobeのSubstance 3Dから<b>Tajima DG17</b>刺繍ソフトウェアに直接転送できるようになりました。時間のかかる手動のデジタル化は不要です。
 
@@ -46,7 +46,7 @@ Sampler田島プラグインはこちらからダウンロードできます。
 
 ## インストール
 
-刺繍マテリアルを使用して、Sampler（5.0.3以降）プロジェクトを開きます。
+刺繍マテリアルを使用してSampler（5.0.3以降）プロジェクトを開きます。
 
 ![](../assets/tajima-doc-embroidery-stars.png)
 

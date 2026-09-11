@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/getting-started/export/default-presets/v-ray-next.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/export/default-presets/v-ray-next.html"
 breadcrumb-title: ''
 description: V-Rayレンダリングとの互換性のために、「V-Ray次」プリセットを使用してSubstance 3D Samplerからマテリアルを書き出す方法について説明します。
 helpx_creative_field: ""
@@ -22,4 +22,4 @@ ht-degree: 4%
 
 | プリセット | 互換性 | パッキング出力の説明 |
 | --- | --- | --- |
-| 次のV線 | <ul data-preserve-html="true"><li data-preserve-html="true">PBRメタリック/粗さ</li></ul> | **拡散反射光&#x200B;**&#x200B;**粗さ**&#x200B;**メタル&#x200B;**&#x200B;**法線**&#x200B;**&#x200B;**&#x200B;**自己照明** **不透明度** |
+| 次のV線 | <ul data-preserve-html="true"><li data-preserve-html="true">PBRメタリック/ラフネス</li></ul> | **Diffuse ****ラフネス****メタネス&#x200B;****標準****ディスプレイスメント****自己照明** **不透明度** |

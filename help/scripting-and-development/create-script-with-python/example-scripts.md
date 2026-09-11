@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/scripting-and-development/create-a-script-with-python/example-scripts.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/scripting-and-development/create-a-script-with-python/example-scripts.html"
 breadcrumb-title: ''
-description: Substance 3D SamplerのPythonスクリプト例にアクセスして、APIの使用方法とマテリアル作成ワークフローの自動化方法について学習します。
+description: APIの使用方法とマテリアル作成ワークフローの自動化方法については、Substance 3D SamplerのPythonスクリプト例を参照してください。
 helpx_creative_field: ""
 helpx_description: Sampler > Scripting and Development > Create a Script with Python > Example Scripts
 helpx_experience_level: ""
@@ -186,7 +186,7 @@ with open(csv_path, newline='') as csvfile:
 
 ## すべてのカラーパラメーターの表示
 
-このスクリプトは、レイヤースタックの各レイヤーのカラーパラメーターを公開します。
+このスクリプトは、レイヤースタックの各レイヤーのカラーパラメーターを表示します。
 
 ### expose\_all\_color\_parameters.py
 
@@ -229,9 +229,9 @@ for layer in my_asset_layers:
 
 ## レイヤースタックテンプレート
 
-このスクリプトは、現在のマテリアルに一連のフィルタ（スクリプト内で定義）を自動的に追加します。
+このスクリプトは、一連のフィルタ（スクリプト内で定義）を現在のマテリアルに自動的に追加します。
 
-### layer\_stack\_template.py
+### layer\_スタック\_template.py
 
 ```
 import substance_sampler as ssa 
