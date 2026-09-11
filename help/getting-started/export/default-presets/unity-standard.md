@@ -22,4 +22,4 @@ ht-degree: 4%
 
 | プリセット | 互換性 | パッキング出力の説明 |
 | --- | --- | --- |
-| Unity標準 | <ul data-preserve-html="true"><li data-preserve-html="true">PBRメタリック/ラフネス</li></ul> | **アルベド:**<ul data-preserve-html="true"><li data-preserve-html="true"><strong>RGB</strong>: Base color</li><li data-preserve-html="true"><strong>A</strong>：不透明度</li></ul>**メタリック:**<ul data-preserve-html="true"><li data-preserve-html="true"><strong>R</strong>:メタリック</li><li data-preserve-html="true"><strong>A</strong>: Smoothness</li></ul>**標準** (OpenGL)**Height ****オクルージョン****Emissive** |
+| Unity標準 | <ul data-preserve-html="true"><li data-preserve-html="true">PBRメタリック/ラフネス</li></ul> | **アルベド:**<ul data-preserve-html="true"><li data-preserve-html="true"><strong>RGB</strong>: Base color</li><li data-preserve-html="true"><strong>A</strong>：不透明度</li></ul>**メタリック:**<ul data-preserve-html="true"><li data-preserve-html="true"><strong>R</strong>:メタリック</li><li data-preserve-html="true"><strong>A</strong>: Smoothness</li></ul>**標準** (OpenGL)**Height &#x200B;**&#x200B;**オクルージョン**&#x200B;**Emissive** |

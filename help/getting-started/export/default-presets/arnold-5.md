@@ -22,4 +22,4 @@ ht-degree: 5%
 
 | プリセット | 互換性 | パッキング出力の説明 |
 | --- | --- | --- |
-| アーノルド5 | <ul data-preserve-html="true"><li data-preserve-html="true">PBRメタリック/ラフネス</li></ul> | **ベースカラー&#x200B;****ラフネス****メタネス****標準** (OpenGL)**ディスプレイスメント&#x200B;****Emissive****&#x200B;不透明度** |
+| アーノルド5 | <ul data-preserve-html="true"><li data-preserve-html="true">PBRメタリック/ラフネス</li></ul> | **ベースカラー&#x200B;**&#x200B;**ラフネス**&#x200B;**メタネス**&#x200B;**標準** (OpenGL)**ディスプレイスメント&#x200B;**&#x200B;**Emissive**&#x200B;**&#x200B;不透明度** |

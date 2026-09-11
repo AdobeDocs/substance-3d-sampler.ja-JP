@@ -22,4 +22,4 @@ ht-degree: 5%
 
 | プリセット | 互換性 | パッキング出力の説明 |
 | --- | --- | --- |
-| Enscape - Revit | <ul data-preserve-html="true"><li data-preserve-html="true">PBRメタリック/ラフネス</li></ul> | **アルベド&#x200B;****光沢度****標準(OpenGL)****透明度** |
+| Enscape - Revit | <ul data-preserve-html="true"><li data-preserve-html="true">PBRメタリック/ラフネス</li></ul> | **アルベド&#x200B;**&#x200B;**光沢度**&#x200B;**標準(OpenGL)**&#x200B;**透明度** |

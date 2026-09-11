@@ -22,4 +22,4 @@ ht-degree: 6%
 
 | プリセット | 互換性 | パッキング出力の説明 |
 | --- | --- | --- |
-| Redshift | <ul data-preserve-html="true"><li data-preserve-html="true">PBRメタリック/ラフネス</li></ul> | **Diffuse ****ReflRoughness****メタネス&#x200B;****標準****ディスプレイスメント&#x200B;****放射****不透明度** |
+| Redshift | <ul data-preserve-html="true"><li data-preserve-html="true">PBRメタリック/ラフネス</li></ul> | **Diffuse &#x200B;**&#x200B;**ReflRoughness**&#x200B;**メタネス&#x200B;**&#x200B;**標準**&#x200B;**ディスプレイスメント&#x200B;**&#x200B;**放射**&#x200B;**不透明度** |

@@ -22,4 +22,4 @@ ht-degree: 5%
 
 | プリセット | 互換性 | パッキング出力の説明 |
 | --- | --- | --- |
-| ブレンダーサイクル/イベント | <ul data-preserve-html="true"><li data-preserve-html="true">PBRメタリック/ラフネス</li></ul> | **BaseColor ****ラフネス****メタリック&#x200B;****通常****ディスプレイスメント&#x200B;****Emissive****Alpha** |
+| ブレンダーサイクル/イベント | <ul data-preserve-html="true"><li data-preserve-html="true">PBRメタリック/ラフネス</li></ul> | **BaseColor &#x200B;**&#x200B;**ラフネス**&#x200B;**メタリック&#x200B;**&#x200B;**通常**&#x200B;**ディスプレイスメント&#x200B;**&#x200B;**Emissive**&#x200B;**Alpha** |

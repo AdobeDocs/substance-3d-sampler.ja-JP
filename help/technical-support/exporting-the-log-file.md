@@ -34,12 +34,12 @@ Substance 3D Samplerを起動できない場合は、次のフォルダーに移
 
 Adobeのバージョン：
 
-* **Windows**: C:\Users\** username**\AppData\Local\Adobe\Adobe Substance 3D Sampler\log.txt
+* **Windows**: C:\Users\**&#x200B; username**\AppData\Local\Adobe\Adobe Substance 3D Sampler\log.txt
 * **Mac OS**: Macintosh > Users > **username** > Library > Application Support > Adobe> Adobe Substance 3D Sampler > log.txt
 
 Substance 3Dバージョン：
 
-* **Windows**: C:\Users\** username**\AppData\Local\Allegorithmic\Adobe Substance 3D Sampler\log.txt
+* **Windows**: C:\Users\**&#x200B; username**\AppData\Local\Allegorithmic\Adobe Substance 3D Sampler\log.txt
 * **Mac OS**: Macintosh > Users > **username** > Library > Application Support > Allegorithmic > Adobe Substance 3D Sampler > log.txt
 * **Linux**: /home/**username**/.local/share/Allegorithmic/Adobe Substance 3D Sampler/log.txt
 

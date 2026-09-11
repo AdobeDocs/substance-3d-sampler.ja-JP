@@ -74,29 +74,29 @@ Samplerでは、HP Z Captisのキャプチャをワンクリックで起動で�
 
 **追加：**
 
-* &amp;lbrack;Assets&amp;rbrack; Check sbsar version and warn users is the users is the too old to read it
-* &amp;lbrack;Captis&amp;rbrack；環境設定でCaptisフォトメトリックを保存するための戻るオプションを追加
+* &lbrack;Assets&rbrack; Check sbsar version and warn users is the users is the too old to read it
+* &lbrack;Captis&amp;rbrack；環境設定でCaptisフォトメトリックを保存するための戻るオプションを追加
 
 **修正済み：**
 
-* &amp;lbrack;2D ビュー&amp;rbrack;物理サイズが無効な場合、「物理比で表示」しません。
-* &amp;lbrack;Analytics&amp;rbrack；見つからない分析イベント
-* &amp;lbrack;Analytics&amp;rbrack;クラッシュパッドがvk devicelostでクラッシュを報告するのを防ぐ
-* &amp;lbrack;Application&amp;rbrack; nvidiaドライバのクラッシュを避けるため、終了時にvkdeviceを破棄しないでください
-* &amp;lbrack;Application&amp;rbrack;リンクされたコレクションウォッチャー終了を修正+チャネルマネージャ
-* &amp;lbrack;Application&amp;rbrack；終了時にクラッシュを防止
-* &amp;lbrack;Content&amp;rbrack; 「メタル仕上げ」フィルターはメタルに影響しません
-* &amp;lbrack;Content&amp;rbrack;物理サイズが見つからない場合にダイナミックフィルターに追加
+* &lbrack;2D ビュー&rbrack;物理サイズが無効な場合、「物理比で表示」しません。
+* &lbrack;Analytics&amp;rbrack；見つからない分析イベント
+* &lbrack;Analytics&rbrack;クラッシュパッドがvk devicelostでクラッシュを報告するのを防ぐ
+* &lbrack;Application&rbrack; nvidiaドライバのクラッシュを避けるため、終了時にvkdeviceを破棄しないでください
+* &lbrack;Application&rbrack;リンクされたコレクションウォッチャー終了を修正+チャネルマネージャ
+* &lbrack;Application&amp;rbrack；終了時にクラッシュを防止
+* &lbrack;Content&rbrack; 「メタル仕上げ」フィルターはメタルに影響しません
+* &lbrack;Content&rbrack;物理サイズが見つからない場合にダイナミックフィルターに追加
 * &amp;lbrack；フィルター&amp;rbrack；非表示のアセットリストからコンテンツに応じた塗りつぶしを削除
-* &amp;lbrack；レイヤー&amp;rbrack; 「すべての設定をリセット」をクリックしても、「適用先」ドロップダウンがリセットされない
+* &amp;lbrack；レイヤー&rbrack; 「すべての設定をリセット」をクリックしても、「適用先」ドロップダウンがリセットされない
 * &amp;lbrack；レイヤー&amp;rbrack；位置ウィジェットの最小および最大ツイークを修正
-* &amp;lbrack；画層&amp;rbrack;フィルタを正しく更新
-* &amp;lbrack;物理サイズ&amp;rbrack；あらゆる場所で物理スケールが機能することを確認し、ダイナミックフィルターを使用して物理サイズをokにする
+* &amp;lbrack；画層&rbrack;フィルタを正しく更新
+* &lbrack;物理サイズ&amp;rbrack；あらゆる場所で物理スケールが機能することを確認し、ダイナミックフィルターを使用して物理サイズをokにする
 * &amp;lbrack；プロジェクト&amp;rbrack；新しいアセットを作成する際に、アセットの解像度がデフォルト(2k x 2k)であることを確認する
 * &amp;lbrack；プロジェクト&amp;rbrack；現在のプロジェクトを再度開く（以前のバージョンを開くのに使用）
-* &amp;lbrack;Project&amp;rbrack; Samplerは、破損したプロジェクトのバックアップを復元することはできません。
-* &amp;lbrack；レンダリング&amp;rbrack;マテリアルサムネールを最大2Kの解像度でレンダリング
-* &amp;lbrack;UI&amp;rbrack;ユーザがUIより高速な場合のクラッシュを防ぐための防御コード
+* &lbrack;Project&rbrack; Samplerは、破損したプロジェクトのバックアップを復元することはできません。
+* &amp;lbrack；レンダリング&rbrack;マテリアルサムネールを最大2Kの解像度でレンダリング
+* &lbrack;UI&rbrack;ユーザがUIより高速な場合のクラッシュを防ぐための防御コード
 
 ### **6.0.1**
 
