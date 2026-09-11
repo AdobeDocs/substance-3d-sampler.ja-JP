@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/interface/2d-and-3d-viewport.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/interface/2d-and-3d-viewport.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerで2Dツールと3D ビューポートを使用してマテリアルをプレビューし、ワークスペースを効率的に移動する方法を説明します。
 helpx_creative_field: ""

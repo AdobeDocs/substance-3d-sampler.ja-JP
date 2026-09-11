@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/technical-support/configuration/nvidia-driver-settings.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/technical-support/configuration/nvidia-driver-settings.html"
 breadcrumb-title: ''
 description: Substance 3D SamplerのNVIDIAドライバーを設定して、GPUパフォーマンスを最適化し、動作の遅れを解決する方法について説明します。
 helpx_creative_field: ""

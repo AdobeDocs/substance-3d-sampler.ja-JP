@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/generators/cloth-weave.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/generators/cloth-weave.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerの布地織りジェネレーターを使用して、マテリアルを作成するための布地織りパターンとテキスタイルテクスチャを作成します。
 helpx_creative_field: ""

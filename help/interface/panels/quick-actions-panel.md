@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/interface/panels/quick-actions-panel.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/interface/panels/quick-actions-panel.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのクイックアクションパネルを使用して、マテリアルの一般的な編集作業やショートカットにアクセスする方法を説明します。
 helpx_creative_field: ""

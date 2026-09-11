@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/release-notes/old-versions/version-3-1.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/release-notes/old-versions/version-3-1.html"
 breadcrumb-title: ''
 description: カラーピッカー、SVGのサポート、相互運用性の向上について詳しくは、 Substance 3D Samplerバージョン3.1のリリースノートを参照してください。
 helpx_creative_field: ""

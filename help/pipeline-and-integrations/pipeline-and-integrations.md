@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/pipeline-and-integrations.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/pipeline-and-integrations.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのパイプラインおよび統合オプションを紹介します。
 helpx_creative_field: ""

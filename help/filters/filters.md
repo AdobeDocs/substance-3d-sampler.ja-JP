@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-sampler/filters.html'
+helpx_url: 'https://helpx.adobe.com/jp/substance-3d-sampler/filters.html'
 breadcrumb-title: ''
 description: Substance 3D Samplerでフィルターを使用して、プロシージャル効果や画像ベースの効果により、マテリアルを編集、調整、作成する方法を説明します。
 helpx_creative_field: ''

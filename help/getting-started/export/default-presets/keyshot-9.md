@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/export/default-presets/keyshot-9.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/getting-started/export/default-presets/keyshot-9.html"
 breadcrumb-title: ''
 description: Keyshot 9プリセットを使用してSubstance 3D Samplerからマテリアルを書き出し、キーショットレンダリングとの互換性を確保する方法を説明します。
 helpx_creative_field: ""

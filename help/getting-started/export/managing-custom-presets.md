@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/export/managing-custom-presets.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/getting-started/export/managing-custom-presets.html"
 breadcrumb-title: ''
 description: ワークフローを最適化するためのSubstance Designerを使用して、Substance 3D Samplerでカスタム書き出しプリセットを作成および編集する方法について説明します。
 helpx_creative_field: ""

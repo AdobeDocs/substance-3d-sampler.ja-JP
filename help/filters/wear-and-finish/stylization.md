@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/wear-and-finish/stylization.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/wear-and-finish/stylization.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのスタイル設定フィルターを使用して、マテリアルとテクスチャにアーティスティックな効果やスタイル設定された外観を適用します。
 helpx_creative_field: ""

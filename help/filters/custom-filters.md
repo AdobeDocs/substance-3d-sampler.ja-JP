@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-sampler/filters/custom-filters.html'
+helpx_url: 'https://helpx.adobe.com/jp/substance-3d-sampler/filters/custom-filters.html'
 breadcrumb-title: ''
 description: Substance 3D Samplerでカスタムフィルターを使用して、Substance Designerフィルターとカスタムエフェクトの機能を拡張する方法を説明します。
 helpx_creative_field: ''
@@ -40,7 +40,7 @@ Samplerに読み込まれたフィルターが正しく動作するには、Desi
 
 >[!NOTE]
 >
-> Samplerでは、フィルターパラメーターを表示して、フィルターを直接制御できます。 [こちら](https://experienceleague.adobe.com/en/docs/substance-3d-designer/using/substance-graphs/manage-parameters/exposing-a-parameter)を参照してください
+> Samplerでは、フィルターパラメーターを表示して、フィルターを直接制御できます。 [こちら](https://experienceleague.adobe.com/ja/docs/substance-3d-designer/using/substance-graphs/manage-parameters/exposing-a-parameter)を参照してください
 
 #### 画像を変更するフィルターの作成
 

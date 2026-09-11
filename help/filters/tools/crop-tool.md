@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/tools/crop-tool.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/tools/crop-tool.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerの切り抜きツールを使用すると、テクスチャレイヤーやマテリアルレイヤーを切り抜いたりサイズを変更したりして、寸法を正確に調整できます。
 helpx_creative_field: ""

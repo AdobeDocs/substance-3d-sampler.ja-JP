@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/technical-support/configuration/update-checker.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/technical-support/configuration/update-checker.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのアップデートチェッカーを使用して、新しいバージョンやリリースノートの情報を常に受け取る方法について説明します。
 helpx_creative_field: ""

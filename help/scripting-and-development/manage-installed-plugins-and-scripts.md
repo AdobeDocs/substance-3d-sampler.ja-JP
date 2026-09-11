@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/scripting-and-development/manage-installed-plugins-and-scripts.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/scripting-and-development/manage-installed-plugins-and-scripts.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerでインストール済みのプラグインとスクリプトを管理し、カスタム拡張機能をインストール、変更、削除する方法について説明します。
 helpx_creative_field: ""

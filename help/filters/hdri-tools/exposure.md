@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/hdri-tools/exposure.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/hdri-tools/exposure.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerの露光量ツールを使用して、HDRI環境画像の露光量レベルを調整し、適切な照明バランスを保ちます。
 helpx_creative_field: ""

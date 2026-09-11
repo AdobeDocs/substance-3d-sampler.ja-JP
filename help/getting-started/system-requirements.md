@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-sampler/getting-started/system-requirements.html'
+helpx_url: 'https://helpx.adobe.com/jp/substance-3d-sampler/getting-started/system-requirements.html'
 breadcrumb-title: ''
 description: ご使用のハードウェアとソフトウェアが互換性基準を満たしていることを確認するために、Substance 3D Samplerの必要システム構成を確認してください。
 helpx_creative_field: ''
@@ -95,7 +95,7 @@ ht-degree: 1%
 
 アプリケーションを問題なく実行するために必要なGPUドライバーの最小バージョンを以下に示します。 このリストは、新しいバージョンのリリースに伴って変更される場合があります。
 
-新しいドライバーをダウンロードするには、[GPUに古いドライバーがあります](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers)を参照してください。
+新しいドライバーをダウンロードするには、[GPUに古いドライバーがあります](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers)を参照してください。
 
 | OS | NVIDIA | AMD | Intel |
 | --- | --- | --- | --- |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/adjustments/brightness-contrast.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/adjustments/brightness-contrast.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerの明るさ・コントラストフィルターを使用して、テクスチャおよびマテリアルレイヤーの明るさとコントラストのレベルを調整します。
 helpx_creative_field: ""

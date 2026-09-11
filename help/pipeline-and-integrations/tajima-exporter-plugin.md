@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/pipeline-and-integrations/tajima-exporter-plugin.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/pipeline-and-integrations/tajima-exporter-plugin.html"
 breadcrumb-title: ''
 description: Substance 3D SamplerのTajima Exporterプラグインを使用して、刺繍デザインを田島DG17ソフトウェアに書き出す方法について説明します。
 helpx_creative_field: ""

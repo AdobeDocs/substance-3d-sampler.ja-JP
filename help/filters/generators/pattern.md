@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/generators/pattern.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/generators/pattern.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのパターンジェネレーターを使用して、マテリアルテクスチャのプロシージャルパターンと反復デザインを作成します。
 helpx_creative_field: ""

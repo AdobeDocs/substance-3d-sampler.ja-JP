@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/3d-capture/equipment.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/3d-capture/equipment.html"
 breadcrumb-title: ''
 description: 高品質のマテリアルとオブジェクトのデジタル化を実現するために、Substance 3D Samplerに推奨される3D キャプチャ機器について説明します。
 helpx_creative_field: ""

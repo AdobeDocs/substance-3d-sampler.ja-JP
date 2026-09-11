@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/adjustments/fold-remover.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/adjustments/fold-remover.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerの折り目の除去フィルターを使用すると、布地のテクスチャから折り目や折り目を除去して、すっきりとした質感を作成できます。
 helpx_creative_field: ""

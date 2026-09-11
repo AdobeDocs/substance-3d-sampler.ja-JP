@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/wear-and-finish/water.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/wear-and-finish/water.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerの水フィルターを使用して、マテリアルとテクスチャに水の効果、湿気、湿気を加えます。
 helpx_creative_field: ""

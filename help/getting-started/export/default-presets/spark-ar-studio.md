@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/export/default-presets/spark-ar-studio.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/getting-started/export/default-presets/spark-ar-studio.html"
 breadcrumb-title: ''
 description: ARワークフロー用のSpark AR Studioプリセットを使用して、Substance 3D Samplerからマテリアルを書き出す方法を説明します。
 helpx_creative_field: ""

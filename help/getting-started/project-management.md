@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/project-management.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/getting-started/project-management.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerでコレクションを使用してプロジェクトを管理し、アセットやマテリアルを整理してワークフローを効率化する方法について説明します。
 helpx_creative_field: ""

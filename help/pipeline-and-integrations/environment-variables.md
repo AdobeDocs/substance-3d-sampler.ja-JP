@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/pipeline-and-integrations/environment-variables.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/pipeline-and-integrations/environment-variables.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerで環境変数を使用して、デフォルトのアプリケーション動作を上書きし、設定を構成する方法について説明します。
 helpx_creative_field: ""

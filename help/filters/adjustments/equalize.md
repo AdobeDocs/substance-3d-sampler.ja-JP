@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/adjustments/equalize.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/adjustments/equalize.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerの平均化フィルターを使用すると、明るさの値を再分散し、画像のコントラストを自動的に強調できます。
 helpx_creative_field: ""

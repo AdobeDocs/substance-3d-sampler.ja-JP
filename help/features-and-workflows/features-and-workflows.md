@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/features-and-workflows.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/features-and-workflows.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerの機能やワークフローを紹介し、既存の環境光から詳細なマテリアルを作成したり、アセットを編集したりします。
 helpx_creative_field: ""

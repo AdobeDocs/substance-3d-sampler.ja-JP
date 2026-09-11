@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/interface/panels/physical-size-panel.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/interface/panels/physical-size-panel.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerの物理サイズパネルを使用して、マテリアルとテクスチャの実際の寸法を設定する方法について説明します。
 helpx_creative_field: ""

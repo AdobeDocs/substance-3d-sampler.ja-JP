@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/wear-and-finish/scratch.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/wear-and-finish/scratch.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのスクラッチフィルターを使用して、マテリアルにリアルなスクラッチマークや傷の表面損傷効果を与えることができます。
 helpx_creative_field: ""

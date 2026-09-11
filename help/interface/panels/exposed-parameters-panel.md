@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/interface/panels/exposed-parameters-panel.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/interface/panels/exposed-parameters-panel.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerの表示されるパラーメーターパネルを使用して、外部編集用のフィルターパラメーターを表示する方法について説明します。
 helpx_creative_field: ""

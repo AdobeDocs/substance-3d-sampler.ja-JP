@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/3d-capture/editing-3d-captured-meshes.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/3d-capture/editing-3d-captured-meshes.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerで3Dキャプチャメッシュを編集し、ジオメトリの調整、問題の修正、メッシュの画質の最適化を行う方法を説明します。
 helpx_creative_field: ""

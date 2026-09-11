@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/export/default-presets/unity-hdrp-specular.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/getting-started/export/default-presets/unity-hdrp-specular.html"
 breadcrumb-title: ''
 description: Unity HDRP Specularプリセットを使用して、Substance 3D Samplerからマテリアルを書き出し、高品位レンダリングパイプラインに変換する方法について説明します。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/technical-support/technical-issues/interface-issues/main-interface-is-transparent.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/technical-support/technical-issues/interface-issues/main-interface-is-transparent.html"
 breadcrumb-title: ''
 description: Substance 3D SamplerでGPUドライバー設定およびアンチエイリアスオプションを調整して、透明インターフェイスの問題を修正する方法について説明します。
 helpx_creative_field: ""

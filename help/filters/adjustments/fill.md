@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/adjustments/fill.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/adjustments/fill.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerの塗りフィルターを使用すると、マテリアル作成ワークフローで、テクスチャ領域を単色またはパターンで塗りつぶすことができます。
 helpx_creative_field: ""

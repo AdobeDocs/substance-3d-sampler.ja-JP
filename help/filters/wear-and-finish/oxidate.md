@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/wear-and-finish/oxidate.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/wear-and-finish/oxidate.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerの酸化フィルターを使用して、古い外観の金属マテリアルを酸化して変色させる効果を追加します。
 helpx_creative_field: ""

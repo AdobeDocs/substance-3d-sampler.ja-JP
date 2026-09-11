@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/tools/channel-switch.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/tools/channel-switch.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのチャンネル切り替えツールを使用して、マテリアルを作成するためにテクスチャマップのカラーチャンネルを再配置して入れ替えます。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/hdri-tools/nadir-patch.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/hdri-tools/nadir-patch.html"
 breadcrumb-title: ''
 description: Substance 3D SamplerのNadir Patchツールを使用して、シームレスな環境マップのためにHDRIイメージの床領域にパッチを適用します。
 helpx_creative_field: ""

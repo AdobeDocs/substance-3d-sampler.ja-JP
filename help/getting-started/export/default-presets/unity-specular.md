@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/export/default-presets/unity-specular.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/getting-started/export/default-presets/unity-specular.html"
 breadcrumb-title: ''
 description: Unityのゲームエンジンの互換性のためにUnitySpecularプリセットを使用して、Substance 3D Samplerからマテリアルを書き出す方法について説明します。
 helpx_creative_field: ""

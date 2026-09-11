@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/tools/clone-stamp.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/tools/clone-stamp.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのクローンスタンプツールを使用すると、テクスチャ領域をコピーしてペイントし、シームレスなマテリアル編集と修復を行うことができます。
 helpx_creative_field: ""

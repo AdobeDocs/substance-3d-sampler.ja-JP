@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/adjustments/colorize.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/adjustments/colorize.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのカラー化フィルターを使用して、テクスチャとマテリアルに色合いとモノクロのカラー化効果を適用します。
 helpx_creative_field: ""

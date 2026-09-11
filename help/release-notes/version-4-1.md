@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/release-notes/version-4-1.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/release-notes/version-4-1.html"
 breadcrumb-title: ''
 description: ペイントワープフィルター、刺繍フィルターの更新、3D キャプチャの改善については、Substance 3D Samplerバージョン4.1のリリースノートを確認してください。
 helpx_creative_field: ""

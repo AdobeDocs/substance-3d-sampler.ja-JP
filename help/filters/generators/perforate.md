@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/generators/perforate.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/filters/generators/perforate.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerの穴あけジェネレーターを使用して、マテリアルとテクスチャに穴あきパターンと穴の配列を作成します。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/interface/panels/properties-panel.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-sampler/interface/panels/properties-panel.html"
 breadcrumb-title: ''
 description: Substance 3D Samplerのプロパティパネルを使用して、フィルターパラメーターとマテリアルプロパティを表示および編集する方法について説明します。
 helpx_creative_field: ""
