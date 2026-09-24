@@ -6,19 +6,28 @@ helpx_description: Sampler > Release Notes > All Changes
 title: すべての変更
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0484ed7ae81bd16687abe23ac0ce8f5ad84d1888
+source-git-commit: 275dc218870f111aa99533840a5aea4c3d22f0cf
 workflow-type: tm+mt
-source-wordcount: '24940'
+source-wordcount: '24964'
 ht-degree: 0%
-
 ---
-
 
 # すべての変更
 
 新機能からバグ修正まで、Substance 3D Samplerに加えられたすべての変更を再編成します。
 
 ## バージョン6
+
+### **6.0.4**
+
+*（リリース：2026年9月24日）*
+
+**変更日**
+[エンジン] Substance engineを9.6.1に更新する
+
+**固定**
+エンボスマスクに画像を追加するときに[レイヤー]クラッシュ
+[セキュリティ]の一般的な修正
 
 ### **6.0.3**
 
@@ -86,7 +95,7 @@ ht-degree: 0%
 * &lbrack;Application&rbrack; macOSの終了時にクラッシュを防止
 * &lbrack;Application&amp;rbrack；無効なアセット参照のアセットへのアクセスを防止
 * &lbrack;Application&rbrack; TweakでVersionedImageからサーフェスにアクセスする際にクラッシュを防ぐ
-* &lbrack;Application&amp;rbrack；存在しないステージを削除する際のクラッシュを防ぐ
+* &lbrack;Application&amp;rbrack；存在しない場合にステージを削除するときにクラッシュを防ぐ
 * &lbrack;Captis&rbrack; Samplerを閉じる前にCaptisが切断されていることを確認する
 * &lbrack;Captis&rbrack; USB-2警告が2回表示されないようにする
 * &amp;lbrack；チャンネル設定&rbrack; OpenPBRチャンネル名を修正
@@ -94,7 +103,7 @@ ht-degree: 0%
 * &lbrack;Content&rbrack; SSS値のメッシュ単位をメートルからセンチメートルに更新する
 * &lbrack;Export&rbrack;デフォルト値がダイナミックフィルターに接続されていることを確認
 * &lbrack;Export&amp;rbrack；画像がパフォーマンス向上のためにワーカースレッドに保存されるようになりました。
-* &amp;lbrack；フィルター&rbrack;コンテンツに応じた塗りつぶしがスケールをオンに切り替えるとクラッシュする
+* &amp;lbrack；フィルター&rbrack;コンテンツに応じた塗りつぶしクラッシュでスケールをオンに切り替える
 * &amp;lbrack；フィルター&rbrack;アセットパネルからダイナミックフィルターの場所を開けませんでした。
 * &amp;lbrack；フィルター&amp;rbrack；自動タイリング調整ステップですべての設定をリセットを修正
 * &amp;lbrack；フィルター&amp;rbrack；復元ツリー構造作成の使用不可処理
@@ -174,14 +183,14 @@ ht-degree: 0%
 
 * &lbrack;Application&rbrack; レイヤースタックにマテリアルを挿入すると、macOSでクラッシュが発生する可能性があります
 * &lbrack;Application&rbrack; macOSでの高負荷時にクラッシュが発生する可能性がある
-* &lbrack;Application&rbrack;ビデオメモリがいっぱいになると、レイヤーを追加するとクラッシュする可能性がある
+* &lbrack;Application&rbrack;ビデオメモリがいっぱいのときにレイヤーを追加すると、クラッシュが発生する可能性があります
 * &lbrack;Application&rbrack;プロジェクトを開くときに起こりうるクラッシュ
 * &amp;lbrack；強度の自動調整後に自動フォーカスが間もなく実行された場合に失敗する&rbrack;
 * &lbrack;Captis&amp;rbrack；最初のキャプチャ後の信頼性とパフォーマンスの問題
 * &amp;lbrack；キャプチャの最後にファイルをコピーすると、速度が低下してエラーが発生する&rbrack;
 * &lbrack;Captis&rbrack; Captisデバイス情報のクエリ時に小さなメモリリークが発生する
 * &lbrack;Export&rbrack; Multi slider 表示されるパラメーターが破損した.sbsarファイルを生成
-* &amp;lbrack；レイヤー&amp;rbrack；自動タイリングパターンがアセットの切り替え時にデフォルト値にリセットされる
+* &amp;lbrack；レイヤー&amp;rbrack；アセットの切り替え時に自動タイリングパターンがデフォルト値にリセットされる
 * &lbrack;Layers&rbrack;デフォルトのカスタムbase colorが赤く表示される
 * &amp;lbrack；レイヤー&rbrack; クローンスタンプの子レイヤーを部分的に統合すると、レンダリングに問題が発生する可能性があります。
 * &amp;lbrack；レイヤー&rbrack;レンダリング中にレイヤースタックを微調整すると、クラッシュする可能性がある
@@ -206,28 +215,28 @@ ht-degree: 0%
 
 **追加：**
 
-* &lbrack;2Dビュー&amp;rbrack；高解像度テクスチャの2Dビューで、よりズームアウトすることができます。
+* &lbrack;2D ビュー&amp;rbrack；高解像度テクスチャ用に2D ビューをさらにズームアウト可能
 * &lbrack;Captis&rbrack;ファイルをコピーする際の問題をユーザーに警告する(&amp;R)
 * &lbrack;Layers&rbrack;レイヤーを複製する場合は、新しいレイヤー名に増分値を使用します
 
 **修正済み：**
 
-* &lbrack;2D View&rbrack;コピースタンプのすべてのプロパティをリセットした後にストロークをペイントすると、以前に作成したストロークが再び表示される
+* &lbrack;2D ビュー&rbrack; クローンスタンプのすべてのプロパティをリセットした後にストロークをペイントすると、以前に作成したストロークが再び表示される
 * &lbrack;Application&rbrack; &quot;Save current project?&quot; ポップアップで間違ったプロジェクト名が使用されています
-* &lbrack;Application&amp;rbrack；終了時にクラッシュする
-* &lbrack;Application&rbrack; Potential crash
-* &lbrack;Application&amp;rbrack；間違ったマテリアルでサムネールが生成される場合があります
-* &lbrack;Captis&amp;rbrack；一部のデバイスでは、高解像度でスキャンを実行すると、Heightマップが黒くなる
+* &lbrack;Application&rbrack; クラッシュ at exit
+* &lbrack;Application&amp;rbrack；潜在的なクラッシュ
+* &lbrack;Application&amp;rbrack；場合によっては、サムネールが誤ったマテリアルで生成されることがあります
+* &lbrack;Captis&amp;rbrack；一部のデバイスでは、高解像度でスキャンを実行すると高さマップが黒くなる
 * &lbrack;Captis&rbrack;キャプチャ名が設定されておらず、キャリブレーションが実行されている場合、「キャプチャを開始」ボタンが無効にならない
-* &lbrack;Export&rbrack; .sbsarファイルを書き出すと、ユーザーに通知されずに書き出しが失敗することがあります
+* &lbrack;Export&rbrack; .sbsar ファイルを書き出すと、ユーザーに通知されずに書き出しが失敗する場合がある
 * &lbrack;Filters&amp;rbrack；自動タイリングフィルタの「詳細パラメータ」画面で、パラメータを調整するとフリッカーが発生することがある
-* &amp;lbrack；フィルター&rbrack;タイリングフィルターのデフォルトパラメーターを使用すると、出力でグレーの斑点が表示される
-* &amp;lbrack；フィルター&amp;rbrack；高解像度入力では、「オートタイリング」フィルターの詳細設定で個々のパターンポイントが表示されない場合がある
+* &lbrack;Filters&rbrack;タイリングフィルターのデフォルトパラメーターにより、出力でグレーの斑点が生成される
+* &amp;lbrack；フィルター&amp;rbrack；高解像度入力では、「自動タイリング」フィルターの詳細設定で個々のパターンポイントが表示されない場合があります
 * &amp;lbrack；フィルター&rbrack;カスタムサイズの自動タイリングパラメーターのパターンサイズのデフォルト値が正しくない
-* &amp;lbrack；レイヤー&amp;rbrack；自動タイリングフィルターに関して発生するカラーの問題が、主に赤いマテリアルで発生
+* &amp;lbrack；レイヤー&amp;rbrack；自動タイリングフィルターで発生するカラーの問題が、主に赤いマテリアルで発生
 * &amp;lbrack；レイヤー&rbrack;レイヤーを追加すると、一部のツイークがデフォルト値にリセットされる場合があります
 * &lbrack;物理サイズを含む物理サイズのサムネールが間違ったHeightスケールを持っている&rbrack;
-* &lbrack;UI&amp;rbrack；公開されたパラメータの名前を変更できない
+* &lbrack;UI&rbrack; 表示されるパラメーター名を変更できない
 * &lbrack;UI&rbrack;チャンネルアクティベーションボタンが正方形でない
 * &lbrack;UI&rbrack;スライダラベルが長すぎると、リセットボタンにアクセスできません
 * &lbrack;UI&rbrack; Returnキーを押すかクリックしても、テキストフィールドからフォーカスが削除されない
@@ -291,7 +300,7 @@ ht-degree: 0%
 * &amp;lbrack；フィルター&rbrack;アップスケールフィルター使用後の誤った出力サイズ
 * &amp;lbrack；フィルター&amp;rbrack；環境の回転およびスタイル設定フィルターのアイコンが表示されない
 * &amp;lbrack；フィルター&amp;rbrack；一部のフィルターを更新すると、正しくレンダリングされない可能性があります
-* &amp;lbrack；レイヤー&rbrack; 2つのマテリアルをブレンドすると、最初のレンダリングが正しく行われない。
+* &amp;lbrack；レイヤー&rbrack; 2つのマテリアルをブレンドすると、最初のレンダリングが正しく行われない
 * &lbrack;Layers&rbrack;レイヤを更新するボタンは、更新が1つしかない場合でも「すべて更新」と表示される
 * &amp;lbrack；レイヤー&rbrack; レイヤースタックに画像を読み込む際の不要な計算
 * &lbrack;Performance&rbrack; 法線マップ形式処理を改善してレンダリング時間を短縮
@@ -397,10 +406,10 @@ ht-degree: 0%
 * &lbrack;Content&rbrack;サンプルプロジェクトはフィルターの更新を求められますが、すでに最新の状態です
 * &amp;lbrack；フィルター&amp;rbrack；通常/Height調整フィルターにアイコンがありません
 * &lbrack;Layers&rbrack;イメージインポートレイヤのイメージを変更できません
-* &lbrack;Layers&rbrack;アップスケールフィルターを使用するとクラッシュする
-* &lbrack;Layers&amp;rbrack；古い画像をマテリアルに更新するとマテリアルがすべて黒くなる
-* &amp;lbrack；レンダリング&rbrack;アセットの作成後すぐにレイヤースタックを微調整すると、レンダリングが壊れる
-* &lbrack;Scripting&rbrack;プロジェクトにアセットが存在しないと、自動保存プラグインがクラッシュする
+* &lbrack;Layers&rbrack; クラッシュ（アップスケールフィルター使用時）
+* &lbrack;Layers&amp;rbrack；古い画像をマテリアルに更新すると、マテリアルがすべて黒くなる
+* &amp;lbrack；レンダリング&rbrack;アセットを作成した直後にレイヤースタックを微調整すると、レンダリングが壊れる
+* &lbrack;Scripting&rbrack;プロジェクトにアセットがない場合の自動保存プラグインクラッシュ
 * &lbrack;Tools&rbrack;ブラシツールバーにブラシサイズの値が表示されない
 * &lbrack;UI&rbrack;アプリケーション言語を変更しても、ホーム画面の一部のラベルが更新されない
 * &lbrack;UI&rbrack;スライダーテキストフィールドでEscキーまたはEnterキーを押しても、フォーカスが失われません
@@ -432,7 +441,7 @@ ht-degree: 0%
 * &lbrack;Application&rbrack; クラッシュレポートウィンドウが、クラッシュが発生した直後に開くようになりました
 * &lbrack;Content&rbrack;サンプルプロジェクトを開いて簡単に開始
 * &amp;lbrack；書き出し&rbrack; USDファイルのAdobe Standard Materialシェーダーの書き出し
-* &lbrack;Generative AI&rbrack; Image to Textureワークフローで画像を入力として使用する場合は、「推測しない」タグにチェックを入れる
+* &lbrack;Generative AI&amp;rbrack；画像からテクスチャへの入力ワークフローで画像を使用する際に「推測しない」タグをチェックする
 * &amp;lbrack；プロジェクト&rbrack;サムネールは、プロジェクトをすばやく開くためにプロジェクトファイル内に保存されます
 * &amp;lbrack；プロジェクトファイル内にキャッシュデータを保存するための環境設定の設定(&lbrack;Project&rbrack;)。異なるモード（キャッシュなし、ライトキャッシュ、フルキャッシュ）
 * &amp;lbrack；スクリプト&rbrack; &amp;lbrack；変更の解除&rbrack; QtのQt 6.15への移行 – 既存のプラグインの互換性に影響を与える
@@ -444,21 +453,21 @@ ht-degree: 0%
 
 **修正済み：**
 
-* &lbrack;3D キャプチャ&rbrack; macOSでオブジェクトキャプチャを開始できない場合にクラッシュする
-* &lbrack;Application&amp;rbrack；終了時にクラッシュする
+* macOSでオブジェクトキャプチャを開始できない場合に&lbrack;3D キャプチャ&rbrack;クラッシュが発生する
+* &lbrack;Application&rbrack; クラッシュ at exit
 * &lbrack;Application&rbrack;アセットをプロジェクトパネルに追加する際に終了時にハングする
 * &lbrack;Application&rbrack;プロジェクトアセットの名前を変更すると、Enterキーを押さない限り機能しない
 * &lbrack;Application&rbrack; 「元に戻す」および「やり直し」メニュー項目は、必要なときに無効になりません。
 * &amp;lbrack；アセット&rbrack;アセットパネルの「すべてのライブラリ」セクションからアセットを削除できない
 * &lbrack;Content&rbrack; Atlas creator – 既存の不透明度マップを使用（存在する場合）
-* &lbrack;Content&rbrack; Color ID Blend – ベースカラーのカラー選択を修正
-* &amp;lbrack；画層&rbrack;ジェネレータ使用時の無駄な計算を避ける
+* &lbrack;Content&rbrack; Color ID ブレンド – ベースカラーのカラー選択を修正
+* &lbrack;Layers&rbrack;ジェネレータ使用時の無駄な計算を避ける
 * &amp;lbrack；画層&rbrack;ジェネレータをツイークすると、過度に多くの計算がトリガされる場合があります
 * &amp;lbrack；パフォーマンス&rbrack; GPUメモリ管理の改善
 * &lbrack;Performance&rbrack;レンダーキャッシュは、アプリの再起動時に使用できない場合があります
 * &amp;lbrack；リソース&amp;rbrack；読み取り専用ファイルがアセットパネルに表示されない
 * &lbrack;Scripting&rbrack;レイヤーを別のレイヤーに追加した後、再利用できるようにする
-* &amp;lbrack；スクリプト&rbrack; 1つのスクリプトでレイヤースタック構造を数回変更すると失敗することがある
+* &lbrack;Scripting&rbrack; 1つのスクリプトでレイヤースタック構造を数回変更すると失敗することがある
 
 **削除済み：**
 
@@ -480,7 +489,7 @@ ht-degree: 0%
 
 **修正済み：**
 
-* &amp;lbrack；レイヤー&amp;rbrack；グレースケールマスクのペイントが機能せず、コピースタンプ、ワープのペイント、コンテンツに応じた塗りつぶしなどのツールに影響を与える
+* &amp;lbrack；レイヤー&amp;rbrack；グレースケールマスクの描画が機能せず、クローンスタンプ、ペイントワープ、コンテンツに応じた塗りつぶしなどのツールに影響を与える
 
 ### **4.5.0グリュイエール**
 
@@ -488,18 +497,18 @@ ht-degree: 0%
 
 **追加済み**
 
-* &amp;lbrack；相互運用性&rbrack;マテリアルをUE5、Blender、Maya、3DsMax Unityに送信
+* &amp;lbrack；相互運用性&rbrack; UE5、Blender、Maya、3DsMax Unityにマテリアルを送信
 * &lbrack;Content&amp;rbrack；新しいテクスチャジェネレータカテゴリ – グラデーション
 * &lbrack;Content&rbrack; HDRI ツール – 新しいEnvironment rotation filter
 
 **修正済み：**
 
-* &amp;lbrack；公開パラメーター&rbrack; .sbsar入力値の公開が機能しない
-* &amp;lbrack；レイヤー&amp;rbrack；ベースカラーがグレースケール画像で赤に変わる
-* &amp;lbrack；レンダリング&rbrack;カラーチャンネルで使用されているグレースケールイメージのカラースペースが正しくありません
+* &lbrack;表示されるパラメーター&rbrack; .sbsar入力値の表示が機能しない
+* &amp;lbrack；レイヤー&rbrack;Base colorがグレースケール画像で赤に変わる
+* &amp;lbrack；カラーチャンネルで使用されているレンダリング&rbrack; グレースケールイメージのカラースペースが正しくありません
 * &amp;lbrack；スクリプト&amp;rbrack；書き出しプリセットを使用すると、予期したチャンネルが書き出されない場合がある
-* &amp;lbrack；コンテンツ&rbrack;Dirt – 画像の上にDirtフィルターを適用すると、黒の法線が生成される
-* &lbrack;Content&rbrack; Emboss – エンボスフィルターのパターンの拡大/縮小が0 ～ 1の間で直線にならない
+* &amp;lbrack；コンテンツ&rbrack;Dirt – 画像の上にDirtフィルターをマテリアルに適用すると、黒の法線が生成される
+* &lbrack;Content&rbrack; エンボス - エンボスフィルタのパターンのスケーリングが0 ～ 1の間で線形ではありません
 * &lbrack;Content&rbrack; Make it tile – 標準とHeightの一貫性を向上
 
 ### **4.4.1フォントの種類**
@@ -509,7 +518,7 @@ ht-degree: 0%
 **修正済み：**
 
 * &lbrack;Content&rbrack;Dirtフィルタがありません
-* &lbrack;Generative AI&rbrack; Network error when using Image to Texture
+* &lbrack;Generative AI&rbrack; Network error occurrently when using Image to Image to テクスチャ
 
 ### **4.4.0フォントの期限**
 
@@ -518,24 +527,24 @@ ht-degree: 0%
 **追加：**
 
 * &lbrack;Application&rbrack; 3D キャプチャキャッシュが別のサブフォルダに格納されるようになりました
-* &lbrack;Generative AI&rbrack; Image to Texture (Beta)
+* &lbrack;Generative AI&amp;rbrack；画像をテクスチャに変換（ベータ版）
 * &amp;lbrack；ジェネレーティブAI&rbrack;テキストをパターン化（ベータ版）
-* &amp;lbrack；ジェネレーティブAI&rbrack;テキストをテクスチャに（ベータ版）
+* &amp;lbrack；ジェネレーティブAI&rbrack;テキストからテクスチャ （ベータ版）
 * &lbrack;Scripting&rbrack;アセットに「resource」プロパティが追加されました
 * &lbrack;Scripting&rbrack;レイヤーに&#39;output_usages&#39;プロパティが追加されました
 
 **修正済み：**
 
 * &amp;lbrack；破損したプロジェクトファイルを開くときのアプリケーション&rbrack; クラッシュ
-* &lbrack;Application&rbrack;プロジェクトに破損したアセットが含まれているとクラッシュする
-* &lbrack;Application&rbrack; Windowsでモニターのプラグを抜くとクラッシュする
+* &lbrack;Application&rbrack;プロジェクトに破損したアセットが含まれている場合のクラッシュ
+* &lbrack;Windowsでモニターのプラグを抜く際のApplication&rbrack; クラッシュ
 * &lbrack;Application&rbrack; Windowsタスクバーのアプリケーションアイコンが正しくない
 * &lbrack;Application&rbrack;メイン設定ファイルが破損すると、ファイルが削除される可能性があります
 * &lbrack;Application&rbrack;パネルがポップアップの前に表示されます
-* &lbrack;Content&rbrack; Texture generatorsにブラーのサムネールがある
+* &lbrack;Content&rbrack; テクスチャジェネレータのサムネイルがぼやけている
 * &lbrack;Export&amp;rbrack；読み込まれた画像から生成された不透明度チャンネルが.sbs/.sbsarの書き出し時に破損する
-* &amp;lbrack；フィルター&rbrack;アップスケールが入力レイヤーに応じてクラッシュすることがある
-* &lbrack;Generative AI&rbrack;サービスから予期しない結果を受け取ると、クラッシュする可能性があります
+* &lbrack;Filters&rbrack; Upscaleは、入力レイヤーに応じてクラッシュする場合があります
+* &lbrack;Generative AI&rbrack;サービスから予期しない結果を受け取った場合に起こりうるクラッシュ
 * &amp;lbrack；環境変数からプラグインを自動読み込みする際のスクリプト&rbrack; クラッシュ
 * &lbrack;Scripting&rbrack; APIを使用して出力使用を割り当てる際に考えられるクラッシュ
 
@@ -554,7 +563,7 @@ ht-degree: 0%
 * &amp;lbrack；新しいバージョンを処理する際の3D キャプチャ&rbrack; クラッシュ
 * macOSで&lbrack;3D キャプチャ&amp;rbrack；後処理ステップがクラッシュすることがある
 * &lbrack;3D キャプチャ&rbrack; メッシュ変形レイヤーが正しくレンダリングされない可能性がある
-* &lbrack;Application&amp;rbrack；以前のインスタンスがまだ書き出し中にSamplerを起動するとクラッシュする
+* 以前のインスタンスがまだ書き出し中の状態でSamplerを起動すると、&lbrack;Application&rbrack; クラッシュが発生します。
 * &lbrack;Application&rbrack; Samplerが初めて起動されたとき、しばらく応答しない
 * &lbrack;Export&rbrack;Anisotropy angleマップが書き出されない
 * &amp;lbrack；フィルター&amp;rbrack；布地の織りをレイヤースタックに追加するとクラッシュが発生する場合がある
@@ -598,24 +607,24 @@ ht-degree: 0%
 * &amp;lbrack；アセット&amp;rbrack；新しいアセットタイプ：テクスチャジェネレータ
 * &amp;lbrack；アセット&rbrack;スターターアセットに含まれる新しいマテリアル
 * &lbrack;Assets&rbrack;プロパティパネルの画像パラメーター用の新しいアセットピッカー
-* &lbrack;Assets&rbrack; Texture Generatorsをアセットパネルからプロパティパネルの画像ピッカーにドラッグ&amp;ドロップ
-* &amp;lbrack；アセット&rbrack;オペレーティングシステムのファイルエクスプローラからテクスチャジェネレータをドラッグアンドドロップ
+* &lbrack;Assets&rbrack;アセットパネルからプロパティパネルの画像ピッカーに、テクスチャジェネレーターをドラッグ&amp;ドロップ
+* &lbrack;Assets&rbrack;オペレーティングシステムのファイルエクスプローラーからテクスチャジェネレータをドラッグアンドドロップ
 * &lbrack;Assets&rbrack; Filtersは、画像入力のユーザータグを介してフィッティングジェネレータを提案できます
 * &amp;lbrack；アセット&rbrack; テクスチャジェネレータは、ユーザタグを使用してどのフィルタを提案するかを定義できます。
-* &amp;lbrack；コンテンツ&amp;rbrack；新しい遠近法の切り抜きフィルター
+* &amp;lbrack；コンテンツ&amp;rbrack；新しい遠近法切り抜きフィルター
 * &lbrack;Content&rbrack; New Stylization filter
 * &amp;lbrack；コンテンツ&amp;rbrack；塗りつぶしフィルターの描画モード
 * &lbrack;Content&amp;rbrack；更新された刺繍フィルター
 * &lbrack;Content&amp;rbrack；更新されたペイントラップフィルター
 * &lbrack;Content&amp;rbrack；すべてのフィルタがテクスチャジェネレータをサポートするように更新されました
-* &lbrack;Layers&rbrack;レイヤスタックに追加するときにテクスチャジェネレータ出力チャンネルを選択する機能
-* &amp;lbrack；レイヤー&rbrack;テクスチャジェネレーターでプリセットを簡単に一覧表示して適用する機能
-* &lbrack;Layers&rbrack;イメージピッカーにテクスチャジェネレータプレビューを表示
-* &lbrack;Layers&rbrack; Texture Generatorパラメータを公開および書き出し可能
-* &lbrack;Layers&rbrack;テクスチャ読み込み作成テンプレートを使用して1つのイメージを読み込むときに、ベースカラーの使用を割り当てる
+* &lbrack;Layers&rbrack; レイヤースタックにテクスチャジェネレータ出力チャンネルを追加する際に、出力チャンネルを選択する機能
+* &lbrack;Layers&rbrack; テクスチャジェネレータでプリセットを簡単に一覧表示して適用する機能
+* &lbrack;Layers&rbrack; テクスチャジェネレータのプレビューをイメージピッカーに表示する
+* &amp;lbrack；画層&rbrack; テクスチャジェネレータパラメータを表示および書き出し可能
+* &lbrack;Layers&rbrack; テクスチャ Import Creation Templateを使用して1枚の画像を読み込むときに、Base color使用量を割り当てる
 * プロパティパネルの画像ピッカーで、互換性のないファイルをドラッグ&amp;ドロップしようとすると、&amp;lbrack；レイヤー&rbrack;フィードバックが表示されます。
-* &lbrack;Layers&amp;rbrack；読み込んだ画像のアルファチャンネルから不透明度チャンネルを生成
-* &lbrack;Layers&rbrack; Image to Material (AI)は、カテゴリを変更する際の計算が高速です。
+* &lbrack;Layers&amp;rbrack；読み込んだイメージのアルファチャンネルから不透明度チャンネルを生成する
+* &lbrack;Layers&rbrack; Image to Category (AI)は、マテリアルを変更する際の計算速度が速くなります。
 * &amp;lbrack；レイヤー&amp;rbrack；作成テンプレートの使用後に最も関連性の高いレイヤーを選択
 * &amp;lbrack；レイヤー&amp;rbrack；位置ウィジェットを「詳細パラメーター」グループのスライダーで微調整できるようになりました
 * &lbrack;Export&rbrack;キューに未加工の数字の代わりにパーセンテージを表示
@@ -656,30 +665,30 @@ ht-degree: 0%
 
 * &lbrack;3D キャプチャ&rbrack; 3D キャプチャがWindowsで5% ～ 10%高速になりました
 * &lbrack;3D キャプチャ&rbrack;デシメーション前のメッシュクリーンアップを改善する
-* &lbrack;Engine&rbrack; Substance engineをバージョン9.0.3にアップデート
+* &lbrack;エンジン&rbrack; Substance engineをバージョン9.0.3にアップデート
 * &lbrack;Layers&rbrack; Content-Aware Fill:アップストリームの更新、さまざまなユースケースの修正、Linuxのサポート
 
 **修正済み：**
 
-* &lbrack;3D キャプチャ&amp;rbrack；位置合わせ後に[戻る]をクリックしてから[次へ]をクリックしても、点群が更新されない
-* &lbrack;3D キャプチャ&rbrack;メッシュがプロジェクトに追加された後、穴が表示される
-* &lbrack;Application&rbrack; 3D キャプチャ後にフルスクリーンモードを終了するとクラッシュする
-* &lbrack;Application&rbrack;クラフト画像ファイルによるクラッシュ
+* &lbrack;3D キャプチャ&rbrack;アラインメント後に「戻る」をクリックしてから「次へ」をクリックしても、点群が更新されない
+* &lbrack;3D キャプチャ&rbrack; メッシュがプロジェクトに追加された後、穴が表示される(&rbrack;)
+* &lbrack;3D キャプチャ後にフルスクリーンモードを終了すると、Application&rbrack; クラッシュが発生します。
+* &lbrack;Application&rbrack; クラッシュと巧妙に細工された画像ファイル
 * &lbrack;Application&rbrack; Samplerを終了するときに「すべてのライブラリ」に保存すると、再起動時にアセットパネルが空になる
-* &lbrack;Application&rbrack;マテリアルの書き出し時のメモリリーク
-* &lbrack;Application&amp;rbrack；以前のSamplerバージョンで保存したプロジェクトを開くと、クラッシュする場合があります
-* &lbrack;Application&rbrack; 3Dメッシュの変換に失敗すると、クラッシュする可能性がある
-* &lbrack;Application&rbrack; Samplerの実行中に.sbsarを開くと、サイレントクラッシュする
-* &lbrack;Export&rbrack;カスタム使用で.sbs/.sbsarファイルを書き出すとクラッシュする
-* &amp;lbrack；書き出し&amp;rbrack；書き出された法線マップは、ユーザ設定に関係なく常にDirectXになります
+* &lbrack;Application&rbrack; マテリアルを書き出すときのメモリリーク
+* &lbrack;Application&amp;rbrack；以前のバージョンのSamplerで保存したプロジェクトを開くと、クラッシュが発生する場合がある
+* &lbrack;Application&rbrack; 3D メッシュの変換に失敗した場合の潜在的なクラッシュ
+* &lbrack;Application&rbrack; Samplerの実行中に.sbsarを開くと、サイレントクラッシュが発生する
+* &amp;lbrack；カスタム使用で.sbs/.sbsar ファイルを書き出すときに書き出し&rbrack; クラッシュが発生する
+* &lbrack;Export&amp;rbrack；書き出された法線マップは、ユーザ設定に関係なく常にDirectXになります。
 * &lbrack;Export&rbrack; macosで3DオブジェクトをFBXファイルに書き出すことができない
-* &lbrack;Export&amp;rbrack；刺繍フィルターを含むレイヤースタックを.sbs/.sbsarファイルとして書き出す際の不整合
+* &lbrack;Export&rbrack;sbsar ファイルフィルターを.sbs/.embroideryとして含むレイヤースタックを書き出す際の不一致
 * &lbrack;Export&rbrack; .sbs/.sbsarファイルの書き出しが機能しない場合がある
-* &lbrack;Export&rbrack; .sbs/.sbsarファイルイメージを書き出すときに、適切なビット深度が指定されていない場合がある
+* &lbrack;Export&rbrack; .sbs/.sbsar ファイル画像を書き出すときに適切なビット深度が指定されない場合がある
 * &amp;lbrack；レイヤー&rbrack;スプラッタのレイヤーを非表示にすると、最初の子レイヤーがレンダリングされる
-* &amp;lbrack；レイヤー&rbrack;マスクを明るさ/コントラストレイヤーに読み込むとクラッシュする
+* &amp;lbrack；レイヤー&rbrack;マスクを明るさ/コントラストレイヤーに読み込むときにクラッシュが発生する
 * &lbrack;Layers&rbrack;レイヤーを削除した後、誤解を招くエラーメッセージが表示される
-* &amp;lbrack；レイヤー&rbrack;アセットをダウングレードするとクラッシュする可能性がある
+* &amp;lbrack；レイヤー&rbrack;アセットをダウングレードする際に起こりうるクラッシュ
 * &amp;lbrack；レイヤー&amp;rbrack；一部の出力は、チャンネル設定パネルで使用を強制しない限り、入力に接続されません
 * &lbrack;物理サイズ&amp;rbrack；参照レイヤードロップダウンが誤ってリセットされることがある
 * &lbrack;UI&rbrack;テンプレート情報の読み込みアイコンの更新が必要
@@ -801,31 +810,31 @@ ht-degree: 0%
 
 **修正済み：**
 
-* &lbrack;3D キャプチャ&rbrack; 3D キャプチャレンダラが失敗するとアプリケーションがクラッシュする
-* &lbrack;3D キャプチャ&rbrack;イメージをロードできないときにクラッシュする
-* &lbrack;3D キャプチャ&rbrack;メッシュ再構築ステップに到達するとクラッシュする
-* &lbrack;3D キャプチャ&rbrack;バウンディングボックスのサイズを変更するとクラッシュする
+* &lbrack;3D キャプチャレンダラーが失敗したときの3D キャプチャクラッシュ(&rbrack; Applications)
+* &lbrack;3D キャプチャ&rbrack;イメージをロードできないときのクラッシュ
+* &lbrack;3D キャプチャ&rbrack;メッシュ再構築ステップに到達した際のクラッシュ
+* &amp;lbrack；バウンディングボックスのサイズを変更する際の3D キャプチャ&rbrack;クラッシュ
 * &lbrack;3D キャプチャ&amp;rbrack；規則に従ってマスクを読み込むと、マスクが正しく割り当てられません
 * &lbrack;3D キャプチャ&rbrack;バウンディングボックスの調整中にレンダリングの不具合が発生する
 * &lbrack;3D キャプチャ&rbrack; 3D キャプチャポストプロセス中のバージョンの切り替えとレンダリングオプションの切り替えに時間がかかる
 * &lbrack;3D キャプチャ&rbrack; 3D キャプチャの後処理ステップ中にバージョンを切り替えると、時に破損する
-* &amp;lbrack；アプリケーション&amp;rbrack；起動時のクラッシュ
-* &amp;lbrack；名前を変更したマテリアルを複製するとアプリケーション&amp;rbrack；がクラッシュする
-* &lbrack;Application&amp;rbrack；依存フォルダーなしで従来の.alchプロジェクトを開くとクラッシュする
-* &lbrack;Application&amp;rbrack；画面のプラグを差し込んだり抜いたりすると、コンピューターがスリープ状態に入ったり、リモートからアクセスされると、クラッシュします
+* &amp;lbrack；起動時にアプリケーション&rbrack; クラッシュを起動する
+* &amp;lbrack；名前を変更したマテリアルを複製する際のApplication&rbrack; クラッシュ
+* 依存フォルダーなしで従来の.alchプロジェクトを開くと、&lbrack;Application&rbrack; クラッシュが発生する
+* &amp;lbrack；画面のプラグを差し込んだり取り外したりしたとき、またはコンピューターがスリープ状態になったとき、またはリモートでアクセスされたときにApplication&rbrack; クラッシュが発生する
 * 非永続的なアセット管理に関連するアプリケーション&rbrack; クラッシュとメモリリーク(&lbrack; Application&rbrack; Memory Leaks)
-* &lbrack;Export&rbrack;テクスチャを埋め込む、または参照する3Dオブジェクトファイル形式のマテリアル形式の選択を無効にする
-* &lbrack;Export&rbrack; 3Dオブジェクトの書き出し中に問題が発生した場合にクラッシュする
-* &lbrack;Export&rbrack; .sbs/.sbsarファイルを書き出すとクラッシュする
-* &lbrack;Export&amp;rbrack；同じラベルを持つが、同じファイル名を持たないカスタムプリセットを読み込むとクラッシュする
-* &amp;lbrack；書き出し&amp;rbrack；環境ライトを.sbs/.sbsarファイルに書き出すと機能しないことがある
+* &lbrack;Export&rbrack; テクスチャを埋め込む、または参照する3Dオブジェクトファイル形式のマテリアルフォーマットの選択を無効にする
+* &amp;lbrack；書き出し&rbrack; 3Dオブジェクトの書き出し中に問題が発生した場合のクラッシュ
+* .sbs/.sbsar ファイルの書き出し時に&lbrack;Export&rbrack; クラッシュが発生する
+* 同じラベルを持つがファイル名が同じではないカスタムプリセットを読み込むと、&lbrack;Export&rbrack; クラッシュが発生する
+* &amp;lbrack；書き出し&rbrack; sbsar ファイルbs/.sbsar ファイルに書き出せないことがある
 * &amp;lbrack；書き出し&rbrack; Gltf/Glb書き出しでbase64のテクスチャがエンコードされる
 * 再フォーカス時に&lbrack;Export&rbrack; Nameテキストフィールドが機能しない
-* 画像をマテリアル（AI利用）レイヤーに.sbs/.sbsarファイルに書き出すと、&amp;lbrack；書き出し&rbrack;タイルを保持が機能しない
+* 画像をマテリアル（AI利用）レイヤーに.sbs/.sbsar ファイルとして書き出すと、&amp;lbrack；書き出し&rbrack;「タイリングを保持」が機能しない
 * &lbrack;Export&rbrack; gltfを書き出してファイルを置き換える場合、置き換えられるファイルのリストが正しくありません
 * &lbrack;表示されるパラメーター&rbrack;ランダムシードが、書き出された.sbs/.sbsarファイルで機能しない
-* &lbrack;Layers&rbrack; Content-Aware Fillが2回目の追加でクラッシュすることがある
-* &amp;lbrack；画層&amp;rbrack；画層スタックを計算中にクラッシュする
+* &lbrack;Layers&rbrack; Content-Aware Fillを2回目に追加するとクラッシュが発生することがある
+* &amp;lbrack；画層&rbrack;レイヤースタック計算時のクラッシュ
 * &lbrack;Layers&rbrack; Image to Material(AI)ディスクキャッシュが機能しない
 * &amp;lbrack；レイヤー&rbrack;レイヤーを微調整するとクラッシュする可能性がある
 * &lbrack;Performance&rbrack; Memory leaks
@@ -891,7 +900,7 @@ ht-degree: 0%
 * &lbrack;Scripting&amp;rbrack；書き出しが完了、失敗、またはキャンセルされたときにアクションを実行する新しいExportControllerクラス
 * &amp;lbrack；スクリプト&amp;rbrack；引数を渡すPythonスクリプトの実行に – run-script
 * レイヤーパネル上にアセットをドラッグしたときのUIフィードバック(&lbrack;UI&rbrack;)
-* &amp;lbrack；コンテンツ&amp;rbrack；色温度フィルターがマテリアルで機能するようになりました
+* &lbrack;Content&rbrack; Color temperature filter is working on マテリアル
 * &lbrack;Content&amp;rbrack；通常からHeightフィルターには、タイリングを保持する新しいオプションが追加されました
 
 **修正済み：**
@@ -935,7 +944,7 @@ ht-degree: 0%
 
 * &amp;lbrack；カラーピッカー&amp;rbrack；解像度が異なる2台目のモニターでカラーを選択できない場合がある
 * &lbrack;Content&rbrack; Shapeライトウィジェットが球面投影法モードで機能しません
-* &lbrack;Stagerに送信されたディスプレイスメントとの相互運用性&rbrack;マテリアルは、ディスプレイスメントコントロールを失います
+* Stagerに送信されたディスプレイスメントを含むマテリアルのディスプレイスメントコントロールが失われます(&lbrack;Interoperability&rbrack; Material)
 
 ### 4.0.1バナナ
 
@@ -955,7 +964,7 @@ ht-degree: 0%
 * &amp;lbrack；レイヤー&rbrack;コンテンツに応じた塗りつぶしは、下のレイヤーを微調整するとスタックすることがある
 * &amp;lbrack；カラーピッカー&amp;rbrack；解像度が異なる2台目のモニターでカラーを選択できない場合がある
 * &lbrack;Content&rbrack; Shapeライトウィジェットが球面投影法モードで機能しません
-* &lbrack;Stagerに送信されたディスプレイスメントとの相互運用性&rbrack;マテリアルは、ディスプレイスメントコントロールを失います
+* Stagerに送信されたディスプレイスメントを含むマテリアルのディスプレイスメントコントロールが失われます(&lbrack;Interoperability&rbrack; Material)
 
 ### 4.0.0バナナ
 
@@ -1062,7 +1071,7 @@ ht-degree: 0%
 * &lbrack;Layers&rbrack; ImageフィールドのResetボタンは、ユーザが何かをペイントした場合は何も行いません
 * &lbrack;Layers&rbrack;ブラシツール使用時にキャッシュのレンダリングが機能しない
 * &amp;lbrack；レイヤー&amp;rbrack；削除されたレイヤーは、プロパティパネルに表示されます。
-* &lbrack;Layers&rbrack;プロジェクトのアセットを切り替える際にレイヤーの計算が停止することがある
+* &lbrack;Layers&rbrack;プロジェクトアセットの切り替え時にレイヤの計算が停止することがある
 * &lbrack;Project&rbrack; Samplerがディスクからプロジェクトを開けない場合がある
 * &lbrack;2D ビュー&rbrack; 2D ビューは常にデフォルトのマテリアル出力に戻ります
 
@@ -1110,21 +1119,21 @@ ht-degree: 0%
 * &amp;lbrack；ログ&rbrack;ログをクリア、コピー/ペースト、書き出しするための新しいアクションバー
 * &amp;lbrack；プロパティ&rbrack;パラメータ値のリセットにカーソルを合わせる新しいボタン
 * &amp;lbrack；プロパティ&rbrack;パラメータ値をリセットする新しい右クリックコンテキストメニュー
-* &lbrack;Content&rbrack; Image to Material (AI Powered)がMacOSで動作するようになりました
-* &lbrack;Engine&rbrack; Substanceエンジンをv8.6.0に更新する
+* &lbrack;Content&rbrack; Image to Image (AI Powered)がMacOSで動作するようになりました
+* &lbrack;エンジン&rbrack; Substanceエンジンをv8.6.0に更新
 
 **修正済み：**
 
-* &lbrack;Application&rbrack;サムネールの生成中に、終了時にアプリケーションがクラッシュすることがある
-* &lbrack;Application&amp;rbrack；終了時に「別名で保存」を使用すると、アプリケーションがクラッシュする場合がある
+* &lbrack;Application&rbrack;サムネールの生成中に、終了時にアプリケーションがクラッシュする場合がありました
+* &lbrack;Application&rbrack;アプリケーションが終了時に「別名で保存」を使用すると、クラッシュすることがある
 * &lbrack;Application&rbrack;アプリケーションが、MacOSでのシャットダウン中にハングする場合がある
 * &amp;lbrack；アプリケーション&rbrack;カラーダイアログを開いたまま保存しても、変更が保存されない
 * &lbrack;Export&amp;rbrack；書き出し時に使用法の命名規則が正しくない
-* &amp;lbrack；レイヤー&rbrack;マテリアルをフィルターの上にドロップすると、クラッシュする場合がある
-* &amp;lbrack；レイヤー&amp;rbrack；古いレイヤースタックを更新すると、関連のないレイヤースタックが更新される場合がある
+* &amp;lbrack；レイヤー&rbrack; マテリアルをフィルターの上にドロップすると、クラッシュが発生する場合がある
+* &lbrack;Layers&amp;rbrack；古いバージョンのレイヤースタックを更新すると、関連のないレイヤースタックが更新されることがある
 * &amp;lbrack；メタデータ&amp;rbrack；空のフィールドが書き出される
 * &lbrack;Metadata&rbrack;メタデータアイテムが1つしかない場合、UIを使用して並べ替えることができます
-* &amp;lbrack；プロジェクト&rbrack;マテリアルを複製した後で計算が終了しない(&amp;R)
+* &lbrack;Project&rbrack; マテリアルを複製した後にComputeが終了しない(&amp;R)
 * &amp;lbrack；プロジェクト&rbrack;プロジェクトアセットが最初のプロジェクト保存後に複製されます
 * &lbrack;Project&rbrack;アセットの切り替え時に不要な計算が発生する
 * &amp;lbrack；レンダリング&rbrack;レイヤーを削除した後、一部のレイヤースタックが正しくレンダリングされない
@@ -1137,7 +1146,7 @@ ht-degree: 0%
 
 * &amp;lbrack；カラーピッカー&amp;rbrack；解像度が異なる2台目のモニターでカラーを選択できない場合がある
 * &lbrack;Content&rbrack; Shapeライトウィジェットが球面投影法モードで機能しません
-* Stagerに送信されたディスプレイスメントを含むマテリアルのディスプレイスメントコントロールが失われます(&lbrack;Interoperability&rbrack; Material)
+* &lbrack;Stagerに送信されたディスプレイスメントとの相互運用性&rbrack;マテリアルは、ディスプレイスメントコントロールを失います
 
 ### 3.3.2ズッキーニ
 
@@ -1145,7 +1154,7 @@ ht-degree: 0%
 
 **修正済み：**
 
-* &lbrack;Application&rbrack;プロジェクトを開くときにクラッシュする可能性がある問題を修正
+* &lbrack;Application&rbrack;プロジェクトを開くときの潜在的なクラッシュを修正
 * &lbrack;Export&rbrack; Samplerを再起動すると、読み込んだカスタム書き出しプリセットリストが壊れる
 * &lbrack;Interoperability&rbrack; Designerから送信されたマテリアルが削除され、Designerから再送信された場合のクラッシュを修正
 * &lbrack;Project&rbrack;プロジェクト内の最後のアセットである場合、最後のマテリアルまたは環境光を削除できません
@@ -1155,7 +1164,7 @@ ht-degree: 0%
 
 * &amp;lbrack；カラーピッカー&amp;rbrack；解像度が異なる2台目のモニターでカラーを選択できない場合がある
 * &lbrack;Content&rbrack; Shapeライトウィジェットが球面投影法モードで機能しません
-* Stagerに送信されたディスプレイスメントを含むマテリアルのディスプレイスメントコントロールが失われます(&lbrack;Interoperability&rbrack; Material)
+* &lbrack;Stagerに送信されたディスプレイスメントとの相互運用性&rbrack;マテリアルは、ディスプレイスメントコントロールを失います
 
 ### 3.3.1ズッキーニ
 
@@ -1253,25 +1262,25 @@ ht-degree: 0%
 * &amp;lbrack；書き出し&amp;rbrack；画像ファイルのdpiメタデータの書き出し
 * &lbrack;物理サイズ&amp;rbrack；物理的な寸法を編集する際に非正方形テクスチャとの比率を維持する
 * &lbrack;物理サイズ&rbrack;物理サイズのメタデータは、物理サイズの変更時に即座に適用されます
-* &lbrack;UI&rbrack;物理サイズが有効な場合に、あらゆる種類のマテリアルに影響するようにHeightスケールの最大スライダーを調整
+* &lbrack;UI&rbrack;物理サイズが有効な場合に、あらゆる種類のHeightに影響するようにマテリアルスケールの最大スライダーを調整
 * &lbrack;UI&rbrack;アセットパネルの検索フィルターの新しいツールチップ
 * &lbrack;UI&rbrack;アセットパネルでボタンが無効になっている状況を説明するツールチップを使用
 * &lbrack;Content&amp;rbrack；明るさコントラストフィルターの更新
 
 **修正済み：**
 
-* 切り抜きツールと変形ツールの&lbrack;2D表示&rbrack;90度回転ボタンが正常に機能しない
-* &lbrack;2D View&amp;rbrack；切り抜きウィジェットが消えることがある
+* 切り抜きツールと変形ツールの&lbrack;2D ビュー&rbrack; 90度回転ボタンが正常に機能しない
+* &lbrack;2D ビュー&amp;rbrack；切り抜きウィジェットが見つからないことがある
 * &lbrack;Application&amp;rbrack；画像パラメーターを消去しても、基になるレイヤーが再接続されない
-* &lbrack;Application&rbrack;プロジェクトの保存後に終了時にクラッシュする
-* &lbrack;Application&amp;rbrack；現在のマテリアルをアセットパネルのコレクションにドラッグアンドドロップするとクラッシュする
-* &lbrack;Application&rbrack;アセットをビューポートにドラッグ&amp;ドロップすると、クラッシュする場合がある
+* &lbrack;Application&rbrack;プロジェクトの保存後の終了時のクラッシュ
+* 現在のマテリアルをアセットパネルのコレクションにドラッグアンドドロップすると、&lbrack;Application&rbrack;クラッシュが発生します。
+* &lbrack;Application&rbrack; ビューポートにアセットをドラッグ&amp;ドロップすると、クラッシュが発生する
 * &amp;lbrack；コンテンツ&amp;rbrack；通常ブレンドにランダムシード調整があります
 * &amp;lbrack；コンテンツ&rbrack;Snowフィルターの正常な出力が、新雪または雪解けのパラメーター値に応じて不正確です
 * &lbrack;Content&amp;rbrack；寄木フィルタ：予期しないシームを修正
-* &amp;lbrack；コンテンツ&amp;rbrack；刺繍フィルター：メタリックマップのスレッドを削除
-* &lbrack;Content&rbrack; Floor tiles filter: fix x and y tiles count
-* &lbrack;Content&rbrack; Brick wall filter: normalとHeightを16ビットに出力
+* &lbrack;Content&rbrack; Embroidery filter: remove thread in メタリック map
+* &lbrack;Content&rbrack; 下限タイルフィルター： xタイルとyタイルの数を修正
+* &lbrack;Content&rbrack; レンガウォールフィルター：通常とHeightを16ビットに出力
 * &lbrack;Export&amp;rbrack；書き出しポップアップのデフォルトのファイル名が現在のマテリアル名ではありません
 * &amp;lbrack；書き出し&amp;rbrack；書き出しプリセットを使用して物理比で書き出すと、間違った寸法が表示される
 * &lbrack;Export&rbrack; MetallicがCLOエクスポートプリセットにありません
@@ -1307,7 +1316,7 @@ ht-degree: 0%
 * &lbrack;物理サイズ&rbrack; 物理サイズ自動測定ツールを追加
 * &lbrack;物理サイズ&rbrack; 物理サイズ診断ツールを追加
 * &lbrack;物理サイズ&rbrack; 物理サイズのZ値の設定を許可する
-* 2Dビューでのズームレベルを設定するための&lbrack;物理サイズ&rbrack;ドロップダウンウィジェット
+* &lbrack;物理サイズ&rbrack; 2D ビューのズームレベルを設定するドロップダウンウィジェット
 * &lbrack;物理サイズ&rbrack;ズームレベルのドロップダウンに「物理比で表示」オプションが追加されました
 * &lbrack;物理サイズ&rbrack;ズームレベルドロップダウンの新しい「物理サイズに合わせる」オプション
 * &lbrack;物理サイズ&rbrack; 2D ビュー内の物理サイズを表示
@@ -1323,7 +1332,7 @@ ht-degree: 0%
 * &amp;lbrack；書き出し&rbrack; .sbsar ファイル圧縮設定を設定
 * &amp;lbrack；書き出し&rbrack;アセットのサムネールを.sbs(ar)ファイルに書き出す
 * &lbrack;Export&rbrack; .sbs(ar)ファイルを書き出すときにグラフの種類を設定する
-* &lbrack;Application&rbrack; Realtime Engine 2021が使用できなくなりました
+* &lbrack;Application&rbrack; Realtime エンジン 2021が使用できなくなりました
 * &lbrack;Application&amp;rbrack；取り消し/やり直しは、タイリング(U、V)およびHeightスケールスライダーの変更をサポートするようになりました
 * &amp;lbrack；レンダリング&amp;rbrack；作成したアセットの保存時にディスクキャッシュを生成
 * &amp;lbrack；アセット&rbrack; Ctrlキーを押しながらクリックして、リソースパネルで複数のアセットタイプフィルターを有効にする
@@ -1356,31 +1365,31 @@ ht-degree: 0%
 * &amp;lbrack；レイヤー&amp;rbrack；言語を変更すると、現在のアセットが再計算されます
 * &lbrack;Layers&amp;rbrack；読み込んだ画像の使用を変更しても、使用するフィルターバリエーションが更新されない
 * &lbrack;Layers&amp;rbrack；下のレイヤーを微調整するときに、画像のマテリアルへの変換(AI)が計算されない場合がある
-* &lbrack;Layers&rbrack; Image to Material (AI)が不要な場合に再計算されることがある
+* &lbrack;Layers&rbrack; Image to Image (AI)が不要な場合に再計算されることがあります
 * &lbrack;Layers&rbrack;ディスク上でカスタムフィルターが更新された場合、更新の提案はありません
 * &lbrack;Layers&amp;rbrack；通常チャンネルが間違ったピクセル形式を持っていることがある
 * &lbrack;Layers&amp;rbrack；表示されていない場合でも一部のレイヤーは計算されます
-* &amp;lbrack；レイヤー&rbrack;レイヤーの表示を切り替えると、2Dビューツールが壊れる場合がある
-* &amp;lbrack；レイヤー&rbrack;イメージからマテリアル(AI)を使用すると、UIがフリーズする
-* &amp;lbrack；レイヤー&amp;rbrack；変形フィルターレイヤーの表示を切り替えると、2Dビューツールが機能しなくなり、クラッシュする場合があります
-* &amp;lbrack；画層&amp;rbrack；画層スタックから画層を削除するときに再計算が多すぎます
+* &amp;lbrack；レイヤー&rbrack;レイヤーの表示を切り替えると、2D ビューツールが壊れる場合がある
+* &amp;lbrack；レイヤー&rbrack;イメージをマテリアルに変換(AI)を使用すると、UIがフリーズする
+* &amp;lbrack；レイヤー&rbrack;変形フィルターレイヤーの表示を切り替えると、2D ビューツールが機能しなくなり、クラッシュが発生する可能性があります
+* &lbrack;Layers&rbrack; レイヤースタックからレイヤを削除するときに再計算が多すぎます
 * &lbrack;Layers&amp;rbrack；複合フィルターに特殊な入力またはカスタム出力が含まれている場合、Samplerはそのフィルターを計算しません
 * &lbrack;Performance&rbrack; Asset panel is slow to open
-* &lbrack;Performance&rbrack;レイヤスタックの不必要な再計算を回避します。
+* &lbrack;Performance&rbrack; レイヤースタックの不必要な再計算を避ける
 * &amp;lbrack；パフォーマンス&rbrack;プロジェクトアセットの読み込みに時間がかかりすぎる
 * &lbrack;Performance&rbrack;ディスク上のレンダーキャッシュは使用できません
 * &amp;lbrack；パフォーマンス&rbrack;レイヤー間の切り替えが遅い
-* &amp;lbrack；パフォーマンス&rbrack;マテリアルまたはフィルタのツイークが遅い
-* &amp;lbrack；プロジェクト&amp;rbrack；終了時にプロジェクトを保存すると、クラッシュする場合があります
+* &lbrack;Performance&rbrack; マテリアルやフィルターの微調整が遅い
+* &amp;lbrack；プロジェクト&amp;rbrack；終了時にプロジェクトを保存すると、クラッシュが発生する場合がある
 * &amp;lbrack；レンダリング&rbrack;イメージを削除すると、すべての出力が削除される場合がある
-* &amp;lbrack；レンダリング&rbrack;ビューポートに表示されているレンダリング時間が正しく表示されない
+* &amp;lbrack；レンダリング&rbrack; ビューポートに表示されているレンダリング時間が正しく表示されない
 * &lbrack;UI&amp;rbrack；必要に応じて、書き出しポップアップで垂直方向にスクロールできない
 * &lbrack;UI&amp;rbrack；書き出す対象がない場合、書き出しポップアップを開くことができます。
 * &lbrack;UI&amp;rbrack；一部のポップアップは、コンテンツがオーバーフローした場合にスクロールされない
 * &lbrack;UI&amp;rbrack；テキストフィールドをクリックしたりメニューを開いたりしても、テキストフィールドが選択されない
 * &lbrack;UI&rbrack;プロパティパネルの描画モード名が正しくない場合がある
 * &lbrack;UI&rbrack;ファイルメニューの「保存」オプションがグレー表示になる場合がある
-* &lbrack;UI&rbrack; 2つのマテリアルの名前を変更した後、テキストフィールドが消えない
+* &lbrack;UI&rbrack; 2つのマテリアルの名前を変更すると、テキストフィールドが消えない
 * &amp;lbrack；環境設定ポップアップのUI&amp;rbrack；誤字
 
 **既知の問題：**
@@ -1401,7 +1410,7 @@ ht-degree: 0%
 
 **既知の問題：**
 
-* &amp;lbrack；リアルタイムエンジン 2021&amp;rbrack；重い計算がアプリケーションをクラッシュにする可能性があります
+* &lbrack;Realtime Engine 2021&amp;rbrack；大量の計算でアプリケーションがクラッシュする場合がある
 * &lbrack;Realtime エンジン 2021&rbrack; Realtime エンジン 2021は、AMD CPUとNvidia GPUの両方がインストールされているWindowsマシンでクラッシュします。
 * &amp;lbrack；カラーピッカー&amp;rbrack；解像度が異なる2台目のモニターでカラーを選択できない場合がある
 
@@ -1435,7 +1444,7 @@ ht-degree: 0%
 
 **既知の問題：**
 
-* &lbrack;Realtime Engine 2021&amp;rbrack；大量の計算でアプリケーションがクラッシュする場合がある
+* &amp;lbrack；リアルタイムエンジン 2021&amp;rbrack；重い計算がアプリケーションをクラッシュにする可能性があります
 * &lbrack;Realtime エンジン 2021&rbrack; Realtime エンジン 2021は、AMD CPUとNvidia GPUの両方がインストールされているWindowsマシンでクラッシュします。
 * &amp;lbrack；カラーピッカー&amp;rbrack；解像度が異なる2台目のモニターでカラーを選択できない場合がある
 
@@ -1505,7 +1514,7 @@ ht-degree: 0%
 
 **既知の問題：**
 
-* &amp;lbrack；リアルタイムエンジン 2021&amp;rbrack；重い計算がアプリケーションをクラッシュにする可能性があります
+* &lbrack;Realtime Engine 2021&amp;rbrack；大量の計算でアプリケーションがクラッシュする場合がある
 * &lbrack;Realtime エンジン 2021&rbrack; Realtime エンジン 2021は、AMD CPUとNvidia GPUの両方がインストールされているWindowsマシンでクラッシュします。
 * &amp;lbrack；カラーピッカー&amp;rbrack；解像度が異なる2台目のモニターでカラーを選択できない場合がある
 
@@ -1643,7 +1652,7 @@ ht-degree: 0%
 * &lbrack;環境光&rbrack; 環境光を作成するときに、ドラッグ&amp;ドロップすると環境光作成テンプレートウィンドウが表示される
 * &amp;lbrack；環境&rbrack; 環境光作成テンプレートで、[環境光の読み込み]を選択して、3Dビューの環境にイメージを割り当てます
 * &lbrack;環境光&rbrack; 環境光作成テンプレートで「HDR結合」を選択し、様々な露光量で複数の360度画像から環境光を作成します
-* &lbrack;環境光&rbrack; 環境光作成テンプレートで「ビットマップとして使用」を選択して、環境光を作成する前にイメージを編集します。
+* &amp;lbrack；環境光&amp;rbrack；環境光作成テンプレートで、「ビットマップとして使用」を選択してイメージを編集してから、環境光を作成します。
 * &lbrack;Environment&rbrack; Image Importレイヤで環境光の使用状況を割り当て、3DビューのEnvironmentにイメージを直接割り当てます
 * &amp;lbrack；環境&rbrack; 環境光チャンネルの2D ビューには、3Dビューと同じようにレンダリングを表示するための自動カラー補正があります
 * &lbrack;環境光&rbrack; 環境光作成用の新しい専用コンテンツ
@@ -1669,8 +1678,8 @@ ht-degree: 0%
 * &amp;lbrack；アセットパネル&amp;rbrack；右クリックコンテキストメニューからアセットを削除します（読み取り専用ではないセクションでのみ使用可能）
 * &amp;lbrack；アセットパネル&amp;rbrack；右クリックして表示されるコンテキストメニューから、Adobe Bridgeでアセットを参照します
 * レイヤーの上にベースマテリアルを直接追加するための&amp;lbrack；レイヤーパネル&amp;rbrack；新規アイコン
-* &amp;lbrack；レイヤーパネル&rbrack; Shortcut - Shift + Bキーを押すと、レイヤーの上にベースマテリアルが追加される
-* &amp;lbrack；レイヤーパネル&rbrack;レイヤーにサムネールプレビューが表示されるようになりました（マテリアルサムネール、フィルターアイコンまたは画像プレビュー）
+* &amp;lbrack；レイヤーパネル&rbrack; ショートカット - Shift + Bキーを押すと、レイヤーの上にベースマテリアルが追加されます。
+* &amp;lbrack；レイヤーパネル&rbrack;レイヤーにサムネールプレビュー（マテリアルサムネール、フィルターアイコンまたは画像プレビュー）が追加されました。
 * &amp;lbrack；プロパティパネル&rbrack;アセット名とアセットサムネールを含むプロパティパネルのタイトルの新しいデザイン
 * &amp;lbrack；プロパティパネル&rbrack;フィルターレイヤーがプリセットをサポートするようになりました
 * &amp;lbrack；プロパティパネル&rbrack; Image Import Layerで、画像プレビューを右クリックしてPhotoshopで画像を編集
@@ -1679,25 +1688,25 @@ ht-degree: 0%
 * &lbrack;Adobe Photoshop&rbrack; Adobe Photoshopに保存するたびに、編集した画像がSamplerに再読み込みされます
 * Adobe Substance 3D Designerから送信されたSubstance 3D Designer&rbrack;アセットは、アセットパネルの「自分のアセット」セクションに直接届きます。
 * &lbrack;Export&rbrack;アセットをAdobe Substance 3D PainterおよびAdobe Substance 3D Stagerに直接送信
-* &amp;lbrack；書き出し&rbrack;マテリアルと環境光をAdobe Substance 3D Painterに送信
-* &lbrack;Export&rbrack; Send environment lights to Adobe Substance 3D Stager
+* &amp;lbrack；書き出し&rbrack; マテリアルと環境光をAdobe Substance 3D Painterに送信
+* &amp;lbrack；書き出し&rbrack; 環境光をAdobe Substance 3D Stagerに送信
 * &amp;lbrack；レンダリング&amp;rbrack；新規マテリアルプロパティがサポートされ、3Dでレンダリングされるようになりました。
-* &amp;lbrack；レンダリング&amp;rbrack；光沢サポートの追加（光沢カラー、光沢の不透明度、光沢の粗さ）
-* &amp;lbrack；レンダリング&rbrack;コーティングのサポートの追加（コートの色、コートの粗さ、コート法線、コートのSpecular level、コートのIOR）
-* &amp;lbrack；レンダリング&rbrack;異方性のサポートの追加（異方性レベルと異方性角度）
+* &amp;lbrack；レンダリング&rbrack;光沢のサポートの追加（光沢カラー、光沢の不透明度、光沢ラフネス）
+* &amp;lbrack；レンダリング&rbrack;コーティングのサポートの追加（Coat color、Coat roughness、Coat normal、Coat specular level、コートIOR）
+* &amp;lbrack；レンダリング&rbrack; 異方性のサポートの追加（Anisotropy levelとAnisotropy angle）
 * &amp;lbrack；レンダリング&rbrack; Specular edge colorのサポートの追加
 * &amp;lbrack；レンダリング&rbrack;チャンネル設定パネルでこれらの新しいプロパティを有効にする
-* &amp;lbrack；レンダリング&rbrack;ベータ版での新しいRealtime Engine (2021)レンダラーの導入
+* &amp;lbrack；レンダリング&rbrack;ベータ版での新しいリアルタイムエンジン(2021)レンダラーの導入
 * &amp;lbrack；レンダリング&rbrack;ビューアの設定パネルで2つのレンダラーバージョンを切り替え
-* &amp;lbrack；レンダリング&rbrack; Realtime Engine (2021)レンダラーは、半透明度、吸収、およびスキャッタリングのマテリアルプロパティをサポートしています。
-* &amp;lbrack；レンダリング&rbrack;リアルタイムエンジン(2021)レンダラーには、環境光からシャドウを計算する新しい方法が導入されています
-* &amp;lbrack；レンダリング&rbrack;リアルタイムエンジン(2021)レンダラーは、環境光の照射をリアルタイムで計算します。
-* &amp;lbrack；シェーダ設定パネル&amp;rbrack；特定のマテリアルシェーダパラメータをツイークするための新規シェーダ設定パネル
-* &amp;lbrack；シェーダ設定パネル&amp;rbrack；新しいパラメータ（法線スケール、Heightスケール、Heightレベル、発光強度、IOR、コート法線の強度、コートIOR）
-* &amp;lbrack；シェーダ設定パネル&rbrack;リアルタイムエンジン2021の特定のパラメータ（サブサーフェスのスキャッタリング、スキャッタリング距離、赤のシフト、レイリーのスキャッタリング）
-* &amp;lbrack；シェーダ設定パネル&amp;rbrack；設定値はアセットごとに保存されます
-* &amp;lbrack；ビューア設定パネル&rbrack;デフォルトの環境光のプレビューを追加
-* &amp;lbrack；ビューア設定パネル&rbrack;デフォルトのメッシュのプレビューを追加
+* &amp;lbrack；レンダリング&rbrack;リアルタイムエンジン(2021)レンダラーは、translucency、吸収およびスキャタリングのマテリアルプロパティをサポートします。
+* &amp;lbrack；レンダリング&rbrack;リアルタイムエンジン(2021)レンダラーには、環境光からのシャドウを計算する新しい機能が導入されています
+* &amp;lbrack；レンダリング&rbrack;リアルタイムエンジン(2021)レンダラーは、環境光の放射照度をリアルタイムで計算します。
+* &lbrack;シェーダー設定パネル&amp;rbrack；特定のマテリアルシェーダーパラメーターを微調整するための新規シェーダー設定パネル
+* &lbrack;シェーダー設定パネル&amp;rbrack；新しいパラメータ（標準スケール、Heightスケール、Heightレベル、放射強度、IOR、Coat normal強度、コートIOR）
+* &lbrack;シェーダー設定パネル&rbrack;リアルタイムエンジン 2021の特定のパラメータ（表面化散乱、スキャッタリング距離、赤シフトとレイリースキャッタリング）
+* &lbrack;シェーダー設定パネル&amp;rbrack；設定値はアセットごとに保存されます
+* &amp;lbrack；ビューア設定パネル&amp;rbrack；デフォルト環境光のプレビューが追加されました
+* &amp;lbrack；ビューア設定パネル&amp;rbrack；デフォルトメッシュのプレビューが追加されました
 * &amp;lbrack；ビューア設定パネル&amp;rbrack；新しい環境不透明度パラメータ
 * &lbrack;Viewer Settings Panel&amp;rbrack；新しいEnvironment blur parameter（リアルタイムエンジン 2021レンダラー専用）
 * &lbrack;Localization&rbrack;ドイツ語とフランス語の新規翻訳
@@ -1735,7 +1744,7 @@ ht-degree: 0%
 **既知の問題：**
 
 * &amp;lbrack；リアルタイムエンジン 2021&rbrack;レイアウトの変更、アプリケーションのクラッシュ
-* &amp;lbrack；リアルタイムエンジン 2021&amp;rbrack；重い計算、アプリケーションをクラッシュ
+* &lbrack;Realtime Engine 2021&amp;rbrack；重い計算、アプリケーションのクラッシュ
 * &amp;lbrack；パネル&rbrack; MacOS – ドッキングされていないパネルが、すべてのアプリケーションの前面に表示されます。
 * &lbrack;Widgets&rbrack;変形および位置ウィジェットが消える可能性があります。 レイヤーの非表示と再表示を切り替えて表示します。
 * &amp;lbrack；書き出し&rbrack; 環境光のSBSAR書き出しでは、32ビット深度の精度が失われます
@@ -1793,19 +1802,19 @@ ht-degree: 0%
 * &amp;lbrack；ローカライズ&amp;rbrack；桁区切り記号を使用して数値を書式設定(&amp;R)
 * &lbrack;Localization&rbrack; Localize date and time display
 * &lbrack;Localization&rbrack; Localize color picker on Windows
-* &lbrack;Content&amp;rbrack；変換 – セーフ変換をアクティブにすると、法線が45°ごとに正しく回転します。
-* &lbrack;Content&rbrack; Surface Noise – パーリンフラクタルノイズ（アドバンスノイズ）のタイリングのリリーフを修正
+* &amp;lbrack；コンテンツ&rbrack;変形 – セーフ変換をアクティブにすると、法線が45°ごとに正しく回転します。
+* &lbrack;Content&rbrack; Surface リリーフ - perlinフラクタルノイズのタイリングの問題を修正（高度なノイズ）
 * &lbrack;Content&rbrack; Brickwall Pattern - 16ビットのHeight入力
-* &lbrack;Content&rbrack; Material Icon Render - Specularの反射の問題
+* &lbrack;Content&rbrack; マテリアルアイコンレンダリング – Specularのリフレクションの問題
 * &lbrack;Content&rbrack; Color Variation – カラー入力と結果間でカラーシフトがありません
 * &amp;lbrack；コンテンツ&rbrack;カラーバリエーション – パフォーマンスの更新
 
 **既知の問題：**
 
-* 高解像度の画像でのImage to Material（AI搭載）の使用は遅くなる可能性があります
+* 高解像度の画像での画像からマテリアルへの変換（AI搭載）の使用は遅くなることがあります
 * 高解像度で、コンテンツに応じた塗りつぶしフィルターの処理が遅い
 * スライダーに特定の値を入力するときは、昏睡やポイントを無視することができます
-* まったく同じマテリアルレイヤースタックを2回保存できない
+* まったく同じレイヤースタックを2倍保存できない
 
 ### 2.3.0(2020.3.0)バーミセリ
 
@@ -1813,13 +1822,13 @@ ht-degree: 0%
 
 **追加：**
 
-* &lbrack;Image to Material&rbrack; NVIDIA RTX 3000シリーズのサポート
+* &amp;lbrack；イメージをマテリアルに&rbrack; NVIDIA RTX 3000シリーズのサポート
 * &amp;lbrack；イメージをマテリアルに&amp;rbrack；ジオメトリの詳細を制御する新しいパラメータ
-* &amp;lbrack；イメージをマテリアルに&amp;rbrack；粗さを制御する新しいパラメータ
+* &amp;lbrack；イメージをマテリアルに&rbrack;ラフネスを制御する新しいパラメータ
 * &amp;lbrack；イメージをマテリアルに&amp;rbrack；発光の強さを制御する新しいパラメータ
 * &amp;lbrack；サムネール&rbrack; Substance DesignerのPBRレンダラーに基づく新しいサムネールジェネレータ
 * &amp;lbrack；サムネール&rbrack;サムネールを埋め込むようにベースマテリアルとアトラスを更新する
-* &lbrack;Thumbnails&rbrack; .sbsarファイルからサムネイルを取得します（存在する場合）
+* &lbrack;Thumbnails&rbrack; .sbsar ファイルが存在する場合は、そこからサムネールを取得する
 * &amp;lbrack；サムネール&amp;rbrack；環境設定でサムネールの画質を変更
 * &lbrack;エンジン&rbrack; Substance engineバージョン8に更新
 * &amp;lbrack；ローカリゼーション&amp;rbrack；中国語ローカリゼーション
@@ -1875,11 +1884,11 @@ ht-degree: 0%
 * &lbrack;Layers&rbrack; Disk cache is not used for display when opening a スタック
 * &amp;lbrack；レイヤー&rbrack; Nvidia RTX 8000の検出
 * &lbrack;Layers&rbrack;スプラッタ入力の外側にレイヤを移動できないことがあります
-* &lbrack;Layers&rbrack;ディスクキャッシュは、スタックにスタックを挿入するときに使用されません。
+* &lbrack;Layers&rbrack; Disk cache is not used when inserting a スタックをスタックに挿入するとき
 * &lbrack;Layers&amp;rbrack；一部のチャンネルの使用は計算されますが、使用されません。
 * &lbrack;Layers&amp;rbrack；画像を読み込むと空白の出力が作成されることがある
-* &lbrack;2Dビュー&amp;rbrack；描画モードがアクティブなブロックを含む別の画層に切り替え、画面移動とズーム
-* &lbrack;Content&rbrack;Snow – 通常のマップでの8ビットの問題
+* &lbrack;2D ビュー&amp;rbrack；描画モードがアクティブなブロックを含む別のレイヤーに切り替え、パンとズーム
+* &lbrack;Content&rbrack;Snow- 法線マップの8ビット問題
 * &amp;lbrack；コンテンツ&amp;rbrack；舗装パターン – 法線マップ上の8ビット問題
 * &lbrack;Content&rbrack; Equalizer - 法線マップの8ビットの問題
 * &lbrack;Content&rbrack; Gravel Generator - 法線マップの8ビット問題
@@ -1889,9 +1898,9 @@ ht-degree: 0%
 * &lbrack;Application&rbrack;データベースのエラー時に「バックアップして再起動」を選択するとクラッシュが発生する
 * 同じアセットをすばやくクリックしたときのクラッシュ(&lbrack;Application&rbrack;)
 * &lbrack;Application&amp;rbrack；終了時の希少クラッシュ
-* &lbrack;Application&amp;rbrack；ようこそ画面にファイルをドロップするとクラッシュする
-* &amp;lbrack；破損した環境ファイルがロードされると、アプリケーション&amp;rbrack；がクラッシュする
-* &lbrack;Application&rbrack;レンダリングされたアセットを迅速に切り替えるとまれにクラッシュする
+* &amp;lbrack；ようこそ画面にファイルをドロップするときにクラッシュが発生する&rbrack;
+* 破損した環境ファイルが読み込まれたときに発生するアプリケーションのクラッシュ(&lbrack;Application&rbrack;)
+* &lbrack;Application&rbrack;レンダリングされたアセットを迅速に切り替えるときに、まれに発生するクラッシュ
 * &lbrack;Application&rbrack;アセットの計算中に終了するとフリーズする
 * &lbrack;Application&rbrack; Macosの起動時に発生する稀なクラッシュ
 * &amp;lbrack；アプリケーション&amp;rbrack；起動後すぐにアプリケーションを閉じるとデッドロックが発生する
@@ -1940,11 +1949,11 @@ ht-degree: 0%
 * &lbrack;UI&amp;rbrack；右クリックオプション（クリア、コピー、ペースト）を使用した新しいカラーウィジェット
 * &lbrack;UI&rbrack;ペイントツールオプションを使用した新規画像ウィジェット
 * &lbrack;UI&amp;rbrack；画像ウィジェット内の読み込まれた画像にペイントを合わせることができます。
-* &amp;lbrack；レンダリング&amp;rbrack；新しいデフォルトのカメラ位置
+* &amp;lbrack；レンダリング&amp;rbrack；新規デフォルトカメラ位置
 * &lbrack;Export&rbrack; SubstanceファイルがSubstance Designer 2020.1.2(10.1.2)にエクスポートされる
 * &amp;lbrack；パフォーマンス&rbrack;アプリケーション起動時間の改善
 * &lbrack;Performance&amp;rbrack；非同期タスク処理の改善
-* &lbrack;Performance&rbrack;レイヤーを追加、削除、移動するときにレイヤースタックのパフォーマンスを向上させる
+* &amp;lbrack；パフォーマンス&rbrack;レイヤーの追加、削除、移動時にレイヤースタックのパフォーマンスを向上
 * &amp;lbrack；パフォーマンス&rbrack;イメージからマテリアルへ（AI搭載）は、RTX GPUでより高速に実行されます。
 * &lbrack;Content&amp;rbrack；新規メッシュ：女性Tシャツ、男性Tシャツ、靴
 * &lbrack;Content&amp;rbrack；新規ブレンドモード – チャンネルごとのブレンド
@@ -1983,7 +1992,7 @@ ht-degree: 0%
 * &amp;lbrack；アプリケーション&amp;rbrack；検索から作成に切り替えるとクラッシュする
 * &amp;lbrack；マテリアルを保存する際のターゲットコレクションが現在のプロジェクトのものでない場合(&rbrack;)
 * &lbrack;Application&rbrack;バックアップを修正して再起動
-* &amp;lbrack；画像の読み込み&rbrack;グレースケール画像を適切に読み込む
+* &amp;lbrack；画像の読み込み&rbrack; グレースケールイメージを正しく読み込む
 * &lbrack;Content&amp;rbrack；新しいマトリックス処理用の新しいフィルタ
 * &lbrack;Content&amp;rbrack；読み込んだカスタムフィルターがクイックアクセスバーに表示される
 * &lbrack;Content&rbrack; Make it tile advanced filterでカラーシフトを修正
@@ -2031,7 +2040,7 @@ ht-degree: 0%
 * &lbrack;Application&rbrack;コンボボックスは、プリセットの切り替え時に正しい値を表示するようになりました
 * &lbrack;Export&rbrack; Enscapeプリセットの名前をEnscape Revitに変更
 * &lbrack;Export&amp;rbrack；削除後の書き出しプリセットの読み込み機能
-* &amp;lbrack；書き出し時にクラッシュする&rbrack;
+* &amp;lbrack；書き出し時の書き出し&rbrack; クラッシュ
 * &amp;lbrack；レンダリング&rbrack;base colorが16 bit half floatフォーマットの場合のレンダリングを修正
 * &lbrack;Project&amp;rbrack；破損したパッケージを読み込むときにクラッシュしない
 * &lbrack;Project&rbrack; Createが開かれていない場合の2019.1.4から2.x.xへの移行を処理する
@@ -2041,13 +2050,13 @@ ht-degree: 0%
 * &lbrack;Resources&amp;rbrack；同じ名前のマテリアルが互いに消去されなくなりました
 * &lbrack;Resources&rbrack;ローカルフォルダーをリンクするときのクラッシュ
 * &lbrack;Resources&rbrack; スターターマテリアルのユーザ作成フォルダが再起動後に削除されなくなりました
-* &lbrack;Inspire&amp;rbrack；未保存のマテリアルを使用している場合は、マテリアル/コレクションのドロップエリアを修正して警告メッセージを追加(&amp;R)
+* &lbrack;Inspire&amp;rbrack；未保存のマテリアルを使用している場合は、マテリアルやコレクションのドロップエリアを修正して警告メッセージを追加
 
 **既知の問題：**
 
 * 高解像度で、コンテンツに応じた塗りつぶしフィルターの処理が遅い
-* 1つのマテリアルに複数の区切り文字を使用することはお勧めしません
-* 古いNVIDIAドライバー（400.x未満）でDelighterがクラッシュする
+* 1つのマテリアルに複数の区切り記号を使用することはお勧めしません
+* 古いNVIDIAドライバー（400.x未満）のクラッシュを喜ばせる
 * スライダーに特定の値を入力するときは、昏睡やポイントを無視することができます
 
 ### 2.1.0(2020.1.0)ティラミス
@@ -2123,15 +2132,15 @@ ht-degree: 0%
 * &amp;lbrack；書き出し&amp;rbrack；書き出しキューの固定マテリアルがスキップされたり、間違ったパラメーターで書き出されることがある
 * &lbrack;2D ビュー&amp;rbrack；復元されたパンとズーム
 * &lbrack;Content&amp;rbrack；寄木パターンはAmbient occlusionチャンネルを考慮します
-* &lbrack;Content&rbrack; Paint – カスタムマスクを有効にしたときにマスク入力を表示する
-* &lbrack;Content&rbrack; Stonewall Pattern – 法線マップで可能な縞模様を除去する
+* &lbrack;Content&rbrack; ペイント – カスタムマスクを有効にしたときにマスク入力を表示
+* &lbrack;Content&rbrack; Stonewall Pattern - 法線マップの縞模様を除去します。
 * &lbrack;Content&rbrack; Height変調 – 2dビューの二重base colorのエントリを修正する
 
 **既知の問題：**
 
 * 高解像度で、コンテンツに応じた塗りつぶしフィルターの処理が遅い
-* 1つのマテリアルに複数の区切り文字を使用することはお勧めしません
-* 古いNVIDIAドライバー（400.x未満）でDelighterがクラッシュする
+* 1つのマテリアルに複数の区切り記号を使用することはお勧めしません
+* 古いNVIDIAドライバー（400.x未満）のクラッシュを喜ばせる
 * スライダーに特定の値を入力するときは、昏睡やポイントを無視することができます
 
 ## バージョン1
@@ -2153,10 +2162,10 @@ ht-degree: 0%
 
 * 大量のリソースを読み込むと、Substance Alchemistが低下することがあります
 * 高解像度で、コンテンツに応じた塗りつぶしフィルターの処理が遅い
-* 1つのマテリアルに複数の区切り文字を使用することはお勧めしません
-* 古いNVIDIAドライバー（400.x未満）でDelighterがクラッシュする
+* 1つのマテリアルに複数の区切り記号を使用することはお勧めしません
+* 古いNVIDIAドライバー（400.x未満）のクラッシュを喜ばせる
 * スライダーに特定の値を入力するときは、昏睡やポイントを無視することができます
-* 「通常からHeight」フィルターは、MacOSでクラッシュする可能性があります
+* macOSで「Heightに垂直」フィルターがクラッシュすることがある
 
 ### 1.1.3 (2019.1.3)ゴマ
 
@@ -2223,7 +2232,7 @@ ht-degree: 0%
 
 **追加：**
 
-* &lbrack;Layers&rbrack; SaveとSave as optionsには、Layers スタックツールバーのインタフェースからアクセスできます。
+* &lbrack;Layers&rbrack; SaveとSave asのオプションには、レイヤースタックツールバーのインタフェースからアクセスできます。
 * フォルダー間を移動するためのリソースパネルの&amp;lbrack；リソース&rbrack;クリアなブレッドクラム
 * &lbrack;Resources&amp;rbrack；上のすべてのフォルダにアクセスするために戻るボタンを押したままにする
 * &lbrack;Resources&amp;rbrack；読み込んだマテリアルの再読み込みを追加オプションを使用して最新バージョンに更新
@@ -2282,10 +2291,10 @@ ht-degree: 0%
 * &lbrack;Layers&rbrack; クローンパッチとコンテンツに応じた塗りつぶしフィルターの使用時にクラッシュが発生しないようにする
 * &lbrack;Layers&rbrack;スプラッタ入力スロットでフィルタをドラッグアンドドロップ中にクラッシュを修正(&amp;R)
 * &lbrack;Resources&rbrack;ローカルフォルダーのリンク時またはSubstance Alchemistへのリソースの読み込み時に発生するクラッシュの修正
-* &lbrack;Collection&rbrack;マテリアル間の迅速な切り替え時のクラッシュを修正
+* &lbrack;Collection&rbrack;マテリアルを迅速に切り替える際のクラッシュを修正
 * &lbrack;UI&amp;rbrack；値がNULLであるか、ビューポート上のタイリングやディスプレイスメントのスライダーで無効であるときに、クラッシュを修正
-* &amp;lbrack；インスパイア&rbrack; 「インスパイア」タブへのアクセス中のクラッシュの修正
-* &lbrack;Inspire&amp;rbrack；保存されたばかりのレイヤーのマテリアルでインスピレーションを得ながらクラッシュを修正
+* &lbrack;Inspire&rbrack; 「Inspire」タブへのアクセス中のクラッシュを修正
+* &lbrack;Inspire&amp;rbrack；保存されたばかりのレイヤースタック素材にインスピレーションを与えているときにクラッシュする問題を修正
 * &lbrack;Performance&rbrack;ヘビーSubstanceマテリアルとフィルター（タイリング）の処理速度が向上
 * &lbrack;Help&rbrack;エクスポートログファイルを修正
 * &lbrack;Content&rbrack; Randomizerフィルタはすべてのチャネルで動作
@@ -2324,15 +2333,15 @@ ht-degree: 0%
 * &amp;lbrack；ファイルメニュー&rbrack; 「ファイル」タブからプロジェクトコマンドにアクセスし、レイヤースタックを保存
 * &amp;lbrack；ファイルメニュー&rbrack; 「編集」タブから「取り消し」コマンドと「やり直し」コマンドにアクセス
 * &amp;lbrack；ファイルメニュー&amp;rbrack；以前のヘルプメニューは、「ヘルプ」タブの下のファイルメニューに移動しました
-* &amp;lbrack；画層&amp;rbrack；画層スタックの新しいアーキテクチャ
-* &amp;lbrack；画層&amp;rbrack；画層スタックの新しいUI
+* &amp;lbrack；画層&rbrack; レイヤースタックの新しいアーキテクチャ
+* &amp;lbrack；画層&rbrack; レイヤースタックの新しいUI
 * &amp;lbrack；レイヤー&rbrack;ツールバーで描画モードを直接選択
-* &lbrack;Layers&rbrack;ブレンドパラメータとマテリアルパラメータに個別にアクセスする
-* &amp;lbrack；レイヤー&rbrack;レイヤースタックのスプラッターフィルターの専用入力に直接マテリアルを追加
+* &amp;lbrack；画層&rbrack;ブレンドパラメータとマテリアルパラメータに個別にアクセス
+* &amp;lbrack；レイヤー&rbrack; レイヤースタックのスプラッターフィルターの専用入力に直接マテリアルを追加する
 * &amp;lbrack；レイヤー&rbrack;イメージの読み込みレイヤーでスキャン順序を直接変更
-* &amp;lbrack；ビューポート&rbrack;カメラの視野の制御
-* &amp;lbrack；ビューポート&amp;rbrack；直交投影カメラとパースペクティブカメラを切り替える可能性
-* &amp;lbrack；ビューポート&amp;rbrack；各チャンネルの表示解像度とビット深度情報
+* &lbrack;ビューポート&rbrack; カメラ視野の制御
+* &lbrack;ビューポート&rbrack;正投影モードと遠近法カメラの切り替えが可能
+* &lbrack;ビューポート&amp;rbrack；各チャンネルの表示解像度とビット深度情報
 * &lbrack;Resources&rbrack; ベースマテリアルはデフォルトで開かれています
 * &lbrack;Cache&rbrack;サムネールキャッシュフォルダーを見つける
 * &lbrack;Cache&rbrack;レンダーキャッシュフォルダを検索する
@@ -2479,8 +2488,8 @@ ht-degree: 0%
 
 **既知の問題：**
 
-* 1つのマテリアルに複数の区切り文字を使用することはお勧めしません
-* 古いNVIDIAドライバー（400.x未満）でDelighterがクラッシュする
+* 1つのマテリアルに複数の区切り記号を使用することはお勧めしません
+* 古いNVIDIAドライバー（400.x未満）のクラッシュを喜ばせる
 * Delighterステージをすばやく表示トグルすることはお勧めしません
 * カスタム環境の読み込みが黒になることがある
 * 画像読み込みレイヤーのプロパティパネルにTIF画像が表示されない
@@ -2540,14 +2549,14 @@ ht-degree: 0%
 * ポップアップウィンドウでの小さなフォントの問題の修正
 * 一部のNVIDIAカードのFXAAパラメーターとの競合による透明UIの問題を修正
 * スライダーに値を入力した後にフィールドのフォーカスを解除する
-* クラッシュを軽減するために、VRAMの最小容量を採光器に割り当てます
+* クラッシュを軽減するために、VRAMの最小容量をdelighterに割り当てます
 * アプリケーションウィンドウのサイズ変更時にウィンドウがフリーズする
-* レイヤースタックの評価中に削除されるとクラッシュする問題を修正しました
+* 評価中にレイヤースタックが削除されたときのクラッシュを修正しました
 
 **既知の問題：**
 
-* 1つのマテリアルに複数の区切り文字を使用することはお勧めしません
-* 古いNVIDIAドライバー（400.x未満）でDelighterがクラッシュする
+* 1つのマテリアルに複数の区切り記号を使用することはお勧めしません
+* 古いNVIDIAドライバー（400.x未満）のクラッシュを喜ばせる
 * Delighterステージをすばやく表示トグルすることはお勧めしません
 * カスタム環境の読み込みが黒になることがある
 * 画像読み込みレイヤーのプロパティパネルにTIF画像が表示されない
@@ -2559,15 +2568,15 @@ ht-degree: 0%
 
 **修正済み：**
 
-* &amp;lbrack；スタック&rbrack;スプラッタレイヤーを削除するとクラッシュする
-* &lbrack;Data&rbrack;アセットデータベースがアプリケーションのクラッシュ時に破損する
+* &amp;lbrack；スプラッタレイヤを削除する際のスタック&rbrack;クラッシュ
+* &lbrack;Data&rbrack;アセットデータベースがアプリケーションクラッシュ時に破損する
 * &lbrack;Data&rbrack; Substance Alchemistは、資産データベースが破損していると開始できません
-* Substanceマテリアルを読み込むとランダムにクラッシュする
+* マテリアルを読み込む際のランダムなクラッシュ
 
 **既知の問題：**
 
-* 1つのマテリアルに複数の区切り文字を使用することはお勧めしません
-* 古いNVIDIAドライバー（400.x未満）でDelighterがクラッシュする
+* 1つのマテリアルに複数の区切り記号を使用することはお勧めしません
+* 古いNVIDIAドライバー（400.x未満）のクラッシュを喜ばせる
 * Delighterステージの高速表示の切り替えは、パフォーマンスに影響します
 * カスタム環境の読み込みが黒になることがある
 * 画像読み込みレイヤーのプロパティパネルにTIF画像が表示されない
@@ -2580,7 +2589,7 @@ ht-degree: 0%
 
 **追加：**
 
-* リソースパネル内のマテリアル名で検索
+* リソースパネルでのマテリアル名による検索
 * &lbrack;UI&rbrack;クローンツールブラシサイズ可視化を使用した新しいUI
 * &lbrack;UI&amp;rbrack；非表示ステージの選択と削除(&amp;R)
 * &lbrack;UI&amp;rbrack；新規テキストフィールドUI
@@ -2615,8 +2624,8 @@ ht-degree: 0%
 
 **既知の問題：**
 
-* 1つのマテリアルに複数の区切り文字を使用することはお勧めしません
-* 古いNVIDIAドライバー（400.x未満）でDelighterがクラッシュする
+* 1つのマテリアルに複数の区切り記号を使用することはお勧めしません
+* 古いNVIDIAドライバー（400.x未満）のクラッシュを喜ばせる
 * Delighterステージの高速表示の切り替えは、パフォーマンスに影響します
 * カスタム環境の読み込みが黒になることがある
 * 画像読み込みレイヤーのプロパティパネルにTIF画像が表示されない
@@ -2669,8 +2678,8 @@ ht-degree: 0%
 
 * &lbrack;レイヤースタック&rbrack;レイヤの並べ替え
 * &lbrack;レイヤースタック&amp;rbrack；非表示レイヤーを削除
-* &amp;lbrack；レイヤースタック&rbrack;マテリアルを選択した位置に直接読み込む
-* &amp;lbrack；画層スタック&amp;rbrack；新しいフィルタパラメータタイプとしてのマテリアル入力
+* &lbrack;レイヤースタック&rbrack; マテリアルを任意の場所に直接読み込む
+* &lbrack;レイヤースタック&amp;rbrack；新しいフィルタパラメータタイプとしてのマテリアル入力
 * &amp;lbrack；パフォーマンス&rbrack;Substance engineの予算は、パフォーマンス向上のために動的です。
 * &amp;lbrack；パフォーマンス&amp;rbrack；特にMacOSでのOpenGLパフォーマンスの向上(&amp;r)
 * &lbrack;Data&amp;rbrack；新しいバージョンがリリースされた後のデータのアップグレードの高速化
@@ -2679,15 +2688,15 @@ ht-degree: 0%
 
 **修正済み：**
 
-* アプリケーションの終了時に発生する可能性のあるクラッシュを修正
+* アプリケーション終了時に発生する可能性のあるクラッシュを修正
 * 大きなコレクションを書き出す場合に、書き出しポップアップを開く速度が速くなる
 
 **既知の問題：**
 
-* 1つのマテリアルに複数の区切り文字を使用することはお勧めしません
-* 古いNVIDIAドライバー（400.x未満）でDelighterがクラッシュする
+* 1つのマテリアルに複数の区切り記号を使用することはお勧めしません
+* 古いNVIDIAドライバー（400.x未満）のクラッシュを喜ばせる
 * Delighterステージの高速表示の切り替えは、パフォーマンスに影響します
-* 独自の環境を読み込むときにクラッシュする
+* 独自の環境を読み込み中のクラッシュ
 
 ### 0.4.0-βマフィン
 
@@ -2699,28 +2708,28 @@ ht-degree: 0%
 * &amp;lbrack；書き出し&rbrack;コレクションのSubstanceファイル(sbs)書き出し
 * &amp;lbrack；書き出し&amp;rbrack；書き出しパネルに表示される書き出しキュー
 * &lbrack;Export&amp;rbrack；書き出す前にコレクションまたはマテリアルに名前を付ける
-* &amp;lbrack；データ&rbrack; Ctrl+Shift+Sを押してマテリアルとして保存
-* &amp;lbrack；データ&rbrack; Ctrl+Sを押してマテリアルを保存
+* &lbrack;Data&rbrack; Ctrl+Shift+Sを押してマテリアルとして保存
+* &lbrack;Data&rbrack; Ctrl+Sを押してマテリアルを保存
 * &lbrack;Data&rbrack;コレクションとマテリアルは、複数のバージョン間で互換性があります
-* &lbrack;Data&amp;rbrack；最新のフィルターでマテリアルレイヤースタックを更新
+* &lbrack;Data&amp;rbrack；最新のフィルターでレイヤースタックを更新
 * &lbrack;Data&amp;rbrack；読み込んだカスタムフィルターのホットリロード
-* &lbrack;UI&amp;rbrack；計算中のビューポートの視覚的フィードバック
+* &lbrack;UI&amp;rbrack；計算中のビューポートのビジュアルフィードバック
 * &lbrack;UI&amp;rbrack；新規ボタンスタイル
 * &lbrack;UI&amp;rbrack；保存ポップアップにアクティブなコレクションの名前を表示
 * &lbrack;UI&rbrack;イメージの読み込みレイヤのソースイメージを修正
 * &lbrack;Content&rbrack; Custom usages are supported
-* &lbrack;Content&amp;rbrack；画像入力パラメーターでサポートされる画像形式が増えました
-* &lbrack;Content&rbrack; Make It Tile Advancedという名前のNew Tiling Filter
+* &lbrack;Content&amp;rbrack；その他の画像入力パラメーターが画像形式でサポートされています。
+* &lbrack;Content&rbrack; Make It Tile Advancedという名前の新しいタイリングフィルタ
 * &lbrack;Content&rbrack; Update of the Water filter
 
 **修正済み：**
 
-* ビットマップからマテリアルへSpecular/光沢ワークフローを処理
+* ビットマップからマテリアルへの変換は、Specular/光沢度ワークフローを処理します
 
 **既知の問題：**
 
-* 1つのマテリアルに複数の区切り文字を使用することはお勧めしません
-* 古いNVIDIAドライバー（400.x未満）でDelighterがクラッシュする
+* 1つのマテリアルに複数の区切り記号を使用することはお勧めしません
+* 古いNVIDIAドライバー（400.x未満）のクラッシュを喜ばせる
 * DelighterはRTX GPUカードではサポートされていません
 * Delighterステージの高速表示の切り替えは、パフォーマンスに影響します
 
@@ -2730,15 +2739,15 @@ ht-degree: 0%
 
 **修正済み：**
 
-* 10色を抽出するとクラッシュするカラーバリエーションを生成する
+* 抽出された10色のクラッシュでカラーバリエーションを作成
 * 保存したばかりのクラッシュでカラーバリエーションを作成
 * Substance Alchemistのバージョン更新ポップアップのリンクが正しくない
 
 **既知の問題：**
 
-* ビットマップからマテリアルへの変換がSpecular/粗さのワークフローに対応していない
-* 1つのマテリアルに複数の区切り文字を使用することはお勧めしません
-* 古いNVIDIAドライバー（400.x未満）でDelighterがクラッシュする
+* ビットマップからマテリアルへの変換がSpecular/ラフネスワークフローに対応していない
+* 1つのマテリアルに複数の区切り記号を使用することはお勧めしません
+* 古いNVIDIAドライバー（400.x未満）のクラッシュを喜ばせる
 * Delighterステージの高速表示の切り替えは、パフォーマンスに影響します
 
 ### 0.3.0-βラザニア
@@ -2838,10 +2847,10 @@ ht-degree: 0%
 
 * 以前のバージョンで作成されたマテリアルは、新しいバージョンでは使用できません。
 * &lbrack;MacOS&amp;rbrack；終了Substance Alchemistに「強制終了」が必要な場合がある
-* 1つのマテリアルに複数の区切り文字を使用することはお勧めしません
-* 古いNVIDIAドライバー（400.x未満）でDelighterがクラッシュする
+* 1つのマテリアルに複数の区切り記号を使用することはお勧めしません
+* 古いNVIDIAドライバー（400.x未満）のクラッシュを喜ばせる
 * Delighterステージの高速表示の切り替えは、パフォーマンスに影響します
-* マテリアルの書き出しがクラッシュすることがある
+* マテリアル書き出し缶クラッシュ
 
 ### 0.1.0-βアイスクリーム
 
@@ -2849,9 +2858,9 @@ ht-degree: 0%
 
 **追加：**
 
-* 4種類のブレンドタイプを使用したマテリアルブレンド（Heightブレンド、サンプルブレンド、曲率ブレンド、AOブレンド）
-* レイヤースタックの再計算を最適化するためのキャッシュ機能を導入
-* ビューポート内に存在する場合に、Inspireでマテリアルを自動選択
+* 4種類のブレンドを使用したブレンド（Heightブレンド、サンプルブレンド、曲率ブレンド、AOブレンド）
+* キャッシュ・メカニズムを導入してレイヤースタックの再計算を最適化
+* ビューポート内の贈り物にインスパイアしたマテリアルの自動選択
 * マテリアル設定パネルに一元化された標準形式
 * 切り抜きとタイリングウィジェットのコントロール(-90xB0,+90xB0, make square,...) 掃除
 * 新規Snowフィルター
@@ -2859,7 +2868,7 @@ ht-degree: 0%
 **修正済み：**
 
 * パネルUIクリーニング
-* ウィンドウとパネルのサイズを変更すると、ビューポートがちらつく
+* ウィンドウやパネルのサイズを変更すると、ビューポートがちらつく
 * 保存時にレイヤースタックが再計算されない
 * インターフェイスで名前を付けるアセットは、グラフ名ではなくラベルを使用します
 
