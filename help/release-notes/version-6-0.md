@@ -4,13 +4,11 @@ description: 新機能、改善点、およびワークフローの機能強化�
 title: バージョン6.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 56f4ac8b2b5ec271edb8338d51f8ac51e6746c6c
+source-git-commit: 275dc218870f111aa99533840a5aea4c3d22f0cf
 workflow-type: tm+mt
-source-wordcount: '1627'
+source-wordcount: '1651'
 ht-degree: 1%
-
 ---
-
 
 # バージョン6.0
 
@@ -60,6 +58,17 @@ Samplerでは、HP Z Captisのキャプチャをワンクリックで起動で�
 
 ## V6.0リリースノート
 
+### **6.0.4**
+
+*（リリース：2026年9月24日）*
+
+**変更日**
+[エンジン] Substance engineを9.6.1に更新する
+
+**固定**
+エンボスマスクに画像を追加するときに[レイヤー]クラッシュ
+[セキュリティ]の一般的な修正
+
 ### **6.0.3**
 
 *（リリース：2026年8月24日）*
@@ -74,29 +83,29 @@ Samplerでは、HP Z Captisのキャプチャをワンクリックで起動で�
 
 **追加：**
 
-* &lbrack;Assets&rbrack; Check sbsar version and warn users is the users is the too old to read it
-* &lbrack;Captis&amp;rbrack；環境設定でCaptisフォトメトリックを保存するための戻るオプションを追加
+* &amp;lbrack;Assets&amp;rbrack; Check sbsar version and warn users is the users is the too old to read it
+* &amp;lbrack;Captis&amp;rbrack；環境設定でCaptisフォトメトリックを保存するための戻るオプションを追加
 
 **修正済み：**
 
-* &lbrack;2D ビュー&rbrack;物理サイズが無効な場合、「物理比で表示」しません。
-* &lbrack;Analytics&amp;rbrack；見つからない分析イベント
-* &lbrack;Analytics&rbrack;クラッシュパッドがvk devicelostでクラッシュを報告するのを防ぐ
-* &lbrack;Application&rbrack; nvidiaドライバのクラッシュを避けるため、終了時にvkdeviceを破棄しないでください
-* &lbrack;Application&rbrack;リンクされたコレクションウォッチャー終了を修正+チャネルマネージャ
-* &lbrack;Application&amp;rbrack；終了時にクラッシュを防止
-* &lbrack;Content&rbrack; 「メタル仕上げ」フィルターはメタルに影響しません
-* &lbrack;Content&rbrack;物理サイズが見つからない場合にダイナミックフィルターに追加
+* &amp;lbrack;2D ビュー&amp;rbrack;物理サイズが無効な場合、「物理比で表示」しません。
+* &amp;lbrack;Analytics&amp;rbrack；見つからない分析イベント
+* &amp;lbrack;Analytics&amp;rbrack;クラッシュパッドがvk devicelostでクラッシュを報告するのを防ぐ
+* &amp;lbrack;Application&amp;rbrack; nvidiaドライバのクラッシュを避けるため、終了時にvkdeviceを破棄しないでください
+* &amp;lbrack;Application&amp;rbrack;リンクされたコレクションウォッチャー終了を修正+チャネルマネージャ
+* &amp;lbrack;Application&amp;rbrack；終了時にクラッシュを防止
+* &amp;lbrack;Content&amp;rbrack; 「メタル仕上げ」フィルターはメタルに影響しません
+* &amp;lbrack;Content&amp;rbrack;物理サイズが見つからない場合にダイナミックフィルターに追加
 * &amp;lbrack；フィルター&amp;rbrack；非表示のアセットリストからコンテンツに応じた塗りつぶしを削除
-* &amp;lbrack；レイヤー&rbrack; 「すべての設定をリセット」をクリックしても、「適用先」ドロップダウンがリセットされない
+* &amp;lbrack；レイヤー&amp;rbrack; 「すべての設定をリセット」をクリックしても、「適用先」ドロップダウンがリセットされない
 * &amp;lbrack；レイヤー&amp;rbrack；位置ウィジェットの最小および最大ツイークを修正
-* &amp;lbrack；画層&rbrack;フィルタを正しく更新
-* &lbrack;物理サイズ&amp;rbrack；あらゆる場所で物理スケールが機能することを確認し、ダイナミックフィルターを使用して物理サイズをokにする
+* &amp;lbrack；画層&amp;rbrack;フィルタを正しく更新
+* &amp;lbrack;物理サイズ&amp;rbrack；あらゆる場所で物理スケールが機能することを確認し、ダイナミックフィルターを使用して物理サイズをokにする
 * &amp;lbrack；プロジェクト&amp;rbrack；新しいアセットを作成する際に、アセットの解像度がデフォルト(2k x 2k)であることを確認する
 * &amp;lbrack；プロジェクト&amp;rbrack；現在のプロジェクトを再度開く（以前のバージョンを開くのに使用）
-* &lbrack;Project&rbrack; Samplerは、破損したプロジェクトのバックアップを復元することはできません。
-* &amp;lbrack；レンダリング&rbrack;マテリアルサムネールを最大2Kの解像度でレンダリング
-* &lbrack;UI&rbrack;ユーザがUIより高速な場合のクラッシュを防ぐための防御コード
+* &amp;lbrack;Project&amp;rbrack; Samplerは、破損したプロジェクトのバックアップを復元することはできません。
+* &amp;lbrack；レンダリング&amp;rbrack;マテリアルサムネールを最大2Kの解像度でレンダリング
+* &amp;lbrack;UI&amp;rbrack;ユーザがUIより高速な場合のクラッシュを防ぐための防御コード
 
 ### **6.0.1**
 
@@ -227,7 +236,7 @@ Samplerでは、HP Z Captisのキャプチャをワンクリックで起動で�
 * [UI]メタデータの名前フィールドに特殊文字を追加することはできません
 * [UI]物理サイズ測定ツールの表示が壊れています
 * [UI]チャンネル設定パネルを開くときにクラッシュを禁止する
-* [UI] [既定のレイアウトにリセット]を使用すると、クラッシュできません
+* [UI] [既定のレイアウトにリセット]を使用するとクラッシュしないようにする
 * [UI]ツリーパネルの更新通知が表示されないようにする
 * [UI]名前で検索する場合、動的フィルターの優先順位を付ける
 * [UI]プロパティパネルでスクロールしてツィークを使用
