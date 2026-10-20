@@ -10,13 +10,11 @@ helpx_tags: ''
 title: 必要システム構成
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: cd61972eaf1567863dc8c3549a1c90c84ffee825
+source-git-commit: ce5a9fcca6e535a54340dda0d225076a62de39d6
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '647'
 ht-degree: 1%
-
 ---
-
 
 # サポート対象システム
 
@@ -45,11 +43,15 @@ ht-degree: 1%
 
 |  | 最小 | おすすめ | 最適 |
 | --- | --- | --- | --- |
-| **OS** | macOS 13 Ventura | macOS14ソノマ | macOS 26タホ |
+| **OS** | macOS 15セコイア | macOS 27ゴールデンゲート | macOS 27ゴールデンゲート |
 | **CPU** | Apple M1 | Apple M2 Pro | Apple M4 Pro |
 | **GPU** | Apple M1 | Apple M2 Pro | Apple M4 Pro |
 | **RAM** | 24 GB | 32 GB | 64 GB |
 | **ストレージ** | 30 GBの空き容量のあるSSD | 50 GBの空き容量のあるSSD | 70 GBの空き容量のあるSSD |
+
+>[!WARNING]
+>
+> [VFX Reference Platform](https://vfxplatform.com/)を念頭に置いて構築されたパイプラインでは、macOS 14 SonomaにSubstance 3D Samplerをインストールできます。 ただし、Samplerは、最小必要システム構成を下回るOSバージョンではテストされていないため、安定性は保証されていません。 新しいバージョンのOSにアップデートすることをお勧めします。
 
 ### Linux
 
