@@ -2,15 +2,11 @@
 user-guide-title: Substance 3D Sampler
 breadcrumb-title: Substance 3D Sampler
 user-guide-description: Substance 3D Sampler
-hide: false
-hold: true
-source-git-commit: a0034da3bee13d0d7423828a902da62cf2219474
+source-git-commit: 09278e59a21757710d15d1bb447002a4aecb25a7
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 16%
-
+source-wordcount: '641'
+ht-degree: 15%
 ---
-
 
 # Substance 3D Sampler {#using}
 
@@ -21,7 +17,6 @@ ht-degree: 16%
   + [必要システム構成](/help/getting-started/system-requirements.md)
   + [ショートカット](/help/getting-started/shortcuts.md)
   + [リソースのインポート](/help/getting-started/importing-resources.md)
-  + [不具合を報告](/help/getting-started/report-a-bug.md)
   + [プロジェクト管理](/help/getting-started/project-management.md)
   + 書き出し{#export}
     + [書き出しの概要](/help/getting-started/export/export.md)
@@ -39,7 +34,7 @@ ht-degree: 16%
       + [Unity HDRP Specular](/help/getting-started/export/default-presets/unity-hdrp-specular.md)
       + [Unity標準](/help/getting-started/export/default-presets/unity-standard.md)
       + [Unity Specular](/help/getting-started/export/default-presets/unity-specular.md)
-      + [Unreal Engine 4](/help/getting-started/export/default-presets/unreal-engine-4.md)
+      + [アンリアルエンジン 4](/help/getting-started/export/default-presets/unreal-engine-4.md)
       + [Redshift](/help/getting-started/export/default-presets/redshift.md)
       + [次のV線](/help/getting-started/export/default-presets/v-ray-next.md)
     + [カスタムプリセットの管理](/help/getting-started/export/managing-custom-presets.md)
@@ -116,6 +111,7 @@ ht-degree: 16%
     + [チャネルの生成](/help/filters/tools/channels-generation.md)
     + [チャンネル切り替え](/help/filters/tools/channel-switch.md)
     + [クローンスタンプ](/help/filters/tools/clone-stamp.md)
+    + {hide-from-toc}[コンテンツに応じた塗りつぶし](/help/filters/tools/content-aware-fill.md)
     + [切り抜きツール](/help/filters/tools/crop-tool.md)
     + [Delight - AI搭載](/help/filters/tools/delight-ai-powered.md)
     + [AOのHeight](/help/filters/tools/height-to-ao.md)
@@ -126,9 +122,10 @@ ht-degree: 16%
     + [マルチアングルからマテリアル](/help/filters/tools/multiangle-to-material.md)
     + [Heightに垂直](/help/filters/tools/normal-to-height.md)
     + [PBR 検証](/help/filters/tools/pbr-validate.md)
-    + [遠近補正](/help/filters/tools/perspective-correction.md)
+    + [変形](/help/filters/tools/perspective-correction.md)
     + [タイリング](/help/filters/tools/tiling.md)
     + [変形](/help/filters/tools/transform.md)
+    + {hide-from-toc}[ペイントワープ](/help/filters/tools/paint-warp.md)
     + [縦糸](/help/filters/tools/warp.md)
     + [ワープ変形](/help/filters/tools/warp-transform.md)
     + [アップスケール](/help/filters/tools/upscale.md)
@@ -155,6 +152,7 @@ ht-degree: 16%
     + [Dust](/help/filters/wear-and-finish/dust.md)
     + [侵食](/help/filters/wear-and-finish/erode.md)
     + [金属仕上げ](/help/filters/wear-and-finish/metal-finish.md)
+    + {hide-from-toc}[木材の仕上げ](/help/filters/wear-and-finish/wood-finish.md)
     + [コケ](/help/filters/wear-and-finish/moss.md)
     + [酸化する](/help/filters/wear-and-finish/oxidate.md)
     + [ペイント](/help/filters/wear-and-finish/paint.md)
@@ -195,6 +193,9 @@ ht-degree: 16%
   + [田島エクスポータープラグイン](/help/pipeline-and-integrations/tajima-exporter-plugin.md)
 + テクニカルサポート{#technical-support}
   + [テクニカルサポートの概要](/help/technical-support/technical-support.md)
+  + {hide-from-toc}[パフォーマンスモード](/help/technical-support/performance-mode.md)
+  + {hide-from-toc}[低仕様モード](/help/technical-support/low-spec-mode.md)
+  + {hide-from-toc}[バグの報告](/help/getting-started/report-a-bug.md)
   + [ログファイルをエクスポートしています](/help/technical-support/exporting-the-log-file.md)
   + 構成{#configuration}
     + [設定の概要](/help/technical-support/configuration/configuration.md)
@@ -231,6 +232,7 @@ ht-degree: 16%
   + [リリースノートの概要](/help/release-notes/release-notes.md)
   + [すべての変更](/help/release-notes/all-changes.md)
   + [ベータ版](/help/release-notes/beta-version.md)
+  + {hide-from-toc}[バージョン6.1](/help/release-notes/version-6-1.md)
   + [バージョン6.0](/help/release-notes/version-6-0.md)
   + [バージョン5.1](/help/release-notes/version-5-1-substance-3d-sampler.md)
   + [バージョン5.0](/help/release-notes/version-5-0-substance-3d-sampler.md)

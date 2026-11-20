@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/jp/substance-3d-sampler/getting-started/system-requirements.html'
+helpx_url: 'https://helpx.adobe.com/substance-3d-sampler/getting-started/system-requirements.html'
 breadcrumb-title: ''
 description: ご使用のハードウェアとソフトウェアが互換性基準を満たしていることを確認するために、Substance 3D Samplerの必要システム構成を確認してください。
 helpx_creative_field: ''
@@ -10,9 +10,10 @@ helpx_tags: ''
 title: 必要システム構成
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ce5a9fcca6e535a54340dda0d225076a62de39d6
+hold: true
+source-git-commit: 8b2438eb381e35c19ab379a5fc14c962fd5b9b0a
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '684'
 ht-degree: 1%
 ---
 
@@ -27,6 +28,14 @@ ht-degree: 1%
 > * 610.47
 >
 > これらのバージョンの使用を避けることをお勧めします。理想的には、新しいバージョンを使用するか、新しいバージョンが利用できない場合は以前のバージョンを使用します。
+
+>[!NOTE]
+>
+> お使いのハードウェアが必要システム構成を下回った場合、Samplerは自動的に[低仕様モード](../technical-support/low-spec-mode.md)で開かれ、一部の機能が制限されます。
+
+>[!TIP]
+>
+> Samplerのパフォーマンスを向上させる場合は、[パフォーマンスモード](../technical-support/performance-mode.md)を使用して、リソースを多く消費する機能をオフにします。
 
 ## Windows
 
@@ -97,7 +106,7 @@ ht-degree: 1%
 
 アプリケーションを問題なく実行するために必要なGPUドライバーの最小バージョンを以下に示します。 このリストは、新しいバージョンのリリースに伴って変更される場合があります。
 
-新しいドライバーをダウンロードするには、[GPUに古いドライバーがあります](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers)を参照してください。
+新しいドライバーをダウンロードするには、[GPUに古いドライバーがあります](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers)を参照してください。
 
 | OS | NVIDIA | AMD | Intel |
 | --- | --- | --- | --- |
