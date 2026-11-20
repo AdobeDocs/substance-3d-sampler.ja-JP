@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Samplerでは、より高速で応答性の高いエクスペリエンスを実現します。 新しい&#x200B;**パフォーマンスモード**&#x200B;では、ワークフローを遅くするすべての設定（解像度の制限、シャドウ、ディスプレイスメントの画質、パストレース）をまとめることができます。 パフォーマンスと応答性を向上させる必要のない機能をオフにします。
 
-詳細情報&#x200B;[*こちら*](https://www.adobe.com/go/substance-3d-sampler-6.1-performance-mode)
+詳細情報&#x200B;[*こちら*](https://www.adobe.com/go/substance-3d-sampler-6.1-performance-mode_jp)
 
 ![](../assets/v6.1/6_1-Performance_Mode.png)
 
@@ -30,7 +30,7 @@ Samplerでは、より高速で応答性の高いエクスペリエンスを実�
 
 お使いのハードウェアが[最小仕様](../getting-started/system-requirements.md)を下回ると、Samplerが自動的に調整されて状態が安定します。 動作が遅くなったり、クラッシュが発生したりする可能性が最も高い機能は、自動的にオフになります。
 
-詳細情報&#x200B;[*こちら*](https://www.adobe.com/go/substance-3d-sampler-6.1-low-specs-mode)
+詳細情報&#x200B;[*こちら*](https://www.adobe.com/go/substance-3d-sampler-6.1-low-specs-mode_jp)
 
 ![](../assets/v6.1/6_1-Checked.png)
 
