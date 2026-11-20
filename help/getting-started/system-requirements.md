@@ -10,9 +10,10 @@ helpx_tags: ''
 title: 必要システム構成
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ce5a9fcca6e535a54340dda0d225076a62de39d6
+hold: true
+source-git-commit: 8b2438eb381e35c19ab379a5fc14c962fd5b9b0a
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '684'
 ht-degree: 1%
 ---
 
@@ -27,6 +28,14 @@ ht-degree: 1%
 > * 610.47
 >
 > これらのバージョンの使用を避けることをお勧めします。理想的には、新しいバージョンを使用するか、新しいバージョンが利用できない場合は以前のバージョンを使用します。
+
+>[!NOTE]
+>
+> お使いのハードウェアが必要システム構成を下回った場合、Samplerは自動的に[低仕様モード](../technical-support/low-spec-mode.md)で開かれ、一部の機能が制限されます。
+
+>[!TIP]
+>
+> Samplerのパフォーマンスを向上させる場合は、[パフォーマンスモード](../technical-support/performance-mode.md)を使用して、リソースを多く消費する機能をオフにします。
 
 ## Windows
 
